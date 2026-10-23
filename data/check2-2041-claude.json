@@ -1,0 +1,23 @@
+{
+  "seed": 2041,
+  "rater": "claude",
+  "rules": "pass2-v6",
+  "note": "Blind labels by Claude for theme, what_happened and stage, made from data/check2-2041-posts.txt before seeing the engine's answers. Keys are the # in that file.",
+  "labels": {
+    "1": ["T6", "not_stated", "setting_up"], "2": ["T10", "continuing", "not_stated"], "3": ["T10", "increased", "not_stated"],
+    "4": ["T2", "continuing", "not_stated"], "5": ["T11", "continuing", "after_12_months"], "6": ["T6", "continuing", "not_stated"],
+    "7": ["T6", "continuing", "not_stated"], "8": ["T10", "continuing", "not_stated"], "9": ["T10", "reduced", "after_12_months"],
+    "10": ["T4", "paused", "not_stated"], "11": ["T6", "continuing", "not_stated"], "12": ["T10", "continuing", "after_12_months"],
+    "13": ["T10", "not_stated", "setting_up"], "14": ["T10", "continuing", "after_12_months"], "15": ["T2", "not_stated", "not_stated"],
+    "16": ["T3", "not_stated", "not_stated"], "17": ["none", "not_stated", "not_stated"], "18": ["none", "not_stated", "not_stated"],
+    "19": ["none", "not_stated", "not_stated"], "20": ["T3", "not_stated", "not_stated"], "21": ["T2", "not_stated", "not_stated"],
+    "22": ["T4", "not_stated", "not_stated"], "23": ["T1", "continuing", "not_stated"], "24": ["none", "continuing", "after_12_months"],
+    "25": ["none", "increased", "not_stated"], "26": ["none", "not_stated", "not_stated"], "27": ["T10", "not_stated", "not_stated"],
+    "28": ["T2", "not_stated", "not_stated"], "29": ["none", "not_stated", "not_stated"], "30": ["T1", "not_stated", "after_12_months"],
+    "31": ["none", "not_stated", "not_stated"], "32": ["none", "not_stated", "not_stated"], "33": ["none", "not_stated", "not_stated"],
+    "34": ["none", "continuing", "after_12_months"], "35": ["T3", "not_stated", "not_stated"], "36": ["T2", "not_stated", "not_stated"],
+    "37": ["none", "not_stated", "not_stated"], "38": ["T2", "not_stated", "not_stated"], "39": ["T5", "not_stated", "setting_up"],
+    "40": ["none", "stopped", "not_stated"]
+  },
+  "borderline": [1, 4, 5, 7, 11, 12, 15, 23, 29, 36, 40]
+}

@@ -1,0 +1,10 @@
+{
+  "seed": 2028,
+  "rater": "claude",
+  "rules": "pass1-v3",
+  "note": "Labelled blind by Claude from data/check-2028-posts.txt before seeing the engine's answers. Numbers are the # in that file.",
+  "relevant": [1, 4, 5, 6, 7, 8, 10, 11, 15, 16, 18, 21, 22, 23, 24, 26, 28, 31, 32, 33, 34, 35, 36, 39, 40, 41, 42, 44, 47, 50, 51, 54, 55, 71, 79, 86, 89, 97],
+  "first_time": [23],
+  "experienced": [34, 47],
+  "borderline": [2, 7, 10, 13, 33, 48, 53, 71, 76, 79, 98]
+}

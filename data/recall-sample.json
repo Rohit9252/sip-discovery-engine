@@ -1,0 +1,73 @@
+{
+  "seed": 2026,
+  "plan": [
+    {
+      "source": "play_store",
+      "take": 38
+    },
+    {
+      "source": "reddit",
+      "take": 10
+    },
+    {
+      "source": "app_store",
+      "take": 1
+    },
+    {
+      "source": "tradingqna",
+      "take": 1
+    }
+  ],
+  "ids": [
+    "play_store:746d08e3-db26-4342-9868-e8a4f841159d",
+    "play_store:4ed30b1a-d647-4aa2-8964-00efb2e60222",
+    "play_store:a94de7da-a9b2-4573-ad87-55204a5604bc",
+    "play_store:9e4be7a7-7c5b-4a40-91b1-c68d937762c1",
+    "play_store:26ddfb79-886d-4e0f-a173-d9b2875a4d86",
+    "play_store:38955566-4698-487e-9a27-21a46dbd5528",
+    "play_store:aed9a17f-caec-4b75-a10a-1c63561cb865",
+    "play_store:ccf25e1e-c5f1-4da8-820a-d1f1997c3ba7",
+    "play_store:4af54449-3f94-4ab6-89d1-251bed0a77ea",
+    "play_store:0afa401b-0724-46dc-adc4-3a619411e3a8",
+    "play_store:111ab1ef-a9e0-49ed-b542-2da0dcebf5ff",
+    "play_store:9e9da2a9-8ce7-4115-a995-c5641dbf6f4e",
+    "play_store:637721ce-8bfb-4365-a3d4-62b5cbb5b56c",
+    "play_store:1d48077c-f8c2-4ff0-af02-d4b61e52f167",
+    "play_store:2dd5f68a-0412-4bd7-a6e8-db06e5d30521",
+    "play_store:54aac0dc-6de8-4117-bdcf-375aa02733cb",
+    "play_store:68002bd7-3bcd-4699-91dc-859c54d8122d",
+    "play_store:eb98cb62-4210-4883-ab5e-5a3a50f5dafd",
+    "play_store:9095a03c-7120-4f08-9a91-0a5a98f41dc2",
+    "play_store:006f7770-677a-41f2-b533-c5bcff3df275",
+    "play_store:33fedac1-f96f-4b6d-a3e4-802670207ba0",
+    "play_store:467c6b5c-714d-4b38-8c29-1edbda13e278",
+    "play_store:c701bb05-9f7d-47c9-a57c-e331b445468f",
+    "play_store:f3db40b1-4aa6-46fc-9a20-13ad9c39a47d",
+    "play_store:f0f0edf2-a04c-4d2d-a0a3-42d5afa1baaf",
+    "play_store:c3b5c80c-eaa9-4fe9-b4db-d7d9e2f6ca2e",
+    "play_store:4727c9a4-a016-4c09-a5f3-f449fe2b0c3e",
+    "play_store:45f63276-6481-49b0-96b1-ae2f20dc268d",
+    "play_store:69ca632a-1723-4433-86f7-c63a66227ced",
+    "play_store:4941c727-08d4-4516-8ab2-bac3881b605a",
+    "play_store:a9ef2ef1-a8be-4d95-b832-d7dfb9663f60",
+    "play_store:d7961748-36d0-4824-ae64-82c1530976c7",
+    "play_store:4cf05475-e206-4021-b6c1-6ee0adde92fd",
+    "play_store:eb025c65-2d48-408f-af4b-c54acf55a06b",
+    "play_store:14ac7e07-3e5d-492e-8579-0aefdf6f08fc",
+    "play_store:0a7a330e-9e59-4811-a971-82515f1f61cf",
+    "play_store:55d92f54-b6ee-45c4-9964-88e1e8b3c5d3",
+    "play_store:c5cf57f3-d812-4cca-a44b-d5eed97874b7",
+    "reddit:1vllhrb",
+    "reddit:1s16vo6",
+    "reddit:1x26jgr",
+    "reddit:1v4zwgz",
+    "reddit:1urkqjy",
+    "reddit:1rv1hp2",
+    "reddit:1lvu3im",
+    "reddit:1x909a7",
+    "reddit:1qewtgu",
+    "reddit:1x1rp0p",
+    "app_store:14158382592",
+    "tradingqna:477348"
+  ]
+}

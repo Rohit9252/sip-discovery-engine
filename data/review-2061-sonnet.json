@@ -1,0 +1,505 @@
+{
+ "reviewer": "claude-sonnet-5-5",
+ "verdicts": {
+  "1": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "2": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "3": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "4": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "5": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "6": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "7": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "8": {
+   "correct": false,
+   "theme": "none",
+   "note": "happy milestone share, no need"
+  },
+  "9": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "10": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "11": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "12": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "13": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "14": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "15": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "16": {
+   "correct": false,
+   "theme": "T10",
+   "note": "asks to improve portfolio"
+  },
+  "17": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "18": {
+   "correct": false,
+   "theme": "T5",
+   "note": "newbie starting SIP, implied guidance ask"
+  },
+  "19": {
+   "correct": false,
+   "theme": "T10",
+   "note": "asks average or sell this fund"
+  },
+  "20": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "21": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "22": {
+   "correct": true,
+   "theme": "T6",
+   "note": ""
+  },
+  "23": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "24": {
+   "correct": true,
+   "theme": "T6",
+   "note": ""
+  },
+  "25": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "26": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "27": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "28": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "29": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "30": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "31": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "32": {
+   "correct": true,
+   "theme": "T6",
+   "note": ""
+  },
+  "33": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "34": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "35": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "36": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "37": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "38": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "39": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "40": {
+   "correct": true,
+   "theme": "T8",
+   "note": ""
+  },
+  "41": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "42": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "43": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "44": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "45": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "46": {
+   "correct": false,
+   "theme": "T4",
+   "note": "dividend not credited, holdings unclear, no fix"
+  },
+  "47": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "48": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "49": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "50": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "51": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "52": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "53": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "54": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "55": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "56": {
+   "correct": true,
+   "theme": "T6",
+   "note": ""
+  },
+  "57": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "58": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "59": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "60": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "61": {
+   "correct": true,
+   "theme": "T1",
+   "note": ""
+  },
+  "62": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "63": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "64": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "65": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "66": {
+   "correct": true,
+   "theme": "T1",
+   "note": ""
+  },
+  "67": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "68": {
+   "correct": false,
+   "theme": "none",
+   "note": "statement of intent, no need asked"
+  },
+  "69": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "70": {
+   "correct": false,
+   "theme": "T3",
+   "note": "says order still in process, status need"
+  },
+  "71": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "72": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "73": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "74": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "75": {
+   "correct": true,
+   "theme": "T7",
+   "note": ""
+  },
+  "76": {
+   "correct": true,
+   "theme": "T6",
+   "note": ""
+  },
+  "77": {
+   "correct": true,
+   "theme": "T6",
+   "note": ""
+  },
+  "78": {
+   "correct": true,
+   "theme": "T10",
+   "note": ""
+  },
+  "79": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "80": {
+   "correct": false,
+   "theme": "none",
+   "note": "advice given to someone else"
+  },
+  "81": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "82": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "83": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "84": {
+   "correct": false,
+   "theme": "T10",
+   "note": "implied: should I continue underperforming fund"
+  },
+  "85": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  },
+  "86": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "87": {
+   "correct": true,
+   "theme": "T5",
+   "note": ""
+  },
+  "88": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "89": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "90": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "91": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "92": {
+   "correct": true,
+   "theme": "T8",
+   "note": ""
+  },
+  "93": {
+   "correct": true,
+   "theme": "T12",
+   "note": ""
+  },
+  "94": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "95": {
+   "correct": true,
+   "theme": "T2",
+   "note": ""
+  },
+  "96": {
+   "correct": true,
+   "theme": "T3",
+   "note": ""
+  },
+  "97": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "98": {
+   "correct": false,
+   "theme": "T5",
+   "note": "asks how to set up SIP mandate without online payment, charges"
+  },
+  "99": {
+   "correct": true,
+   "theme": "T4",
+   "note": ""
+  },
+  "100": {
+   "correct": true,
+   "theme": "none",
+   "note": ""
+  }
+ }
+}

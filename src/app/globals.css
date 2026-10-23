@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* Blue is the accent and means "continued"; orange means "dropped off". Both are from a
+   colour-blind safe pair, and every coloured mark also carries a text label. */
+:root {
+  color-scheme: light;
+  --surface: #fbfaf7;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f2f0eb;
+  --tint-blue: #eef4fc;
+  --tint-warm: #fdf3ea;
+  --line: #e6e3dc;
+  --ink: #17171a;
+  --ink-2: #4f4e4a;
+  --ink-3: #7a7873;
+  --accent: #2a78d6;
+  --accent-strong: #1c5cab;
+  --accent-soft: #dbe9fa;
+  --warm: #eb6834;
+  --warm-strong: #b8461a;
+  --warm-soft: #fbe0d2;
+  --muted-mark: #c9c6be;
+}
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-raised: var(--surface-raised);
+  --color-sunken: var(--surface-sunken);
+  --color-tint-blue: var(--tint-blue);
+  --color-tint-warm: var(--tint-warm);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-warm: var(--warm);
+  --color-warm-strong: var(--warm-strong);
+  --color-warm-soft: var(--warm-soft);
+  --color-muted-mark: var(--muted-mark);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.rise {
+  animation: rise 0.35s ease-out both;
+}
+@keyframes grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+.grow {
+  transform-origin: left;
+  animation: grow 0.6s ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise, .grow { animation: none; }
+}

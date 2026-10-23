@@ -1,0 +1,152 @@
+
+#1 [rerun] New update: services are good and flawless app (Thank you for the quick response and solution(Firstly the customer care never answers. It keeps on playing recorded audio of being busy, fooling people. Amount gets auto debited from bank account without any sip ...
+   theme T4 | stage not_stated | happened bounce | trigger app_or_payment_problem | app groww
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion payment_or_status | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need someone to actually fix my auto debited money that is not reflected in app
+   quote: "Amount gets auto debited from bank account without any sip scheduled and doesn't reflect in groww account or MF orders."
+
+#2 [rerun] Very bad app. Totally bad, worst service of grow app. Customer care service is very poor. I have been trying for the last two days and still have not received a call from grow's customer care. It has been 6 days since I canceled the sip of the mutual fund, but...
+   theme T4 | stage not_stated | happened thinking_of_stopping | trigger app_or_payment_problem | app groww
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion payment_or_status | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need my SIP cancellation to be processed quickly to avoid penalty
+   quote: "It has been 6 days since I canceled the sip of the mutual fund, but it still hasn't been canceled and I have to pay a fine of 1200 rupees for that."
+
+#3 [rerun] best app for tracking all your mutual funds. But don't buy mutual funds from grow app. Invest only through direct AMC website. Use grow only for tracking performances of mutual fund. It is also good for buying and selling stocks occasionally. Not good for trad...
+   theme none | stage not_stated | happened continuing | trigger not_stated | app groww
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: 
+   quote: "best app for tracking all your mutual funds."
+
+#4 [rerun] disposition of 15k for even ₹100 sip is bad thing. because of this issue we can't even take multiple sip plan and also we can't pay on time.
+   theme none | stage not_stated | happened not_stated | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: 
+   quote: "disposition of 15k for even ₹100 sip is bad thing."
+
+#5 [rerun] I am writing to report a discrepancy in my portfolio value. Yesterday, my total portfolio value was approximately ₹10 lakhs. However, after updating my ET Money app, the value has dropped to around ₹9 lakhs. I have taken a screenshot of my portfolio on August ...
+   theme none | stage not_stated | happened not_stated | trigger not_stated | app et_money
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: 
+   quote: "Yesterday, my total portfolio value was approximately ₹10 lakhs."
+
+#6 [rerun] Need more clarity in application. For example whether the returns are XIRR or Absllute returns. External fund also need to be tracked to get all the investment under one hood. Coin will be investment tracking tool
+   theme T8 | stage not_stated | happened not_stated | trigger not_stated | app zerodha_coin
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion returns_calculation | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need to track external funds to see all investments under one hood
+   quote: "External fund also need to be tracked to get all the investment under one hood."
+
+#7 [rerun] 22 Need advice on my current investments & future plans: Started investing in mutual funds in November 2024. Back then, I began with ₹5k and slowly increased my SIP amount over time. Right now, I invest about ₹8k/month. My investment horizon for mutual funds i...
+   theme T10 | stage months_1_3 | happened increased | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected long_term_growth | checks not_stated (not_stated)
+   confusion none_stated | outside reddit_or_forums | income not_stated | age under_25 | money not_stated
+   need: I need advice on where to put extra monthly investment and lump sum maturity amount
+   thrown away (no evidence in the post): why_started, influencer
+   quote: "Started investing in mutual funds in November 2024. Back then, I began with ₹5k and slowly increased my SIP amount over time."
+
+#8 [rerun] Portfolio discussion: **My Investment Portfolio** feedback **Age:** Late-30s **Location:** South India Married and no kids yet. 💰 **Income & Expenses** * Monthly income: \~₹2.3 lakh + 1.4 lakh (Spouse) * Monthly expenses: \~1lakh * Savings rate: \~73% **Curre...
+   theme T10 | stage after_12_months | happened thinking_of_stopping | trigger not_stated | app not_stated
+   why goal | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside reddit_or_forums | income fixed | age 35_plus | money own_earnings
+   need: I need feedback on my current portfolio allocation and goals
+   thrown away (no evidence in the post): influencer, expectation
+   quote: "My Investment Portfolio feedback Age: Late-30s Location: South India Married and no kids yet."
+
+#9 [rerun] Suggedt to add one more fund: First one is nippon nifty smallcap 250 index fund , i dnt have much of an understanding hence started it to see what happens now its like almost 1.5 yrs so i can add one more fund and can increase amount upto 10k .. what should i ...
+   theme T10 | stage after_12_months | happened thinking_of_stopping | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age 25_to_34 | money not_stated
+   need: I need advice on whether to close my index fund and which new fund to try
+   thrown away (no evidence in the post): why_started
+   quote: "i dnt have much of an understanding hence started it to see what happens now its like almost 1.5 yrs so i can add one more fund and can increase amount upto 10k"
+
+#10 [rerun] Need advice on parking 30k/month for a 3year goal: Hi everyone, looking for some suggestions on a short-term investment strategy. I am 22, already doing 30k monthly SIP in MFs for long term 15+ year horizon. Now I have one short term goal for a 3 year horizon....
+   theme T10 | stage not_stated | happened not_stated | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age under_25 | money not_stated
+   need: I need suggestions on which fund category to pick for a 3-year goal
+   thrown away (no evidence in the post): stage, why_started, influencer, expectation, what_happened
+   quote: "I am 22, already doing 30k monthly SIP in MFs for long term 15+ year horizon. Now I have one short term goal for a 3 year horizon."
+
+#11 [rerun] Need suggestions to rebalance my portfolio (10+ year horizon): https://preview.redd.it/ci205c4wjrdh1.png?width=1080&format=png&auto=webp&s=b22cc4a616ec4b21e329411c6ff7cc59a34ea56e I've been investing for the last 3 years and currently have around **₹29.6L** in...
+   theme T10 | stage after_12_months | happened thinking_of_stopping | trigger someone_advised | app not_stated
+   why not_stated | influencer not_stated | expected long_term_growth | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need feedback on whether to reduce funds and rebalance my portfolio
+   thrown away (no evidence in the post): why_started, influencer
+   quote: "Looking for feedback on: * Should I reduce the number of funds/ETFs? * Am I overexposed to any particular segment?"
+
+#12 [rerun] Are these good MF choices? My portfolio XIRR is only ~6% - looking for feedback: Hi everyone, I’m currently investing across these mutual funds shown in the screenshot. My overall portfolio XIRR is currently around 6%. I’m investing for the long term, but I’m ...
+   theme T10 | stage after_12_months | happened thinking_of_stopping | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected long_term_growth | checks xirr_or_percent (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need feedback on whether to continue or change my mutual fund portfolio
+   thrown away (no evidence in the post): why_started
+   quote: "My overall portfolio XIRR is currently around 6%. I’m investing for the long term, but I’m wondering if I’ve made the right choices."
+
+#13 [rerun] PORTFOLIO ON STEROIDS I KNOW DONT DO THIS KIND OF ALLOCATION BUT THIS IS A HIGH CONVICTION PORTFOLIO THAT DEALS WITH ALL THE MULTIBAGGAR AND THIS IS PURELY A MOMENTUM PORTFOLIO: SIP 30K MOTILAL OSWAL ACTIVE MOMENTUM FUND SIP 30 K UNION ACTIVE MOMENTUM FUND SIP...
+   theme T10 | stage after_12_months | happened continuing | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need insights and review on my high-risk momentum portfolio
+   thrown away (no evidence in the post): why_started, expectation
+   quote: "SIP 30K MOTILAL OSWAL ACTIVE MOMENTUM FUND SIP 30 K UNION ACTIVE MOMENTUM FUND SIP OF 30 K MOTILAL OSWAL BSE MIDCAP 150 MOMENTUM 30 FUND SIP OF 20 K IN SAMCO SMALL CAP FUND SIP OF 10 K IN MFFANG ETF 15 YR HORIZON KINDLY REVIEW AND GIVE INSIGHTS"
+
+#14 [rerun] First, stop treating this as one giant “ULIP bad / bank bad” problem. There are several separate issues here. First priority: the ₹1 lakh cheque. Your account being unfunded is not a strategy. If you have the cheque number, call HDFC Bank and place a stop-paym...
+   theme none | stage not_stated | happened not_stated | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: 
+   quote: "First, stop treating this as one giant “ULIP bad / bank bad” problem."
+
+#15 [rerun] At 21, I’d focus on building an emergency fund, understanding your expenses, and investing consistently rather than rushing into a 30-month chit fund. The ₹1.1L profit sounds attractive, but make sure you understand the risks and terms before committing. Your ...
+   theme none | stage months_1_3 | happened continuing | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age under_25 | money not_stated
+   need: 
+   thrown away (no evidence in the post): why_started, influencer, expectation, income
+   quote: "Keep your 5k SIP running ."
+
+#16 [rerun] Transfer of ELSS Mutual funds from Mirae Asset to Zerodha Coin: Hi Team, i have ELSS tax saver fund with Mirae Asset Mutual funds. SIP will complet 3 years on June 2024. (3 years lock in period.) I want to transfer the Mutual funds from Mirae to Zerodha (SOA f...
+   theme T12 | stage after_12_months | happened thinking_of_stopping | trigger not_stated | app zerodha_coin
+   why save_tax | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: I need to know the process and cost to transfer ELSS funds after lock-in
+   thrown away (no evidence in the post): influencer, expectation
+   quote: "I want to transfer the Mutual funds from Mirae to Zerodha (SOA form to Demat Form)"
+
+#17 [rerun] SIP ETF and Shares तीनों में काम करो। 50:30:20 का पोर्टफोलियो बनाओ । मेरा तो पोर्टफोलियो 5L डाउन है मगर फ़िर भी मैं ग्रीन 🍏🍏💚💚 में हू।
+   theme none | stage not_stated | happened not_stated | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: 
+   thrown away (no evidence in the post): what_happened
+   quote: "मेरा तो पोर्टफोलियो 5L डाउन है मगर फ़िर भी मैं ग्रीन 🍏🍏💚💚 में हू।"
+
+#18 [rerun] Sagar sir aap sip ka video bahut sari banaye hai matlab sip ka pura data bataye hai but request hai ek bar aap sip ka portfolio dikhayiye jissse hm viewers ko great wali feelings aaye , kisi ka vi portfolio dikhayiye jisme hme dikh sakke ki such me koi 20 ya 3...
+   theme T11 | stage not_stated | happened not_stated | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside youtube | income not_stated | age not_stated | money not_stated
+   need: I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.
+   quote: "Sagar sir aap sip ka video bahut sari banaye hai matlab sip ka pura data bataye hai but request hai ek bar aap sip ka portfolio dikhayiye" | EN: Sagar sir you have made many videos on SIP, showing full data, but please show a SIP portfolio once
+
+#19 [rerun] I'm 27 started step up sip 8k
+   theme none | stage months_1_3 | happened continuing | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age 25_to_34 | money not_stated
+   need: 
+   quote: "I'm 27 started step up sip 8k"
+
+#20 [rerun] After 21 years 1crore will feel like 1lakh🥴
+   theme none | stage after_12_months | happened continuing | trigger not_stated | app not_stated
+   why not_stated | influencer not_stated | expected not_stated | checks not_stated (not_stated)
+   confusion none_stated | outside none_stated | income not_stated | age not_stated | money not_stated
+   need: 
+   quote: "After 21 years 1crore will feel like 1lakh🥴"
+
+Tokens: 9805 in + 4391 out = 14196 (710 per post). Quote check: 20 of 20 quotes match the post word for word. Evidence check: 22 answers thrown away for lack of evidence.

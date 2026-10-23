@@ -1,0 +1,119 @@
+#1 reddit:1moxn67 [Reddit post] (under: r/mutualfunds)
+Can I use Groww app when I'm abroad?: Hi all. I study in Uzbekistan, and I tried opening the Groww app a couple of months ago, but the app was geolocked and it wouldn't let me login at all. Now that I'm in India for my summer holidays, I opened the app, did my KYC, and even started an SIP. Now I'll be going back to Uzbekistan in some time, so I was wondering if I can still open the app or not. Or maybe you can suggest any other apps/platforms which work outside India as well. Thanks.
+
+#2 reddit:1vtwgjo [Reddit post] (under: r/IndianStockMarket)
+Request for SIP Allocation Review: Hi everyone, would really appreciate a review of my current portfolio. I invest ₹1L/month with a 7–10+ year horizon and an aggressive risk appetite. Current monthly allocation: PPFAS Flexi Cap — 20k/month MO Midcap — 25k/month MO Nifty Smallcap 250 Index — 20k/month Bajaj Finserv Small Cap — 20K/month VOO — 15k (45k once every quarter through INDmoney) Current portfolio XIRR: 18.77% I’ve intentionally kept two small-cap funds—one active and one passive—to diversify between active stock selection and broad index exposure. Would really appreciate any constructive feedback. Thanks!
+
+#3 reddit:1oftpy2 [Reddit post] (under: r/mutualfunds)
+Help me rebalance my portfolio: Hi, So this is my current portfolio, you can see from the image. I have a few questions regarding rebalancing it. I have my salary increased and its giving a leverage of investing 1500 INR more from the following month. Making my SIP of 12000 INR. From my current portfolio, I am heavily invested in Nifty50 and Large cap, I have a very high overlap of HDFC Nifty 50, Nifty 50 Bees from small case and Parag Parikh Flexi Cap. I want to invest more agressive in mid and small cap as I am willing to take the risk. I was looking into Nifty Next 50 Index as my portfolio does not consist of the next 50 stocks. Please share your suggestions if nifty next 50 would be a better option to consider or rebalancing the existing portfolio would be better? Thanks!
+
+#4 reddit:1ufjtr1 [Reddit post] (under: r/IndianStockMarket)
+Is it just me or someone else who think Stocks are better than mutual fund: I was thinking while analysing my portfolio where I have attained a decent percentage of return. At the same time I started investing in SIPs. I've observed that, in my case, the amount of stocks which I buy and the amount of return that I am getting in Mutual fund is different from each other. Well the amount is different from each and I have calculated that with the help of proportional ratios. I do believe it is good to Invest in SIPs for future but the Mutual fund has its own pool of stocks, Changing NAVs, etc. I'm not saying investing 100% in stocks is a good option but sometimes I feel even when I see some of mutual fund still haven't recovered the last stock market impact, while I invested in stocks, some of which have given a better % than mutual fund. I know both are different and I want your opinions on this.
+
+#5 reddit:1seq4ds [Reddit post] (under: r/personalfinanceindia)
+I’ve been blindly doing SIPs for years thinking I was being “smart” and safe… but this 23-year Nifty 50 backtest just shook me. Fellow retail investors, we need to talk. (Genuine concern, not shilling anything): Hey r/personalfinanceindia (and everyone grinding their SIPs), I’m not here to sell you anything or sound like a finance bro. I’m just a regular guy from Bengaluru who’s been putting away money every month like the entire internet and every mutual fund ad tells us to. “SIP karo, wealth create hoga, market timing mat karo.” It’s drilled into us so hard that questioning it feels almost anti-Indian-investor. But I stumbled on this detailed backtest from BacktestIndia (full link below) that ran **23 years of actual Nifty 50 data** (March 2002–Dec 2025) across **hundreds of rolling periods** — 5, 7, 10, and 15 years — using proper XIRR for SIPs and CAGR for lumpsum. No cherry-picking. No transaction costs. Just raw index numbers. The result? **It’s literally a coin flip.** * 5-year periods → SIP wins \~52% of the time * 10-year periods → SIP wins \~51% * 15-year periods → Lumpsum actually edges it at \~52% Average difference? Just 0.5–1.5% per year. Sometimes SIP crushes it (especially when markets are volatile/crashy and you buy the dips). Sometimes lumpsum absolutely smokes SIP (strong bull runs from the bottom). In sideways “lost decades,” **both** can give you pathetic single-digit or even negative returns. Here’s the part that actually hurt: the blog shows that **choosing the right strategy (factor investing like Low Vol or Quality-Momentum) makes 5× more difference** than whether you do SIP or lumpsum. Low Volatility beat plain Nifty in **100%** of 10-year periods with a 2.26% average edge. Meanwhile we’re all fighting over 0.5% deployment-method drama. I’m not saying “stop your SIP tomorrow.” If you get salary every month, SIP is still the practical, disciplined way for most of us. But the constant industry narrative that SIP is magically superior and lump
+
+#6 reddit:1uv3aw7 [Reddit post] (under: r/personalfinanceindia)
+26M, earning ₹40k/month. Is it okay to focus on building savings first instead of maximising investments?: I'm 26 and earn around ₹40k a month. Right now, I invest about ₹11k-12k every month through SIPs and also have health insurance in place. My main goal isn't to retire early or build a massive corpus quickly. I just want to become financially secure and avoid money-related stress in the future. Lately, I've been wondering if I should keep increasing my SIPs whenever my income grows, or spend the next few years focusing more on building cash savings and an emergency fund first. I see a lot of advice online about investing aggressively in your 20s, but I'm curious how people here approached it when they were around my age and income level. If you were in my position, what would you prioritise and why?
+
+#7 reddit:1sjcjqo [Reddit post] (under: r/personalfinanceindia)
+How shall I track and manage my personal finance ?: I am a fresher, so I have no clue on managing personal finances. The biggest problem is that by the end of the month i have no savings left. Thanks to some of the SIPs I have done that have helped me to at least save some money in the form of investments. Everywhere, over the social media and the market, different people and financial advisors talk about the emergency fund, and also talks about a fund where i should keep money equal to about 1 year of my income. So, that in case of any tragedy I stay financially stable. But the biggest problem is that I am unable to save much to put money into those, some investments are done, but it wont add on. Well, just to be precise I have no Debts going on. I have noticed one thing, that these daily small transactions like ₹15 on chai, ₹20 on vada pav , weekend online food deliveries and all have caused a lot of cash outflow, which are quite untraceable also the forgotten subscriptions also add up to this issue. Taking out daily transaction statement and tracking all these is a quite tedious task and takes a lot of time which i can't afford. I wanted to ask if there are peeps in this community too who face the same problem. Feel free to share or advice on how you solved it and your approach into saving and investing your money. And I would also like to ask about insurances ? Seniors, your advice is very well welcomed. 🙏
+
+#8 reddit:1sksy73 [Reddit post] (under: r/mutualfunds)
+Could you please rate my portfolio: I think I am over diversifying. Can the gurus of this channel help me optimize and set me on the correct SIP strategy? Also, I have more than 40 mutual funds in my portfolio, which includes these funds too. i need your help in building long term gains, and okay with aggressive type of portfolio,
+
+#9 reddit:1nr8d8v [Reddit post] (under: r/mutualfunds)
+2 years of this portfolio and have lagged behind. What am I doing wrong?: I've started my SIP on 2023 and till now below is the portfolio - Fund Name. Invested(INR) SIP Amount. Returns so far(%) Axis Large Cap Fund 462477. 25000. 17.99 PPFC. 252787. 20000. 7.61 Quant Mid cap fund. 251587. 3400. -6.65 Tata Small cap. 211181. 14000. 4.74 DSP Nifty 50 Equal Weight Index Fund. 186431. 14000. 5.35 Motilal Oswal Midcap. 11753. 12000. -2.05 Note : 1. I started the Axis Bluechip fund in 2022 and was doing SIP of 10000 initially hence the amount there grew than others 2. Annual step up of 10% made 3. Quant started performing horribly this year hence Quant SIP of 15400 reduced to 3400 and Motilal Oswal Midcap fund SIP of 12000 started last month 4. I am doing 2 Stock SIPs - GOLDBEES and UTI Gold ETF of Rs 25000 but not concerned about them since they're doing good and anyways they are being tracked by Gold market I kept my portfolio almost untouched for 2 years except stepping up annually. But now I feel a rebalancing is essential because the funds in the portfolio is not even close to the benchmarks. Suggestions are welcome on how I can fix it and which funds to exit or switch and which ones seem good.
+
+#10 reddit:1of2g7g [Reddit post] (under: r/mutualfunds)
+Not getting option to sell funds in Paytm money: I was making changes in my portfolio and I pause the mutual fund that I used to buy from Paytm money and later when I try to sell it there was no sell option coming. I contact Paytm money help desk they asked to refresh the portfolio which I tried already but it is still the same can you please help me if you have faced the same issue. Also when applying filter to in Paytm money that fund is showing as external.
+
+#11 reddit:1wxno0t [Reddit post] (under: r/mutualfunds)
+Need advise if I should make any changes?: I am 23 earning around 90k monthly.I can increase the SIP amount but its only been few months since I started earning so most of it went into gifts and other things.
+
+#12 reddit:1ojrqvu [Reddit post] (under: r/mutualfunds)
+Newbie here. Started 1 year back: Started doing SIP a year back. Started doing this so that I can get good returns know that nifty hasn't had any returns in a year or so. Please do tell me if I need to add something or remove something.. My risk score was moderate risk taker. Need a good investment option and good return for a longer period.
+
+#13 reddit:1sifkrq [Reddit post] (under: r/mutualfunds)
+50K SIP portfolio allocation: My 50K SIP Portfolio allocation: 1. Whiteoak Multi Asset Allocation Fund: 20% 2. Tata Arbitrage fund: 20% 3. Nippon Nifty 500 Low Volatility 50: 12.5% 4. Axis Nifty 500 Quality 50: 7.5% 5. Axis Nifty 500 Value 50: 5% 6. Motilal Nifty Midcap 150: 10% 7. Bandhan Small Cap: 5% 8. Axis Global Equity Alpha FoF: 15% 9. Axis Gold Fund: 5% 30 years old. Working in Indian railways. Goal: long term wealth creation. Horizon: 25-30 years. Recently deployed money in these funds and starting monthly SIP (only gold SIP was old). Will rebalance accordingly soon. 1. I was a bit confused between ICICI, DSP and Whiteoak multi asset allocation fund. ICICI has veteran S. Naren guidance and enters and exits from assets at the right time. But the AUM is getting huge and moreover I fear S. Naren retirement. I really liked the DSP Multi Asset Allocation Fund because of its global diversification and also it has good return potential. But I wanted a smoother ride so I choose Whiteoak multi asset allocation fund because it has lower standard deviation and beta. I wanted consistent returns. I wanted to stay in the market. But If it doesn't keep up with my expectations, I may later switch. 2. I choose the TATA arbitrage fund because it has near zero beta, immune to any market crashes and most importantly it has equity taxation benefits. I wanted to use that as emergency fund and most importantly to deploy it as DRY POWDER during equity market crashes (which occurs at least once every 1-3 years). I am aware of its redemption time T+2/3 days. 3. I choose factor (smart beta) index funds from the nifty 500 family (with allocation weightage According to my risk appetite) . Because factors rotate and different factors take leadership during different market cycles. Right now for last 2-3 years value index is performing the best, but historically it's extremely volatile and may have long years of underperformence. But low volatility index gives good consistent returns (pl
+
+#14 reddit:1q1a4ml [Reddit post] (under: r/mutualfunds)
+Portfolio review and rebalancing suggestion: Hi everyone, I’m looking for a review of my mutual fund portfolio and suggestions on whether I should rebalance or continue as is. Investment horizon: Long term (10+ years) Risk tolerance: Moderate (average) Approach: SIP-based investing, staying invested through market cycles Current portfolio (Direct – Growth): Motilal Oswal Midcap Fund ICICI Prudential Large Cap Fund Tata Small Cap Fund HDFC Focused Fund Nippon India Multi Cap Fund Allocation rationale: I wanted diversification across market caps (large, mid, small, and multi-cap) while maintaining a growth-oriented portfolio. Investment timeline: 3 funds have been running for ~2 years 2 funds are relatively recent (6–9 months old) I’m comfortable with short-term volatility and understand that equity investing plays out over time through compounding. Returns are modest so far, which I’m okay with given the time horizon. However, I want to ensure I’m not over-diversified or taking unnecessary risk (especially with mid/small caps). What I’d like feedback on: Does this portfolio make sense for a moderate-risk, long-term investor? Is the mid/small cap exposure too high? Any fund overlaps or redundancies I should be aware of? Rebalancing suggestions (add/remove/replace funds or change allocation)? Should I introduce any other category (index, flexi-cap, debt for balance, etc.)? Appreciate any insights, critiques, or learning points. Thanks in advance!
+
+#15 play_store:77640518-6932-4a36-b6b2-11fda124ea66 [Play Store Groww]
+XIRR in Mutual fund is incorrect if I withdraw and invest again after few months in mutual fund, its always showing same number which was when I withdraw mutual fund.
+
+#16 play_store:9b5dad21-0f4a-4da3-9cbe-32ae384bbd69 [Play Store Groww]
+my midcap sip is run , but not change my bank account
+
+#17 play_store:ee2a4f47-16a1-4813-b6ad-4cc02a33813f [Play Store Groww]
+A suggestion to include portfolio analyser where market cap allocation and percentage allocation of each stock is shown which is available in kite. The latest update has portfolio analyser and xirr indicator which is exactly what I had wanted. Great The app keeps getting better with every update. Now it u can also import the stocks from the other broker app u have two accounts. Can compare xirr with nifty returns. Great tools to analyze the portfolio. There is no need for a third party app
+
+#18 play_store:a6211e1e-52bc-426f-a49a-de779bdc6db0 [Play Store Groww]
+Very easy for someone like me who is very new to this mutual fund jungle Awesome investment awesome life
+
+#19 play_store:95d3da96-6057-49ea-ae26-bd5cdc017763 [Play Store Groww]
+I’ve been using Groww for a few months now, and honestly it made investing feel so easy. At first I was nervous about stocks and mutual funds, but the app’s clean design and simple steps helped me understand everything. I love how smooth the transactions are and how I can track my money in one place. It’s perfect for beginners like me who want to grow slowly but smartly 🌱✨
+
+#20 play_store:c53dbe46-c5b1-420b-849f-d28a5092795b [Play Store Groww]
+Rs60000 purches 6 mf 31oct . Today6 nov but unit allocation not don .and mf center transaction ont show
+
+#21 play_store:806b967e-f000-48e8-8678-fa996ad2f774 [Play Store Groww]
+Great app but why the recent update changed the mutual fund UI and it no longer shows total invested and portfolio value on mutual funds dashboard. pls fix
+
+#22 play_store:3d82f3a8-e9cb-46dd-9fbd-d39e7ba6b9ac [Play Store Groww]
+Fruad company.. my switch order from 1 MF to other rejected, but first MF units now zero, and second MF units showing falsly extra, but MF central dont show unit under any MF. So where is money? Customer care is pathetic. Only option to file complaint to SEBI.
+
+#23 youtube:UgzjRomdCELoZFKOTb54AaABAg [YouTube] (under: SIP क्यों बंद हो रहे हैं | SIP Stoppage Ratio Increasing | SAGAR SINHA)
+हेलो सर मैं म्यूचुअल फंड में वन टाइम 60000 हजार रुपए डाले हैं। 7000 हजार रुपए माइनस में चला गया है। फिर भी मैं रुका हुआ हूं
+
+#24 youtube:UgyuMb49hkjhQZIMsXZ4AaABAg [YouTube] (under: Secret Trick that gives better returns than SIP)
+I am investing in SIP since last 9 years. Never stopped it in between or sold any units. Now my returns is more than my Principal amount 😊
+
+#25 youtube:Ugx-NG51znmNatqJJtZ4AaABAg [YouTube] (under: 85% SIP बंद | आगे और SIP बंद होंगे | हम क्या करें? | SAGAR SINHA)
+Mai toh SIP 3000 se increase karke 4000 kar diya, aur girega toh 5000 kar dunga😎😎
+
+#26 youtube:UgxC8RTY1ZU7CBY-Fpd4AaABAg [YouTube] (under: Long Time SIP Scam)
+Sahi hai .... 20 saal baad value 45lacs bhi hvi to bhi kam se kam FD se behtar hai.
+
+#27 youtube:UgyYq4UUSijyW2nFJh54AaABAg [YouTube] (under: गिरते हुए Market में SIP करें या रोक दें? | SAGAR SINHA)
+Aditya Birla psu aur Nippon Power and infra mutual fund m invested hu kese funds h
+
+#28 youtube:UgyCCpK5ccUGDvt16td4AaABAg [YouTube] (under: 2K ki SIP - 10K ki SIP se ZYADA - KAISE? | Ankur Warikoo #shorts)
+On wht % are return calculated ? Is tht % same on both sides ?
+
+#29 youtube:UgyJrfDEd5mDSlRZ7VF4AaABAg [YouTube] (under: My mutual fund portfolio revealed total returns #mymutualfundportfolio #mutualfunds #invest #shorts)
+bhai ye jo return hai tera 3.5 percent wo kitne time me hai?
+
+#30 youtube:UgzsiUN9zQJdYbJK4Xx4AaABAg [YouTube] (under: SIP Stoppage Ratio 100% | SIP क्यों बंद कर रहे हैं लोग | Explained | SAGAR SINHA)
+Sip se 18 month me zero return paya hu
+
+#31 reddit:comment_oe2unbn [Reddit comment] (under: Have SIP'ed since I started earning 4 years back. Sad to see the portfolio going down.)
+there should be reddit term for posts which are meant to be subtle flex
+
+#32 reddit:comment_pguzf43 [Reddit comment] (under: Does Anyone See a Point in Investing in Equity at this Time?)
+Honestly, trying to time the market is tough, even when the reasons seem obvious. For a long term investor, SIPs can help average out entry prices during volatility. Focus more on asset allocation and goals than trying to predict when things will recover.
+
+#33 reddit:comment_or4opu2 [Reddit comment] (under: Mumbai is too expensive to live.)
+Am I wrong to say you are already saving quite a lot? 60k SIP out of 2.2 lakh earning implies 27% savings. That is an impressive figure already. Maybe you can increase it to 30% but beyond that there's no benefit in savings if you are taking away basic necessities for sake of saving. Why don't you consider SIP as savings?
+
+#34 reddit:comment_oyav0vu [Reddit comment] (under: 27L net worth at 25 but still stuck)
+As of now the return after 1.5y is 17%, I invested a lumsum in silver ETF almost at peak price which is now in heavy negative and that’s the only loss I have my in MF portfolio.
+
+#35 app_store:12758288920 [App Store or other app]
+To much slow: To much slow for updating nav and placing sip order.
+
+#36 play_store:1bb2c077-531d-4b11-8b6a-3c597403f11a [App Store or other app]
+Unable to open app since last 1 month ,showing error "unable to fetch mutual fund date.please check your internet connection " Unable to show portfolio and other details Very poor service and very hectic application.
+
+#37 app_store:12251810996 [App Store or other app]
+Bug in My NPS SIPs page: I have skipped my NPS SIP for the month of 02 Feb 2025 but the My NPS SIPs page says “Skipped for 02 Jan 2025”. But when I go inside the SIP details screen, the date is correct. Please fix.
+
+#38 play_store:928e8fb8-f38a-4b71-9dbf-8044e395f233 [App Store or other app]
+XIRR option is not working.
+
+#39 tradingqna:446136 [TradingQ&A] (under: Does Coin support mandates through Kotak Mahindra bank?)
+Does Coin support mandates through Kotak Mahindra bank?: Good evening, Does Coin support setting up SIP mandates through Kotak Mahindra Bank? I was informed by Kuvera that BSE Star MF does not support setting up SIP mandates for Kotak. Is it the same for Coin, or can I start SIPs from Kotak through Coin?
+
+#40 tradingqna:484710 [TradingQ&A] (under: International exchange trade funds (ETFs) will stop accepting fresh inflows. Here's what it means)
+A query Is it possible to decide how much premium is OK for the hedge you are looking for? I am investing via mutual fund so currently investment is stopped till it opens up again… I can purchase ETFs but hesitant to pay current premium

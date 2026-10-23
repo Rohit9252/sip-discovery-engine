@@ -1,0 +1,191 @@
+#1 play_store:88fa34d3-394f-45e4-bc46-f6b4b5b177a5 [play_store]
+Very poor app. My KYC verification is showing pending for more than 3 weeks and no progress after multiple calls to helpline. I wonder if opening an account with groww is such a challenge then how they will manage the transactions.
+AI: KYC pending blocking investment, a SIP problem
+
+#2 app_store:13415613333 [app_store]
+KYC issue: Not able to complete my KYC. No option to contact customer care.
+AI: KYC issue blocking investment, relevant to mutual fund investing
+
+#3 play_store:5d44ce5e-f95b-419d-8abb-b82221bb3cf3 [play_store]
+It's best for beginners, i have been using it for 2 years.
+AI: User states using app for 2 years, implies SIP experience
+
+#4 play_store:93911214-0e47-4d8c-9bf7-4fd6f013ac23 [play_store]
+Hi, The ET money mobile app is not allowing to do any transactions, it keeps on throwing the error "something went wrong", and goes back to the same screen showing the portfolio. I tried uninstalling and reinstalling the app, however the issue remains.
+AI: App error prevents transactions including mutual fund investments
+
+#5 play_store:16e750b3-1ea8-4ac8-9540-93f1d000eb3f [play_store]
+account close is not easy here, customer support smartly delyed, my experience is not good on this app, i deside to stop using now.
+AI: Decided to stop using app, implies stopping SIP or investments
+
+#6 play_store:74716612-e34c-4e50-9d18-c35a25c49ba3 [play_store]
+Wrost app ever guys don't use this at all , don't invest through this app at all guys , for real i am so angry these aren't letting withdraw my money these guys are a b
+AI: Unable to withdraw money from mutual fund investment
+
+#7 play_store:bbcb2f9e-2ba4-485c-a6c1-7856b1f9ebcb [play_store]
+Facing document kyc rejected and when I am going to upload documents showing congratulations. I don't know what is the glitch in the app. Kindly check and resolve the same.
+AI: Mentions KYC document issue affecting investment process
+
+#8 play_store:a64715b9-3faa-427d-abca-40232b443bc5 [play_store]
+Customer support are not helpful...my money withdrawal request accept but didn't receive my account...wrost app and thief
+AI: Money withdrawal request accepted but money not received
+
+#9 play_store:ba1935f4-3897-4764-bf4c-225c0aca8661 [play_store]
+not gud.portfolio investment payments not show proper
+AI: Portfolio investment payments not showing properly
+
+#10 play_store:30d4b4a1-5324-4847-80a7-170f68bcef15 [play_store]
+How GROWW SCAM me - using groww from 2021, invested huge amount. My SBI account suddenly got unverified 10 days ago. Still verification under process. How can a verified account suddenly get unverified ?Same account used to transact several time. Till now I called, chat , shared screenshot, emailed also. No answer . No solution. I can not deposit, can not withdrawl. MY HARD earn money looks like going away. stay away from GROWW GUYS.
+AI: Describes problem with verified account, unable to deposit or withdraw invested money
+
+#11 play_store:cb7a1223-9128-47b6-a8e2-402a222633c1 [play_store]
+very bad experience Suddenly the application stopped working and now I am not able to login and their helpline number is also saying switch off . Is my money safe?
+AI: Mentions app stopped working, unable to login, asks if money is safe
+
+#12 play_store:84c40bf6-c109-412b-bebd-8c0feffdcc3e [play_store]
+I am new
+AI: Says I am new, implies first time investing or SIP
+
+#13 play_store:6685da36-76a6-4254-b41d-607a1d5352c6 [play_store]
+I have been using groww for the past 2 years and the latest update into the application such as portfolio analysis sector allocation I really required that for diversification of funds and to allocate more in which category. I really admire the application developer team and groww team for helping retail investors with such good applications and platforms. I hope the company has future plans for brokerage reduction. thank you for your support.
+AI: Using app 2 years, checks portfolio analysis for fund diversification
+
+#14 play_store:95cde3b1-c6f3-44f2-8769-7480b4a49628 [play_store]
+I am using this application for last 3 months. But on 23 May my grow account has been deactivated by default and it is still not resolved...I am not getting any updates on this issue. Horrible team performance..
+AI: Account deactivated after 3 months using app, unresolved issue
+
+#15 play_store:01497384-e394-423e-a496-a7890c5dec77 [play_store]
+i am so frustrated i want to open my minor account and it's been 4 days..your app isn't working i cant upload my birth proof file and it stops at the same step again and again and also i submitted my kyc through your website still after three days I didn't receive any account opening mail or application status mail it's really really frustrating kindly fix this worst experience ever @groww
+AI: Problem opening minor account, KYC and app issue described
+
+#16 play_store:8b37e7db-882a-4902-84b8-b711c36231c4 [play_store]
+Very bad experience...jab hame sell karna hota hai..tab hi unka app support nhi krta..hamara profit booking Nikl jata hai..worst experience...I don't suggest to use this app
+AI: Mentions problem selling, profit booking, app support issue
+
+#17 play_store:9b750e9f-46bc-4657-9105-b088a0bfcd04 [play_store]
+Taking long time to withdraw our money
+AI: Mentions delay withdrawing money, a SIP or mutual fund issue
+
+#18 play_store:f98864e9-bc47-4311-b9cb-c00d2bb2fa12 [play_store]
+When i add money he ask your bank account is unverified and my grow apk doesn't open.
+AI: Mentions bank account unverified and app not opening on adding money
+
+#19 play_store:e6113502-875c-48b7-931f-c9150ca83f2c [play_store]
+Till now it was good until i didnt add the money. This is the first i added the money and decide to trade and App logged out on its own and now it is not opening. I've relogin, reinstalling even but still the same. Why this is happening. ??? Please help me.
+AI: First time adding money and trading, app logout issue
+
+#20 play_store:c410b934-9e4f-4bf3-8c15-09c3c828be26 [play_store]
+❌❌GROWW App 🔻🔻ne aaj ek baar phir apni poor service ka example diya h mere portfolio se ek company kr Sare Sher hi Gayab kar diya wo b bina mujhe information diye. Ho skta hey koi b region raha ho but customer ko information dena kya Groww Team ki responsibility nhi Banti mtlb Poor Service Performance Very Shemfull GROWW Team.
+AI: Mentions portfolio problem with company shares disappearing
+
+#21 play_store:7092bde9-ac03-48f6-bb3a-9c35bb44603d [play_store]
+very smooth app, BUT a small suggestion to add an option to analyse weekly change i.e growth or decline of invested portfolio..i.e like day change they should also give an option like week change which no other app must have provided yet..
+AI: Requests portfolio weekly change feature, shows portfolio tracking interest
+
+#22 play_store:87319ba6-f525-475a-ad5d-8f85fbd5033f [play_store]
+worst service not able to withdraw or login my existing account
+AI: Mentions problem withdrawing or logging into existing account
+
+#23 play_store:9f2952d6-84f8-4770-b1b4-e5006cb762e9 [play_store]
+I can't give negative feedback that's why I have to give one star.... I've logged in for a week but I am not able to buy anything...all the time it shows e-sign under verification...I called customer care ...they said after checking we will revert you and help you in it... it's been three days since I called.. I haven't received any help from customer support. I must say worst customer support.
+AI: Cannot buy, stuck at e-sign verification, customer support issue
+
+#24 play_store:c386747f-a4a7-4eb1-a93a-bd4d667f4282 [play_store]
+I lost 25k cause of groww
+AI: Mentions personal loss of 25k with Groww mutual fund investing
+
+#25 play_store:a1a29624-6d04-479b-a40a-bb34c20e30a7 [play_store]
+January 23 2024 . Apps got crashed for more than 2 hours. 90% users lost their money but no any formal statement from Groww team . One like will be 100 slap to Groww team
+AI: Mentions users lost money due to app crash, implies mutual fund investing loss
+
+#26 reddit:1rkjssh [reddit] (under: r/StockMarketIndia)
+Day 8 of 49,000 to 4,00,000
+AI: Mentions personal investment growth, implies mutual fund or SIP investing
+
+#27 reddit:1vzoxb5 [reddit] (under: r/mutualfunds)
+My current investment/month is 22k but I want to increase it to 30k
+AI: Mentions increasing monthly investment amount, implies ongoing SIP
+
+#28 reddit:1ux2b21 [reddit] (under: r/IndianStockMarket)
+What am I doing wrong?: I have invested since the last few weeks. Don't see the market improving.
+AI: Invested few weeks ago, checking market and returns
+
+#29 reddit:1nk1wu4 [reddit] (under: r/mutualfunds)
+Please review funds based on time horizon: I have divided the lump sum amount that I have into 4 buckets based on my goals and time horizon.I have selected funds category for each bucket and weightage as percentage of that bucket. I am in 50s and risk appetite is low to moderate. ( Not under 30% tax ) Please review and give me any suggestions to correct my understanding. Thank you. Less than 1 year Mostly in liquid funds and in FD Short term ( < 3 years) conservative hybrid 25% (PPCHF) corporate bond 25% ( ICICI, HDFC) Short duration 20% ( ICICI, HDFC) Banking and PSU 10% ( ICICI) medium Term (< 7 years) Medium term 25% ( ABSL, ICICI, HDFC) Dynamic bond 25% ( ICICI all seasons) Balanced advantage 25% ( HDFC BAF) Conservative hybrid 25% ( PPCHF) Long term (7+ years ) Large cap/ nifty 50 20%
+AI: Describes own mutual fund portfolio and time horizons
+
+#30 reddit:1ts0lli [reddit] (under: r/mutualfunds)
+Suggestions Please: Hello Experts, Please suggest and give your comments on my portfolio. Risk- High Goal- Wealth Creation Horizon- 20+ Years Allocation- Attached App- Paytm Money and Gross Why these funds- Based on my own personal analysis I chose these.
+AI: Shares own mutual fund portfolio and asks for suggestions
+
+#31 reddit:1r7z2lt [reddit] (under: r/mutualfunds)
+review my portfolio i have been in loss since the past year: i have started investing since that past year as a beginner. But I am in losses plzz guide me and give me suggestions.
+AI: Started investing past year, shares loss experience
+
+#32 reddit:1x7bgop [reddit] (under: r/personalfinanceindia)
+Need Advice on how to use my monthly salary and save for future: Hello All Got a job in June My in-hand salary per month : \~58k Rent + electricity: \~ 6.5k (I have been relocated to a tier 2 city starting this month so got a 2bhk for 5.3k where i currently live alone. Most of the furnishings like fridge and washing machine are being paid for by my company.) Transport: \~ 2k (i use rapido/uber bike only since my place is only 3 km and no autos go there. Most days i walk bcz the weather is good so the cost goes down to 1.5k) I have just 1 EMI left of my phone: \~4.5k Send to home: \~5k+ take on some other expenses like groceries or treats Miscellaneous: \~5k I visit hometown twice a week which costs me around 3k per month. I'm thinking of reducing the frequency to once per month. Current sa
+AI: Describes salary, expenses, plans to save and invest first time
+
+#33 reddit:1u0vje0 [reddit] (under: r/mutualfunds)
+Investing since 2 years. What am I doing wrong?
+AI: States investing since 2 years, asks what is wrong
+
+#34 reddit:1u7bqxj [reddit] (under: r/IndiaInvestments)
+International investment- UCITS ETFs (IWDA + EIMI) vs US ETFs (VT) for a ₹10k/month Investor: Note: Used Chatgpt to summarise my thoughts Hi everyone, &#x200B; I'm new to international investing from India and recently started using Paasa. I've made my first investment of $100, split between IWDA and EIMI. &#x200B; My original plan was to build an 85% IWDA + 15% EIMI portfolio, but I'm currently able to invest only around ₹10,000/month (\~$115). &#x200B; With Paasa, buying IWDA + EIMI means 2 trades on the LSE, costing about $3.40/month in commissions. Alternatively, I could invest in a US ETF like VT on the same platform for about $0.50 per trade. &#x200B; I understand the trade-offs: &#x200B; \- UCITS ETFs (IWDA/EIMI/VWRA): No US estate tax concerns, accumulating structure, but higher tr
+AI: Started first international investment recently, mentions monthly amount
+
+#35 reddit:1x23efc [reddit] (under: r/personalfinanceindia)
+How much money does one actually need ?: I am stunned to see people being able to retire early with humongous corpus - over 5-10-15 cr. And here I am striving to make ends meet. I might be able to reach that kind of corpus if I work extremely hard for the next 15-20 years. Before someone says “comparison is a thief of joy”, let me be clear - I am neither dying to live their lives nor is my case of sour grapes. But I am a human being after all and can’t just ignore all these numbers I keep seeing on Reddit and YouTube. Can’t stop wondering what does a reasonably good life look like ? How much money does one need to live such a life ? I understand there might not be one answer that fits everyone, but still there must be one number that satisfies the majority, right ? Assuming too poor or too
+AI: Asks about corpus and starting investing journey, implies first time
+
+#36 reddit:1rp7qwu [reddit] (under: r/mutualfunds)
+Review my portfolio: Amount - Reduced the amount recently now investing 1k in Nippon, 3k in Parag, 3k in HDFC. Tenure - 4-5 years maybe long term. Risk appetite - medium/low What are your advices?
+AI: Mentions reducing amount and investing in SIPs for 4-5 years
+
+#37 reddit:1w2andy [reddit] (under: r/IndiaInvestments)
+30F/29M, high earners, existing PPF - continue funding it or go all-in on equity for max wealth growth?
+AI: Asks whether to continue PPF or go all-in equity, implies own investing decision
+
+#38 reddit:1lpmv65 [reddit] (under: r/IndiaInvestments)
+Woke up to find JioBlackRock misplaced my 50K
+AI: Mentions misplaced 50K by JioBlackRock, a mutual fund issue
+
+#39 reddit:1q0m36p [reddit] (under: r/IndiaInvestments)
+21M | Need honest feedback on savings, investments
+AI: Asks for feedback on savings and investments, implies own investing
+
+#40 reddit:1oibu10 [reddit] (under: r/mutualfunds)
+New myCAMS user: Hi I’m a new user of myCAMS, downloaded it an hour ago but my dashboard and transaction options are grey and I can’t use them still. Any help or suggestion would be highly appreciated Thank you!
+AI: New myCAMS user with dashboard and transaction issues related to mutual funds
+
+#41 reddit:1s7vq71 [reddit] (under: r/mutualfunds)
+Portfolio Review – 27 | ~₹4.65L invested | Long-term (10–15 yrs) | Need allocation + timing advice
+AI: Shares portfolio review and seeks allocation advice for mutual funds
+
+#42 reddit:1lzc6at [reddit] (under: r/IndiaInvestments)
+What percentage of your portfolio do you allocate to bonds?: Curious how you allocate to bonds (Corporate bonds, government bonds, etc). What percentage of your portfolio is in bonds, and why? Age-based rule (like 100 minus age), risk tolerance, income planning, or something else? Please share your strategy - long-term or short-term, passive or active. Thinking to add stability to my portfolio.
+AI: Asks about bond allocation in portfolio, implies investing experience
+
+#43 reddit:1vbhtqc [reddit] (under: r/IndianStockMarket)
+Quess Corp Tgt?: Hi guys, what do you can be the new tgt for the quess corp? 400? Or back to 300? Bought it for swing 2-3% only but now thinking to hold for a slightly longer to get bettee returns!
+AI: Mentions buying and holding stock, but no SIP or mutual fund investing mentioned
+
+#44 reddit:1qli4zz [reddit] (under: r/mutualfunds)
+Portfolio review 60k
+AI: Mentions portfolio review with 60k, implies mutual fund or SIP portfolio
+
+#45 reddit:1u9z00y [reddit] (under: r/personalfinanceindia)
+HDFC life Sanchay plus: They forced me to get into this scheme when i completed another one that matured. Now they keep calling for one thing or another. I cannot continue paying money for this scheme so I am writing to them to close it. But i don't thikn they'll let me. They wil keep asking for a renewal and then at the end of 4 years again tell me it has lapsed. These schemes need to go away.
+AI: Describes problem with insurance scheme payments, not mutual funds or SIPs
+
+#46 reddit:1sxeowg [reddit] (under: r/mutualfunds)
+Help me!: Hi everyone I'm an SBI employee and I can't have a demat account other than sbi securities. I just registered in SBI Securities but there are only regular funds and no direct growth funds so is there any way I can invest in direct funds. I really need a loophole to invest in direct plans. Please someone help me out. I read somewhere and it said that I can invest through amc sites directly. I don't know how to invest through amc sites so please help me out guys.
+AI: Asks how to invest in direct mutual fund plans, personal investing issue
+
+#47 reddit:1ujirpr [reddit] (under: r/FIREIndia)
+24 Year old, Investing ₹40k/month | Portfolio Review & Suggestions
+AI: Mentions investing ₹40k/month, likely SIP, portfolio review
+
+#48 reddit:1uwj09c [reddit] (under: r/IndianStockMarket)
+Help me guys with the RVNL monster: Need some honest opinions from long-term investors. I bought RVNL at an average price of ₹393 and currently it's trading around ₹227. My position is: Qty: 200 Invested: ₹78,600 Current loss: \~₹33,000 (-42%) This is currently my biggest losing position. I'm trying to decide between: Hold for the next 3–5 years. Average down at current levels. Exit and deploy the money elsewhere. I know PSU railway stocks had a huge rally and then corrected sharply. I'm looking for opinions based on RVNL's fundamentals, order book, earnings outlook, and valuation, not just "diamond hands" or "sell everything."
+AI: Describes own mutual fund investment loss and decision

@@ -1,0 +1,39 @@
+{
+  "name": "discovery-engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "collect:play": "tsx scripts/collect-play.mts",
+    "collect:appstore": "tsx scripts/collect-appstore.mts",
+    "collect:reddit": "tsx scripts/collect-reddit.mts",
+    "collect:youtube": "tsx scripts/collect-youtube.mts",
+    "collect:tradingqna": "tsx scripts/collect-tradingqna.mts",
+    "pass1:run": "tsx scripts/pass1-run.mts",
+    "pass1:reddit": "tsx scripts/pass1-run.mts --sample reddit:post:4000,reddit:comment:5000 --seed 2031 --budget 1450000",
+    "pass2:run": "tsx scripts/pass2-run.mts --budget 2100000"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "google-play-scraper": "^10.1.4",
+    "next": "16.4.2",
+    "openai": "^7.39.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

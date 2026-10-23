@@ -1,0 +1,27 @@
+﻿2026-10-20 23:10  Queue started. Waiting for Reddit to finish.
+2026-10-20 23:13  Queue started. Waiting for Reddit to finish.
+2026-10-21 00:03  Reddit finished: 
+2026-10-21 00:03  YouTube started.
+2026-10-21 00:03  YouTube finished: 
+2026-10-21 00:03  TradingQ&A started.
+2026-10-21 00:10  TradingQ&A finished: 
+2026-10-21 00:10  Groww backfill started.
+2026-10-21 00:11  Groww backfill FAILED (exit 1). Details in data\logs\collect-play.log
+2026-10-21 00:11  Collection finished, but failed: Groww backfill. 150265 collected, 34656 kept.
+2026-10-21 00:11  Sleep when plugged in restored to 5 minutes.
+2026-10-21 00:12  collect:play groww 300000 started (sleep when plugged in set to Never).
+2026-10-21 00:29  collect:play finished. 310642 collected, 38341 kept, oldest 2024-01-01.
+2026-10-21 00:29  Sleep when plugged in restored to 5 minutes.
+2026-10-21 10:31  pass1:run  started (sleep when plugged in set to Never).
+2026-10-21 10:41  pass1:run finished. 312157 collected, 59579 kept, oldest 2024-01-01.
+2026-10-21 10:42  Sleep when plugged in restored to 5 minutes.
+2026-10-22 09:45  pass1:reddit  started (sleep when plugged in set to Never).
+2026-10-22 09:51  pass1:reddit finished. 312157 collected, 59579 kept, oldest 2024-01-01.
+2026-10-22 09:51  Sleep when plugged in restored to 5 minutes.
+2026-10-22 09:52  pass1:reddit  started (sleep when plugged in set to Never).
+2026-10-22 09:53  pass1:reddit finished. 312157 collected, 59579 kept, oldest 2024-01-01.
+2026-10-22 09:53  Sleep when plugged in restored to 5 minutes.
+2026-10-22 10:23  pass2:run  started (sleep when plugged in set to Never).
+2026-10-23 10:10  pass2:run  started (sleep when plugged in set to Never).
+2026-10-23 10:28  pass2:run finished. 312157 collected, 59579 kept, oldest 2024-01-01.
+2026-10-23 10:28  Sleep when plugged in restored to 5 minutes.

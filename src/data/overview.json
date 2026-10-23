@@ -1,0 +1,76 @@
+{
+  "exportedAt": "2026-10-23T04:43:26.563Z",
+  "dates": {
+    "oldest": "2024-01-01",
+    "newest": "2026-10-20"
+  },
+  "funnel": [
+    {
+      "step": "Collected",
+      "n": 312157,
+      "note": "Public posts from 2024-01-01 to 2026-10-20"
+    },
+    {
+      "step": "Kept by the keyword filter",
+      "n": 59579,
+      "note": "Mention SIPs, mutual funds or investing"
+    },
+    {
+      "step": "Read by the AI (pass 1)",
+      "n": 24822,
+      "note": "All kept store reviews, YouTube and TradingQ&A, plus a fixed Reddit sample"
+    },
+    {
+      "step": "About someone's own SIP",
+      "n": 7379,
+      "note": "Their own SIP or mutual fund journey, not fund picking or praise"
+    },
+    {
+      "step": "From a first-time investor",
+      "n": 1262,
+      "note": "Their first SIP, on any app. Headline numbers come from these"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Play Store reviews",
+      "collected": 200616,
+      "kept": 5987,
+      "read": 5987,
+      "relevant": 2484,
+      "firstTime": 122
+    },
+    {
+      "name": "App Store reviews",
+      "collected": 2356,
+      "kept": 519,
+      "read": 519,
+      "relevant": 297,
+      "firstTime": 16
+    },
+    {
+      "name": "Reddit posts and comments",
+      "collected": 98917,
+      "kept": 43757,
+      "read": 9000,
+      "relevant": 2887,
+      "firstTime": 847
+    },
+    {
+      "name": "YouTube comments",
+      "collected": 8640,
+      "kept": 8640,
+      "read": 8640,
+      "relevant": 1480,
+      "firstTime": 270
+    },
+    {
+      "name": "TradingQ&A",
+      "collected": 1628,
+      "kept": 676,
+      "read": 676,
+      "relevant": 231,
+      "firstTime": 7
+    }
+  ]
+}

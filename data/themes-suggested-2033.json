@@ -1,0 +1,1064 @@
+{
+  "seed": 2033,
+  "model": "gpt-4.1-mini",
+  "candidates": [
+    {
+      "name": "I need reliable and timely processing of my SIP payments and refunds so that my investments are not stuck or delayed.",
+      "need": "I need reliable and timely processing of my SIP payments and refunds so that my investments are not stuck or delayed.",
+      "stage": "setting up",
+      "post_ids": [
+        "t52",
+        "t62",
+        "t66",
+        "t83",
+        "t84",
+        "t97",
+        "t100"
+      ]
+    },
+    {
+      "name": "I need clear and accessible customer support that can resolve my issues quickly and knowledgeably.",
+      "need": "I need clear and accessible customer support that can resolve my issues quickly and knowledgeably.",
+      "stage": "any time",
+      "post_ids": [
+        "t52",
+        "t65",
+        "t95",
+        "t98",
+        "t100"
+      ]
+    },
+    {
+      "name": "I need to see all my mutual fund investments, including external ones, consolidated and updated in one place within the app.",
+      "need": "I need to see all my mutual fund investments, including external ones, consolidated and updated in one place within the app.",
+      "stage": "any time",
+      "post_ids": [
+        "t65",
+        "t76",
+        "t80",
+        "t96"
+      ]
+    },
+    {
+      "name": "I need to understand how SIP payments and dates work, including when amounts will be debited after starting a SIP.",
+      "need": "I need to understand how SIP payments and dates work, including when amounts will be debited after starting a SIP.",
+      "stage": "setting up",
+      "post_ids": [
+        "t81",
+        "t83"
+      ]
+    },
+    {
+      "name": "I need to know whether losses or negative returns in the first year of SIP are normal and whether I should continue or withdraw.",
+      "need": "I need to know whether losses or negative returns in the first year of SIP are normal and whether I should continue or withdraw.",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t55",
+        "t77"
+      ]
+    },
+    {
+      "name": "I need an easy way to track my portfolio performance including daily profit/loss and consolidated XIRR across all investments.",
+      "need": "I need an easy way to track my portfolio performance including daily profit/loss and consolidated XIRR across all investments.",
+      "stage": "any time",
+      "post_ids": [
+        "t74",
+        "t80"
+      ]
+    },
+    {
+      "name": "I need clear and responsive customer support when I face issues with my mutual fund transactions or app functionality",
+      "need": "I need clear and responsive customer support when I face issues with my mutual fund transactions or app functionality",
+      "stage": "any time",
+      "post_ids": [
+        "t101",
+        "t138"
+      ]
+    },
+    {
+      "name": "I need to understand how to start and set up SIPs properly as a beginner with simple guidance",
+      "need": "I need to understand how to start and set up SIPs properly as a beginner with simple guidance",
+      "stage": "before starting",
+      "post_ids": [
+        "t103",
+        "t124"
+      ]
+    },
+    {
+      "name": "I need help reviewing and optimizing my mutual fund portfolio to ensure it aligns with my risk appetite and investment goals",
+      "need": "I need help reviewing and optimizing my mutual fund portfolio to ensure it aligns with my risk appetite and investment goals",
+      "stage": "any time",
+      "post_ids": [
+        "t104",
+        "t105",
+        "t111",
+        "t114",
+        "t122",
+        "t125",
+        "t134",
+        "t139",
+        "t142",
+        "t143"
+      ]
+    },
+    {
+      "name": "I need to know if my mutual fund investments are performing well compared to benchmarks or categories without complicated navigation",
+      "need": "I need to know if my mutual fund investments are performing well compared to benchmarks or categories without complicated navigation",
+      "stage": "any time",
+      "post_ids": [
+        "t129",
+        "t139"
+      ]
+    },
+    {
+      "name": "I need reassurance that starting SIPs at any market level, even at all-time highs, is okay and normal",
+      "need": "I need reassurance that starting SIPs at any market level, even at all-time highs, is okay and normal",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t135",
+        "t127"
+      ]
+    },
+    {
+      "name": "I need a smooth and reliable process for importing mutual fund data and for autopay setup without delays or failures",
+      "need": "I need a smooth and reliable process for importing mutual fund data and for autopay setup without delays or failures",
+      "stage": "setting up",
+      "post_ids": [
+        "t113",
+        "t115"
+      ]
+    },
+    {
+      "name": "I need advice on how to start investing and set up SIPs when I have just started earning or received my first bonus.",
+      "need": "I need advice on how to start investing and set up SIPs when I have just started earning or received my first bonus.",
+      "stage": "before starting",
+      "post_ids": [
+        "t152",
+        "t174",
+        "t181"
+      ]
+    },
+    {
+      "name": "I need to understand if delays in NAV allotment or payment debits are normal and how they affect my investments.",
+      "need": "I need to understand if delays in NAV allotment or payment debits are normal and how they affect my investments.",
+      "stage": "setting up",
+      "post_ids": [
+        "t154",
+        "t159",
+        "t164"
+      ]
+    },
+    {
+      "name": "I need to know how to review my portfolio performance and when to change funds if returns are negative or underperforming.",
+      "need": "I need to know how to review my portfolio performance and when to change funds if returns are negative or underperforming.",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t153",
+        "t194"
+      ]
+    },
+    {
+      "name": "I need to understand if it is okay to pause or stop my SIP temporarily during financial difficulties like job loss.",
+      "need": "I need to understand if it is okay to pause or stop my SIP temporarily during financial difficulties like job loss.",
+      "stage": "any time",
+      "post_ids": [
+        "t176",
+        "t178"
+      ]
+    },
+    {
+      "name": "I need to know how to allocate my monthly income between expenses, emergency fund, and SIP investments effectively.",
+      "need": "I need to know how to allocate my monthly income between expenses, emergency fund, and SIP investments effectively.",
+      "stage": "before starting",
+      "post_ids": [
+        "t155",
+        "t157",
+        "t180"
+      ]
+    },
+    {
+      "name": "I need to understand the safety and risks of SIP investments compared to other investment options like bitcoin or trading.",
+      "need": "I need to understand the safety and risks of SIP investments compared to other investment options like bitcoin or trading.",
+      "stage": "before starting",
+      "post_ids": [
+        "t199",
+        "t171"
+      ]
+    },
+    {
+      "name": "I need to know how to handle app issues like double subscription charges, incorrect portfolio data, and poor customer support.",
+      "need": "I need to know how to handle app issues like double subscription charges, incorrect portfolio data, and poor customer support.",
+      "stage": "any time",
+      "post_ids": [
+        "t173",
+        "t192",
+        "t159"
+      ]
+    },
+    {
+      "name": "I need guidance on how to start SIP investing at an older age or with a small amount.",
+      "need": "I need guidance on how to start SIP investing at an older age or with a small amount.",
+      "stage": "before starting",
+      "post_ids": [
+        "t167",
+        "t184"
+      ]
+    },
+    {
+      "name": "I need guidance on how much to invest monthly in mutual funds given my salary and expenses",
+      "need": "I need guidance on how much to invest monthly in mutual funds given my salary and expenses",
+      "stage": "before starting",
+      "post_ids": [
+        "t201",
+        "t211"
+      ]
+    },
+    {
+      "name": "I need to understand if my mutual fund transactions are successful when the app shows conflicting status after payment",
+      "need": "I need to understand if my mutual fund transactions are successful when the app shows conflicting status after payment",
+      "stage": "setting up",
+      "post_ids": [
+        "t208",
+        "t250"
+      ]
+    },
+    {
+      "name": "I need the app to update NAV daily and notify me so I can track my portfolio value without checking externally",
+      "need": "I need the app to update NAV daily and notify me so I can track my portfolio value without checking externally",
+      "stage": "any time",
+      "post_ids": [
+        "t204",
+        "t242"
+      ]
+    },
+    {
+      "name": "I need to know if SIP deductions happen on holidays or weekends and how that affects my investment",
+      "need": "I need to know if SIP deductions happen on holidays or weekends and how that affects my investment",
+      "stage": "any time",
+      "post_ids": [
+        "t206",
+        "t215"
+      ]
+    },
+    {
+      "name": "I need reassurance and understanding about market volatility and normal fluctuations during the first year of SIP",
+      "need": "I need reassurance and understanding about market volatility and normal fluctuations during the first year of SIP",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t218",
+        "t222"
+      ]
+    },
+    {
+      "name": "I need clarity on what happens to my SIP if the fund house pauses or stops SIP deductions temporarily",
+      "need": "I need clarity on what happens to my SIP if the fund house pauses or stops SIP deductions temporarily",
+      "stage": "any time",
+      "post_ids": [
+        "t238",
+        "t215"
+      ]
+    },
+    {
+      "name": "I need help reviewing my portfolio and advice on allocation and fund selection as a beginner",
+      "need": "I need help reviewing my portfolio and advice on allocation and fund selection as a beginner",
+      "stage": "before starting",
+      "post_ids": [
+        "t202",
+        "t211",
+        "t214",
+        "t216",
+        "t226",
+        "t237",
+        "t239",
+        "t248"
+      ]
+    },
+    {
+      "name": "I need to understand how to start SIPs and how SIP works in simple terms",
+      "need": "I need to understand how to start SIPs and how SIP works in simple terms",
+      "stage": "before starting",
+      "post_ids": [
+        "t212",
+        "t225",
+        "t246",
+        "t241",
+        "t233"
+      ]
+    },
+    {
+      "name": "I need to know if I can start SIP with a very small amount like ₹100",
+      "need": "I need to know if I can start SIP with a very small amount like ₹100",
+      "stage": "before starting",
+      "post_ids": [
+        "t241",
+        "t243"
+      ]
+    },
+    {
+      "name": "I need to know if my money is safe and accessible when investing through apps without physical offices",
+      "need": "I need to know if my money is safe and accessible when investing through apps without physical offices",
+      "stage": "before starting",
+      "post_ids": [
+        "t223",
+        "t249"
+      ]
+    },
+    {
+      "name": "I need to know how long it typically takes for a SIP cancellation to be processed and reflected in my account",
+      "need": "I need to know how long it typically takes for a SIP cancellation to be processed and reflected in my account",
+      "stage": "any time",
+      "post_ids": [
+        "t279",
+        "t255"
+      ]
+    },
+    {
+      "name": "I need a reliable and responsive customer support that takes ownership of my mutual fund issues instead of redirecting me to AMCs",
+      "need": "I need a reliable and responsive customer support that takes ownership of my mutual fund issues instead of redirecting me to AMCs",
+      "stage": "any time",
+      "post_ids": [
+        "t270",
+        "t297"
+      ]
+    },
+    {
+      "name": "I need to be able to withdraw or redeem my mutual fund investments smoothly without technical glitches or process getting stuck",
+      "need": "I need to be able to withdraw or redeem my mutual fund investments smoothly without technical glitches or process getting stuck",
+      "stage": "any time",
+      "post_ids": [
+        "t256",
+        "t297"
+      ]
+    },
+    {
+      "name": "I need clarity on how to handle failed transactions where money is deducted but the transaction shows as failed, and timely refunds",
+      "need": "I need clarity on how to handle failed transactions where money is deducted but the transaction shows as failed, and timely refunds",
+      "stage": "any time",
+      "post_ids": [
+        "t297",
+        "t295"
+      ]
+    },
+    {
+      "name": "I need to understand how to start my SIP journey properly including when and how to start",
+      "need": "I need to understand how to start my SIP journey properly including when and how to start",
+      "stage": "before starting",
+      "post_ids": [
+        "t252",
+        "t260"
+      ]
+    },
+    {
+      "name": "I need guidance and reassurance on portfolio construction and whether my SIP allocations are appropriate for my goals and risk appetite",
+      "need": "I need guidance and reassurance on portfolio construction and whether my SIP allocations are appropriate for my goals and risk appetite",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t253",
+        "t257",
+        "t259",
+        "t273",
+        "t274",
+        "t275",
+        "t277",
+        "t279",
+        "t291",
+        "t292",
+        "t293",
+        "t299"
+      ]
+    },
+    {
+      "name": "I need to understand how to manage and adjust SIP amounts such as increasing, pausing, or investing extra in some months",
+      "need": "I need to understand how to manage and adjust SIP amounts such as increasing, pausing, or investing extra in some months",
+      "stage": "setting up",
+      "post_ids": [
+        "t266",
+        "t272",
+        "t298"
+      ]
+    },
+    {
+      "name": "I need to know if my SIP returns and portfolio performance are reasonable and what to expect over the long term",
+      "need": "I need to know if my SIP returns and portfolio performance are reasonable and what to expect over the long term",
+      "stage": "months 4 to 6",
+      "post_ids": [
+        "t278",
+        "t286",
+        "t290"
+      ]
+    },
+    {
+      "name": "I need help understanding how to invest lumpsum amounts alongside SIPs effectively",
+      "need": "I need help understanding how to invest lumpsum amounts alongside SIPs effectively",
+      "stage": "any time",
+      "post_ids": [
+        "t261",
+        "t292",
+        "t277"
+      ]
+    },
+    {
+      "name": "I need to know if it is better to increase SIP amounts with salary increments or save for other financial goals",
+      "need": "I need to know if it is better to increase SIP amounts with salary increments or save for other financial goals",
+      "stage": "any time",
+      "post_ids": [
+        "t285",
+        "t268"
+      ]
+    },
+    {
+      "name": "I need to understand if certain SIP strategies like splitting investments between equity and liquid funds and switching based on market conditions are effective",
+      "need": "I need to understand if certain SIP strategies like splitting investments between equity and liquid funds and switching based on market conditions are effective",
+      "stage": "any time",
+      "post_ids": [
+        "t264",
+        "t296"
+      ]
+    },
+    {
+      "name": "I need to understand if stopping or changing SIPs after a few months of investing is normal and what factors should guide my decision",
+      "need": "I need to understand if stopping or changing SIPs after a few months of investing is normal and what factors should guide my decision",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t1",
+        "t7"
+      ]
+    },
+    {
+      "name": "I need guidance on how to diversify my mutual fund portfolio while keeping my risk profile reasonable",
+      "need": "I need guidance on how to diversify my mutual fund portfolio while keeping my risk profile reasonable",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t2",
+        "t21"
+      ]
+    },
+    {
+      "name": "I need reassurance and motivation to continue SIPs despite having zero prior knowledge and initial confusion",
+      "need": "I need reassurance and motivation to continue SIPs despite having zero prior knowledge and initial confusion",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t4",
+        "t26"
+      ]
+    },
+    {
+      "name": "I need to know why my SIP transactions fail and how to avoid missing SIPs due to app or payment issues",
+      "need": "I need to know why my SIP transactions fail and how to avoid missing SIPs due to app or payment issues",
+      "stage": "any time",
+      "post_ids": [
+        "t5",
+        "t30"
+      ]
+    },
+    {
+      "name": "I need a way to view and track my mutual fund holdings and SIPs grouped by financial goals in the app",
+      "need": "I need a way to view and track my mutual fund holdings and SIPs grouped by financial goals in the app",
+      "stage": "any time",
+      "post_ids": [
+        "t6",
+        "t31"
+      ]
+    },
+    {
+      "name": "I need advice on whether my current SIP portfolio and amount is appropriate for my risk profile and investment horizon",
+      "need": "I need advice on whether my current SIP portfolio and amount is appropriate for my risk profile and investment horizon",
+      "stage": "months 4 to 6",
+      "post_ids": [
+        "t7",
+        "t11"
+      ]
+    },
+    {
+      "name": "I need help deciding how much to increase my SIP amount as my income and expenses change",
+      "need": "I need help deciding how much to increase my SIP amount as my income and expenses change",
+      "stage": "months 4 to 6",
+      "post_ids": [
+        "t8",
+        "t9"
+      ]
+    },
+    {
+      "name": "I need to know if my SIP portfolio allocation is too aggressive or well distributed for my financial goals",
+      "need": "I need to know if my SIP portfolio allocation is too aggressive or well distributed for my financial goals",
+      "stage": "months 7 to 12",
+      "post_ids": [
+        "t10",
+        "t22"
+      ]
+    },
+    {
+      "name": "I need to understand the lock-in period and exit load details clearly for ELSS mutual funds to avoid confusion and mistakes",
+      "need": "I need to understand the lock-in period and exit load details clearly for ELSS mutual funds to avoid confusion and mistakes",
+      "stage": "before starting",
+      "post_ids": [
+        "t18",
+        "t15"
+      ]
+    },
+    {
+      "name": "I need the app to show the date of the last mutual fund update to avoid confusion about portfolio values",
+      "need": "I need the app to show the date of the last mutual fund update to avoid confusion about portfolio values",
+      "stage": "any time",
+      "post_ids": [
+        "t20",
+        "t47"
+      ]
+    },
+    {
+      "name": "I need help starting SIPs with limited knowledge and small income, including guidance on fund selection and amount",
+      "need": "I need help starting SIPs with limited knowledge and small income, including guidance on fund selection and amount",
+      "stage": "before starting",
+      "post_ids": [
+        "t14",
+        "t35"
+      ]
+    },
+    {
+      "name": "I need to know if my SIP portfolio is good for long-term goals and if I should rebalance or add funds",
+      "need": "I need to know if my SIP portfolio is good for long-term goals and if I should rebalance or add funds",
+      "stage": "months 4 to 6",
+      "post_ids": [
+        "t23",
+        "t24"
+      ]
+    },
+    {
+      "name": "I need to track my net worth including salary, expenses, and investments in one place with real-time updates",
+      "need": "I need to track my net worth including salary, expenses, and investments in one place with real-time updates",
+      "stage": "any time",
+      "post_ids": [
+        "t33",
+        "t39"
+      ]
+    },
+    {
+      "name": "I need advice on managing SIPs and investments during financial difficulties like job loss and urgent expenses",
+      "need": "I need advice on managing SIPs and investments during financial difficulties like job loss and urgent expenses",
+      "stage": "any time",
+      "post_ids": [
+        "t36",
+        "t29"
+      ]
+    },
+    {
+      "name": "I need help balancing SIP investments with other financial commitments like loans, EMIs, and emergency funds",
+      "need": "I need help balancing SIP investments with other financial commitments like loans, EMIs, and emergency funds",
+      "stage": "any time",
+      "post_ids": [
+        "t34",
+        "t37"
+      ]
+    },
+    {
+      "name": "I need the app to support auto-pay options for SIPs to avoid manual payment failures",
+      "need": "I need the app to support auto-pay options for SIPs to avoid manual payment failures",
+      "stage": "setting up",
+      "post_ids": [
+        "t17",
+        "t5"
+      ]
+    },
+    {
+      "name": "I need clear communication and transparency about KYC verification status to avoid repeated requests",
+      "need": "I need clear communication and transparency about KYC verification status to avoid repeated requests",
+      "stage": "any time",
+      "post_ids": [
+        "t25",
+        "t47"
+      ]
+    },
+    {
+      "name": "I need to understand if investing in certain funds recommended by advisors is safe and suitable for me",
+      "need": "I need to understand if investing in certain funds recommended by advisors is safe and suitable for me",
+      "stage": "months 1 to 3",
+      "post_ids": [
+        "t49",
+        "t2"
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "name": "Portfolio Review and Optimization Advice",
+      "need": "I need help reviewing and optimizing my mutual fund portfolio to align with my risk appetite, goals, and to decide on fund selection and allocation.",
+      "candidates": [
+        9,
+        27,
+        36,
+        43,
+        47,
+        49,
+        53,
+        59
+      ],
+      "posts": 39,
+      "firstTime": 26,
+      "stages": [
+        "months 1 to 3",
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "reddit:1t9kpgb",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "Is this good for 1yr of investing: Portfolio started: February 2025 Current value: ₹2.83L Total invested: ₹2.62L Total returns: ₹21K (+8.01%) Current XIRR: 14.83% Investment horizon: 15-20 years Risk appetite: High Age: Early 30s Goal: Long-term wealth creation."
+        },
+        {
+          "id": "reddit:1pzttcf",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "New to mutual funds - need advice on portfolio and fund picks: Hey everyone, I’ve been doing trading for a while and now I’m planning to start investing in mutual funds. I just got my first job, and I want to build a solid mutual fund portfolio. My current plan is to divide my investment into three "
+        }
+      ]
+    },
+    {
+      "name": "SIP Setup and Beginner Guidance",
+      "need": "I need simple and clear guidance on how to start and set up SIPs properly, including for beginners, older investors, and those with small income or amounts.",
+      "candidates": [
+        4,
+        8,
+        13,
+        20,
+        21,
+        27,
+        28,
+        29,
+        35,
+        52,
+        50
+      ],
+      "posts": 30,
+      "firstTime": 22,
+      "stages": [
+        "before starting",
+        "setting up"
+      ],
+      "quotes": [
+        {
+          "id": "youtube:UgzZ0P7UD0w13jieVct4AaABAg",
+          "source": "youtube",
+          "experience": "first_time",
+          "text": "I am new to SIP and I have question regarding i opened one SIP on 1st of Sept but amount is not debited only initial amount is debited and monthly SIP is not debited can you tell me what was the mistake I made? and one more doubt how to get to know how many years I have been selected this SIP?"
+        },
+        {
+          "id": "youtube:UgzodsUjOAXh8-lFzuZ4AaABAg",
+          "source": "youtube",
+          "experience": "first_time",
+          "text": "सर आप बहुत महत्वपूर्ण सुचना देते है मे 6 तक पडा,ई। कर पाई हु लेकीन मुझे आप जो पढाते है अच्छे से समझ पाई रही हु जी। पर कर कुछ नही पाई रही हु मुझे sip. करनी है सर कैसे करु। मे सिर्फ gpy, चला पाई रही हु। आप मेरी जानकारी बढाये। मे आप की सब वीडियो बहुत बार देखती हु। जी"
+        },
+        {
+          "id": "reddit:1p8xw69",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "First job and first bonus — need advice on investing 1L and setting up 20k monthly SIPs"
+        }
+      ]
+    },
+    {
+      "name": "Reassurance on Market Volatility and SIP Continuation",
+      "need": "I need reassurance and understanding about normal market fluctuations, losses, and the appropriateness of continuing SIPs especially in the first year.",
+      "candidates": [
+        5,
+        11,
+        25,
+        36,
+        42,
+        44
+      ],
+      "posts": 22,
+      "firstTime": 15,
+      "stages": [
+        "months 1 to 3"
+      ],
+      "quotes": [
+        {
+          "id": "reddit:1nxxn15",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "How does mutual fund work?: How these MutualFund actually work? My wife invested 30K in Motilal Oswal mid cap fund in Nov'24 (one time) and is currently in 12.24% loss I started my 5K SIP in Dec'24 and is currently in 6.85% profit. Same fund, similar investment time, but different outcome."
+        },
+        {
+          "id": "reddit:1ogc8f3",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "New to mutual funds ... Need help: I recently started investing 10k from my salary in Parag parik flexi cap. I started working 4 months back but didn't invest anything for the first 2 months because the nav was at all time high (ik 🙂) but then something told me I should not look at nav and just sta"
+        },
+        {
+          "id": "youtube:UgyRWoLD09KDyEz0kgZ4AaABAg",
+          "source": "youtube",
+          "experience": "first_time",
+          "text": "Sir maine 2 month mai 10k gva diya but uske baad ruk gya hu but ye samjh aya gya 2 month mai ki market hai kiya kaise kaam krti hai bro Market ko samjhne ke liye kuch Paisa to gvana pdegaaaa 💯"
+        }
+      ]
+    },
+    {
+      "name": "Accessible and Responsive Customer Support",
+      "need": "I need clear, accessible, and responsive customer support that resolves my mutual fund and app issues efficiently without redirecting me unnecessarily.",
+      "candidates": [
+        2,
+        7,
+        19,
+        32,
+        58
+      ],
+      "posts": 14,
+      "firstTime": 2,
+      "stages": [
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "play_store:02874482-a9a5-44b5-9e83-f9b87c616375",
+          "source": "play_store",
+          "experience": "first_time",
+          "text": "Extremely disappointed with the Groww app. I invested in an SIP five months ago, but the amount has still not been credited to my account. I’ve waited patiently, hoping this issue would be resolved, but it’s been ongoing with no resolution. Customer service has been unhelpful and slow in responding."
+        },
+        {
+          "id": "play_store:d82fe490-c672-440f-a4e0-284277abe935",
+          "source": "play_store",
+          "experience": "first_time",
+          "text": "Decided to do my first SIP, transaction failed twice ,finally on third attempt it worked ,but they are showing transaction failed , deducted my money,Their Ai said within 7-10 days amount will be refunded,waited for 11 days finally decided to call them directly,but they didn't pick ,just recorded me"
+        },
+        {
+          "id": "app_store:12883820663",
+          "source": "app_store",
+          "experience": "not_stated",
+          "text": "I purchase mutual fund through Paytm money but mutual fund show external fund.: Poor service No response after 36 hr. I want withdrawal my amount but no withdrawal option show. What happen I don’t know."
+        }
+      ]
+    },
+    {
+      "name": "Understanding SIP Transaction Status and Delays",
+      "need": "I need to understand if delays, failed transactions, conflicting statuses, or pauses in SIP deductions are normal and how they affect my investments.",
+      "candidates": [
+        14,
+        22,
+        24,
+        26,
+        31,
+        34,
+        45
+      ],
+      "posts": 14,
+      "firstTime": 4,
+      "stages": [
+        "any time",
+        "setting up"
+      ],
+      "quotes": [
+        {
+          "id": "reddit:1pc46he",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "Need Help/clarification on MF Central Transaction: I invested lumpsum amount through MF Central App. The transaction is initiated and payment is successful but status is shown as rejected 😞. The money has been debited from my bank account. Will the units get alloted or I get the refund amount. If i"
+        },
+        {
+          "id": "play_store:9658836b-4630-4dfc-b22b-7d3eacf21128",
+          "source": "play_store",
+          "experience": "first_time",
+          "text": "I started SIP on groww app few months back so when the markets were high SIP got deducted on same day.This time market crashed and SIP was not deducted on same day. Since this time market crashed.I closely monitored.I did not know who was at fault groww or fund house.But then I searched on the net a"
+        },
+        {
+          "id": "play_store:d82fe490-c672-440f-a4e0-284277abe935",
+          "source": "play_store",
+          "experience": "first_time",
+          "text": "Decided to do my first SIP, transaction failed twice ,finally on third attempt it worked ,but they are showing transaction failed , deducted my money,Their Ai said within 7-10 days amount will be refunded,waited for 11 days finally decided to call them directly,but they didn't pick ,just recorded me"
+        }
+      ]
+    },
+    {
+      "name": "Consolidated Investment Tracking",
+      "need": "I need to see all my mutual fund investments, including external ones, consolidated and updated in one place with daily NAV updates and notifications.",
+      "candidates": [
+        3,
+        6,
+        23,
+        46,
+        51,
+        54
+      ],
+      "posts": 13,
+      "firstTime": 0,
+      "stages": [
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "play_store:50e8ae4b-1418-47f2-a073-d86b123a3105",
+          "source": "play_store",
+          "experience": "experienced",
+          "text": "I m using this aap last one year it's frendly interface but now after updating aap it's doesn't show external MF which is very bad. Sip done through this aap if lumpsum throug other aap/direct it doesn't show. Most radiculous thing nav alloted after a day even confirmatin of sip before noon"
+        },
+        {
+          "id": "play_store:2cd0ab3a-6ca7-4429-90e0-2dd5fe857756",
+          "source": "play_store",
+          "experience": "not_stated",
+          "text": "Good app but recently Import External mutual funds functionality never works. Needs an improvement on this otherwise it is a good app"
+        },
+        {
+          "id": "tradingqna:469805",
+          "source": "tradingqna",
+          "experience": "not_stated",
+          "text": "We need an app with good interface which shows all our investments across zerodha if not other brokers. All my investments are with zerodha so I’m not much concerned with other stuff. But even then, I need to open console on a mobile browser to view the consolidated PNL. I have niftybees on zerodha,"
+        }
+      ]
+    },
+    {
+      "name": "SIP Payment Processing Reliability",
+      "need": "I need reliable and timely processing of SIP payments, refunds, and autopay setups to avoid delays or stuck investments.",
+      "candidates": [
+        1,
+        12,
+        57
+      ],
+      "posts": 11,
+      "firstTime": 7,
+      "stages": [
+        "setting up"
+      ],
+      "quotes": [
+        {
+          "id": "app_store:13223018717",
+          "source": "app_store",
+          "experience": "first_time",
+          "text": "Processing is too Slow: I have purchased 1st time mutual fund on Coin, its been more than 3 days it still showing in processing stage. I need to think should we recommend or not ? Team can you process it fast."
+        },
+        {
+          "id": "reddit:1nz014k",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "COIN's UI is real bad.: So I started SIP from my brother's ac through coin , made the payments in 3 different funds , even created a mandate of upto 100k (sip is 20k only) , installment date is 1st of every month Today is 6th , still the order hasn't been processed I do understand that it might be b"
+        },
+        {
+          "id": "youtube:UgzZ0P7UD0w13jieVct4AaABAg",
+          "source": "youtube",
+          "experience": "first_time",
+          "text": "I am new to SIP and I have question regarding i opened one SIP on 1st of Sept but amount is not debited only initial amount is debited and monthly SIP is not debited can you tell me what was the mistake I made? and one more doubt how to get to know how many years I have been selected this SIP?"
+        }
+      ]
+    },
+    {
+      "name": "Financial Planning and Allocation Guidance",
+      "need": "I need guidance on how to allocate my income effectively between expenses, emergency funds, SIPs, and other financial commitments.",
+      "candidates": [
+        17,
+        39,
+        55,
+        56
+      ],
+      "posts": 10,
+      "firstTime": 4,
+      "stages": [
+        "any time",
+        "before starting"
+      ],
+      "quotes": [
+        {
+          "id": "reddit:1veio2z",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "22M | First Job | ₹5.05 LPA (₹38k In-hand) | How would you allocate my remaining ₹16k/month?: Hello everyone Im 23 yeard old and hace started my first job with a package of 5.05 LPA, In hand around 38284/month, Employer and Employee PF are already accounted for in my salary structure. Below are my m"
+        },
+        {
+          "id": "reddit:comment_ph3fh6m",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "You earn combined 89k per month and have experience of 78k per month. The remaining 11k you invest in making an emergency fund. Don't use this for anything other than an emergency. Invest in a recurring deposit or a debt MF. I would suggest each of you to have a seperate account where you deposit 4-"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio Performance Tracking and Benchmarking",
+      "need": "I need easy ways to track my portfolio performance, compare with benchmarks, and understand long-term SIP returns.",
+      "candidates": [
+        6,
+        10,
+        38,
+        53
+      ],
+      "posts": 9,
+      "firstTime": 3,
+      "stages": [
+        "months 4 to 6",
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "reddit:1t9kpgb",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "Is this good for 1yr of investing: Portfolio started: February 2025 Current value: ₹2.83L Total invested: ₹2.62L Total returns: ₹21K (+8.01%) Current XIRR: 14.83% Investment horizon: 15-20 years Risk appetite: High Age: Early 30s Goal: Long-term wealth creation."
+        },
+        {
+          "id": "reddit:1oi36jr",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "MF Review: Hi, I recently started investing in SIP and have the following portfolio: Parag Parikh Flexi Cap- 8k Sbi Magnum Mid Cap -4k SBI Gold fund -1k UTI Nifty50 Index Fund- 4k UTI Nifty Next50 Index Fund -1k Hdfc balanced Advantage Fund- 4k ICICI Prudential Infrastructure -1k Edelweiss US Techno"
+        },
+        {
+          "id": "app_store:11272201625",
+          "source": "app_store",
+          "experience": "not_stated",
+          "text": "Day’ Profit & Loss: Please add an option to check daily profit or loss of the Mutual Fund Portfolio so that we can track daily profit/loss This option is available in Groww"
+        }
+      ]
+    },
+    {
+      "name": "Managing SIP Amounts and Adjustments",
+      "need": "I need to understand how to manage, adjust, increase, pause, or invest extra in SIPs based on my income, expenses, and financial goals.",
+      "candidates": [
+        37,
+        40,
+        48
+      ],
+      "posts": 7,
+      "firstTime": 3,
+      "stages": [
+        "setting up",
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "play_store:f1ca2f35-cdbb-4955-9bd8-8ca9f0241def",
+          "source": "play_store",
+          "experience": "first_time",
+          "text": "I guess it's one of the best app for treading. Very easy to handle as a first time user in stock market. Everything is very easy to understand and segmented on different portions. One problem is I can't increase Sip money instantly. It has to be wait for 6 months to 1 year. That's a problematic part"
+        },
+        {
+          "id": "reddit:1s9euf6",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "Need advice to fix my finances: I’m 25 and just got a new job. My monthly in-hand will be \\~1.7 lakhs. Big jump for me. I have 2 years of work ex but couldn’t save much due to job switches, moving cities, etc. I also have 70k in credit card debt right now. I’ll be getting 6 lakhs as lump sum over th"
+        },
+        {
+          "id": "reddit:1wxno0t",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "Need advise if I should make any changes?: I am 23 earning around 90k monthly.I can increase the SIP amount but its only been few months since I started earning so most of it went into gifts and other things."
+        }
+      ]
+    },
+    {
+      "name": "Investment Safety and Risk Understanding",
+      "need": "I need to understand the safety, risks, and suitability of SIP investments compared to other options and recommended funds.",
+      "candidates": [
+        18,
+        30,
+        59
+      ],
+      "posts": 6,
+      "firstTime": 6,
+      "stages": [
+        "before starting",
+        "months 1 to 3"
+      ],
+      "quotes": [
+        {
+          "id": "youtube:UgzsVbRH-p00JgJBsuh4AaABAg",
+          "source": "youtube",
+          "experience": "first_time",
+          "text": "sir me kal hi bank ja rhi thi sip k liye suddnly apka ye vidio samne aa gya mene alredy bitcoin xm nd treding karti hu but sip long term investment hai meri family k kafi logo n 20 years ki krwa rkhi h kisi n 5 year to kisi n 10 years ki its safe"
+        },
+        {
+          "id": "reddit:1webqjv",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "Help figuring out about US stocks and investment, Age:22, Beginner: `Age:22` `Moderately Aggressive portfolio` `Started SIP few days back` `ICICI Prudential Nifty 50 Index Fund: 20k` `Edelweiss Mid Cap Fund: 20k` `Bandhan Small Cap Fund: 15k` I've started my SIP few days ago. Since then Nifty has be"
+        },
+        {
+          "id": "reddit:comment_nkzuo4s",
+          "source": "reddit",
+          "experience": "first_time",
+          "text": "So my money will still be accessible right? What happens in that case? Because it doesn't have some physical office like banks how will I get that money? I am just starting so I have silly questions"
+        }
+      ]
+    },
+    {
+      "name": "SIP Cancellation and Withdrawal Process Clarity",
+      "need": "I need clarity on how to smoothly withdraw, redeem, or cancel SIPs and how long these processes take.",
+      "candidates": [
+        31,
+        33
+      ],
+      "posts": 4,
+      "firstTime": 1,
+      "stages": [
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "play_store:d82fe490-c672-440f-a4e0-284277abe935",
+          "source": "play_store",
+          "experience": "first_time",
+          "text": "Decided to do my first SIP, transaction failed twice ,finally on third attempt it worked ,but they are showing transaction failed , deducted my money,Their Ai said within 7-10 days amount will be refunded,waited for 11 days finally decided to call them directly,but they didn't pick ,just recorded me"
+        },
+        {
+          "id": "reddit:1rfv3xe",
+          "source": "reddit",
+          "experience": "not_stated",
+          "text": "SIP cancellation requested but amount still deducted – does it take a month to stop?: I requested to cancel my monthly SIPs around Jan 25, but the Feb 1 SIP was still active and the money got deducted. I still see the status as \"cancellation request initiated\". Just wanted to check: \\- Does SIP canc"
+        },
+        {
+          "id": "play_store:aab56129-e0b1-496d-8ca4-a4cd70a142f0",
+          "source": "play_store",
+          "experience": "not_stated",
+          "text": "Thirds class service bymistake add sip and cancel same day but grow dis not cancel sip same day and i have pay panalty very bed services dont use very poor service"
+        }
+      ]
+    },
+    {
+      "name": "Goal-Based Investment Tracking",
+      "need": "I need to view and track my mutual fund holdings and SIPs grouped by financial goals within the app.",
+      "candidates": [
+        46
+      ],
+      "posts": 2,
+      "firstTime": 0,
+      "stages": [
+        "any time"
+      ],
+      "quotes": [
+        {
+          "id": "tradingqna:477285",
+          "source": "tradingqna",
+          "experience": "not_stated",
+          "text": "Hello @Neelesh , Please make some enhancement in Coin App and web on viewing Mutual-funds holdings. Goal shall be directly mapped to Fund or SIP when we look at dashboard. Also think of some innovative UI check Kuvera app UI they have wonderful goal based grouping and viewing funds when we click on "
+        },
+        {
+          "id": "play_store:5bed7322-1ee1-4ef3-a918-0ddefa334e95",
+          "source": "play_store",
+          "experience": "not_stated",
+          "text": "Additional update regarding your reply: your investing essential option lead only to cancel existing SIP, it is not helpfull, you did able to track our external portfolios earlier, why can't now ? Horrible update , earlier we could track all MFs in one go, now only investments made through this app "
+        }
+      ]
+    },
+    {
+      "name": "Understanding ELSS Lock-in and Exit Loads",
+      "need": "I need clear information about lock-in periods and exit load details for ELSS mutual funds to avoid confusion.",
+      "candidates": [
+        50
+      ],
+      "posts": 2,
+      "firstTime": 0,
+      "stages": [
+        "before starting"
+      ],
+      "quotes": [
+        {
+          "id": "play_store:8bfde532-2cb5-403b-a1ec-93487a568513",
+          "source": "play_store",
+          "experience": "not_stated",
+          "text": "UNBELIEVABLE!!!! THEY HAVE NOT AT ALL MENTIONED THE LOCK IN PERIOD FOR ELSS MUTUAL FUNDS IN THE EXIT LOAD SECTION!!!! THEY HAVE CLEARLY MENTIONED AS IF WE CAN REDEEM THEM WITHIN ONE YEAR! NEEDS TO BE SEVERELY PUNISHED OR ELSE CUSTOMERS WILL FALL PREY TO IT 😥"
+        },
+        {
+          "id": "reddit:1qwgepl",
+          "source": "reddit",
+          "experience": "not_stated",
+          "text": "Need help reviewing my portfolio. 27K SIP, planning 50K soon.: I would really appreciate some feedback on my current portfolio and how I can improve it. Current Monthly SIP: ₹27K • SBI Gold Fund (Direct) – ₹15K • HDFC Flexi Cap – ₹6K • Parag Parikh ELSS – ₹3K • SBI ELSS Tax Saver (Growth) – ₹3K (ELS"
+        }
+      ]
+    }
+  ]
+}

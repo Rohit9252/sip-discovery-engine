@@ -1,0 +1,95 @@
+// Plain-English names for the pass 2 answer codes, shared by the analysis and the site.
+export const LABELS: Record<string, Record<string, string>> = {
+  stage: {
+    before_starting: "Before starting",
+    setting_up: "Setting up",
+    months_1_3: "Months 1 to 3",
+    months_4_6: "Months 4 to 6",
+    months_7_12: "Months 7 to 12",
+    after_12_months: "After 12 months",
+  },
+  why_started: {
+    grow_savings: "Grow my savings",
+    goal: "A goal (house, child, retirement)",
+    save_tax: "Save tax",
+    saving_habit: "Build a saving habit",
+    others_doing_it: "Others were doing it",
+    other: "Other reason",
+  },
+  influencer: {
+    friend_or_colleague: "Friend or colleague",
+    family: "Family",
+    youtube_or_finfluencer: "YouTube or finfluencer",
+    app_or_bank_ad: "App or bank ad",
+    employer: "Employer",
+    advisor_or_agent: "Advisor or agent",
+    own_decision: "Own decision",
+  },
+  expectation: {
+    quick_high_returns: "Quick, high returns",
+    better_than_fd: "Better than an FD",
+    long_term_growth: "Long-term growth",
+    tax_saving: "Tax saving",
+    other: "Something else",
+  },
+  what_happened: {
+    continuing: "Continuing",
+    increased: "Increased it",
+    reduced: "Reduced it",
+    paused: "Paused it",
+    stopped: "Stopped it",
+    bounce: "Instalment bounced",
+    switched_app: "Moved to another app",
+    thinking_of_stopping: "Thinking of stopping",
+    not_started_yet: "Not started yet",
+  },
+  trigger: {
+    market_fall_or_loss: "Market fall or loss",
+    needed_money: "Needed the money",
+    income_drop_or_delay: "Income dropped or was late",
+    app_or_payment_problem: "App or payment problem",
+    someone_advised: "Someone advised it",
+    forgot_or_lost_interest: "Forgot or lost interest",
+    life_event: "Life event",
+    other: "Something else",
+  },
+  checks_what: {
+    total_return: "Total return",
+    current_value: "Current value",
+    xirr_or_percent: "XIRR or % return",
+    daily_change: "Daily change",
+    instalment_status: "Instalment status",
+    progress_to_goal: "Progress to a goal",
+  },
+  checks_how_often: { daily: "Daily", weekly: "Weekly", monthly: "Monthly", rarely: "Rarely" },
+  confusion: {
+    payment_or_status: "Payment or order status",
+    nav_or_units: "NAV or units",
+    returns_calculation: "How returns are worked out",
+    charges_or_lock_in: "Charges or lock-ins",
+    app_screens: "App screens",
+    kyc_or_account: "KYC or account",
+    whether_to_continue: "Whether to continue",
+  },
+  outside_app: {
+    friends_or_family: "Friends or family",
+    youtube: "YouTube",
+    finfluencers: "Finfluencers",
+    ai_tools: "AI tools",
+    google_or_articles: "Google or articles",
+    reddit_or_forums: "Reddit or forums",
+    whatsapp_or_telegram: "WhatsApp or Telegram",
+    advisor: "An advisor",
+    app_support: "App support",
+  },
+  income: { fixed: "Fixed income", variable: "Variable income", student_or_no_income: "Student or no income" },
+  age: { under_25: "Under 25", "25_to_34": "25 to 34", "35_plus": "35 and over" },
+  money_source: { own_earnings: "Own earnings", family: "Family money" },
+  app: { groww: "Groww", zerodha_coin: "Zerodha Coin", indmoney: "INDmoney", et_money: "ET Money", paytm_money: "Paytm Money", other: "Another app" },
+};
+
+export const label = (field: string, code: string) => LABELS[field]?.[code] ?? code;
+
+// How a post's SIP ended up, in the two groups the brief compares.
+export const CONTINUED = ["continuing", "increased"];
+export const DROPPED = ["reduced", "paused", "stopped", "bounce", "switched_app", "thinking_of_stopping"];
