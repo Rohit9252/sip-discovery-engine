@@ -1,0 +1,16 @@
+{
+  "confusion": "payment_or_status",
+  "experience": "first_time",
+  "id": "youtube:UgzpzZz9-H0cwAkMgKF4AaABAg",
+  "labelledBy": "claude-blind-draft",
+  "n": 20,
+  "note": "Hinglish: first 100 rs instalment still 'in progress' 3 days later; asks if manual payment will auto-debit. T3.",
+  "outside_app": "youtube",
+  "own_sip": "yes",
+  "stage": "setting_up",
+  "theme": "T3",
+  "trigger": "not_stated",
+  "updatedAt": "2026-10-24T05:14:48.399Z",
+  "what_happened": "continuing",
+  "why_started": "not_stated"
+}

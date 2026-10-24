@@ -1,0 +1,306 @@
+{
+  "seed": "2070",
+  "engine": {
+    "pass1": "pass1-v5",
+    "pass2": "pass2-v11"
+  },
+  "bar": 0.8,
+  "results": [
+    {
+      "field": "own_sip",
+      "key": false,
+      "agree": 28,
+      "of": 30,
+      "share": 0.9333333333333333,
+      "misses": [
+        {
+          "n": 2,
+          "gold": "no",
+          "engine": "yes"
+        },
+        {
+          "n": 8,
+          "gold": "no",
+          "engine": "yes"
+        }
+      ]
+    },
+    {
+      "field": "experience",
+      "key": false,
+      "agree": 27,
+      "of": 30,
+      "share": 0.9,
+      "misses": [
+        {
+          "n": 8,
+          "gold": "not_stated",
+          "engine": "first_time"
+        },
+        {
+          "n": 11,
+          "gold": "first_time",
+          "engine": "not_stated"
+        },
+        {
+          "n": 26,
+          "gold": "not_stated",
+          "engine": "first_time"
+        }
+      ]
+    },
+    {
+      "field": "stage",
+      "key": true,
+      "agree": 24,
+      "of": 30,
+      "share": 0.8,
+      "misses": [
+        {
+          "n": 2,
+          "gold": "Setting up",
+          "engine": "not_stated"
+        },
+        {
+          "n": 19,
+          "gold": "not_stated",
+          "engine": "After 12 months"
+        },
+        {
+          "n": 20,
+          "gold": "Setting up",
+          "engine": "Months 1 to 3"
+        },
+        {
+          "n": 25,
+          "gold": "Before starting",
+          "engine": "not_stated"
+        },
+        {
+          "n": 27,
+          "gold": "not_stated",
+          "engine": "Months 1 to 3"
+        },
+        {
+          "n": 28,
+          "gold": "Setting up",
+          "engine": "not_stated"
+        }
+      ]
+    },
+    {
+      "field": "what_happened",
+      "key": true,
+      "agree": 23,
+      "of": 30,
+      "share": 0.7666666666666667,
+      "misses": [
+        {
+          "n": 3,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        },
+        {
+          "n": 9,
+          "gold": "Stopped it",
+          "engine": "Paused it"
+        },
+        {
+          "n": 17,
+          "gold": "Moved to another app",
+          "engine": "Stopped it"
+        },
+        {
+          "n": 19,
+          "gold": "not_stated",
+          "engine": "Moved to another app"
+        },
+        {
+          "n": 20,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        },
+        {
+          "n": 25,
+          "gold": "Not started yet",
+          "engine": "not_stated"
+        },
+        {
+          "n": 29,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        }
+      ]
+    },
+    {
+      "field": "trigger",
+      "key": true,
+      "agree": 28,
+      "of": 30,
+      "share": 0.9333333333333333,
+      "misses": [
+        {
+          "n": 19,
+          "gold": "not_stated",
+          "engine": "App or payment problem"
+        },
+        {
+          "n": 29,
+          "gold": "not_stated",
+          "engine": "App or payment problem"
+        }
+      ]
+    },
+    {
+      "field": "theme",
+      "key": true,
+      "agree": 22,
+      "of": 30,
+      "share": 0.7333333333333333,
+      "misses": [
+        {
+          "n": 5,
+          "gold": "T2 Am I on track?",
+          "engine": "T3 What is happening with my money?"
+        },
+        {
+          "n": 10,
+          "gold": "T5 Help me start properly",
+          "engine": "T10 Help me choose funds"
+        },
+        {
+          "n": 13,
+          "gold": "T9 Understand charges and lock-ins",
+          "engine": "T3 What is happening with my money?"
+        },
+        {
+          "n": 17,
+          "gold": "T8 See everything in one place",
+          "engine": "T6 Make my SIP fit my life"
+        },
+        {
+          "n": 18,
+          "gold": "T10 Help me choose funds",
+          "engine": "T5 Help me start properly"
+        },
+        {
+          "n": 19,
+          "gold": "T9 Understand charges and lock-ins",
+          "engine": "T12 Move without losing my SIP"
+        },
+        {
+          "n": 25,
+          "gold": "No unmet need",
+          "engine": "T11 Remind me why I started"
+        },
+        {
+          "n": 29,
+          "gold": "No unmet need",
+          "engine": "T5 Help me start properly"
+        }
+      ]
+    },
+    {
+      "field": "why_started",
+      "key": false,
+      "agree": 26,
+      "of": 30,
+      "share": 0.8666666666666667,
+      "misses": [
+        {
+          "n": 1,
+          "gold": "Grow my savings",
+          "engine": "A goal (house, child, retirement)"
+        },
+        {
+          "n": 4,
+          "gold": "Grow my savings",
+          "engine": "A goal (house, child, retirement)"
+        },
+        {
+          "n": 25,
+          "gold": "not_stated",
+          "engine": "Grow my savings"
+        },
+        {
+          "n": 27,
+          "gold": "A goal (house, child, retirement)",
+          "engine": "not_stated"
+        }
+      ]
+    },
+    {
+      "field": "confusion",
+      "key": false,
+      "agree": 24,
+      "of": 30,
+      "share": 0.8,
+      "misses": [
+        {
+          "n": 5,
+          "gold": "How returns are worked out",
+          "engine": "none_stated"
+        },
+        {
+          "n": 12,
+          "gold": "KYC or account",
+          "engine": "none_stated"
+        },
+        {
+          "n": 13,
+          "gold": "Charges or lock-ins",
+          "engine": "Payment or order status"
+        },
+        {
+          "n": 17,
+          "gold": "App screens",
+          "engine": "none_stated"
+        },
+        {
+          "n": 19,
+          "gold": "KYC or account",
+          "engine": "none_stated"
+        },
+        {
+          "n": 26,
+          "gold": "KYC or account",
+          "engine": "Payment or order status"
+        }
+      ]
+    },
+    {
+      "field": "outside_app",
+      "key": false,
+      "agree": 25,
+      "of": 30,
+      "share": 0.8333333333333334,
+      "misses": [
+        {
+          "n": 7,
+          "gold": "App support",
+          "engine": "none_stated"
+        },
+        {
+          "n": 9,
+          "gold": "none_stated",
+          "engine": "YouTube"
+        },
+        {
+          "n": 13,
+          "gold": "App support",
+          "engine": "none_stated"
+        },
+        {
+          "n": 14,
+          "gold": "Reddit or forums",
+          "engine": "none_stated"
+        },
+        {
+          "n": 17,
+          "gold": "App support",
+          "engine": "none_stated"
+        }
+      ]
+    }
+  ]
+}

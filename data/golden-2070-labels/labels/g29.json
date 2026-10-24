@@ -1,0 +1,16 @@
+{
+  "confusion": "none_stated",
+  "experience": "not_stated",
+  "id": "reddit:comment_o2d0axv",
+  "labelledBy": "claude-blind-draft",
+  "n": 29,
+  "note": "Thanks for fixing the minimum SIP limit; the need was met. Trigger corrected to Not stated after review: nothing about the SIP changed.",
+  "outside_app": "none_stated",
+  "own_sip": "yes",
+  "stage": "not_stated",
+  "theme": "none",
+  "trigger": "not_stated",
+  "updatedAt": "2026-10-24T05:14:48.409Z",
+  "what_happened": "continuing",
+  "why_started": "not_stated"
+}

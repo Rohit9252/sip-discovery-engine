@@ -1,0 +1,16 @@
+{
+  "confusion": "kyc_or_account",
+  "experience": "not_stated",
+  "id": "play_store:15318ff4-ad2e-4e6b-8c2a-7d064d03ca8a",
+  "labelledBy": "claude-blind-draft",
+  "n": 26,
+  "note": "Can't start a SIP: errors at the Aadhaar consent step. Setup and KYC: T5.",
+  "outside_app": "none_stated",
+  "own_sip": "yes",
+  "stage": "setting_up",
+  "theme": "T5",
+  "trigger": "app_or_payment_problem",
+  "updatedAt": "2026-10-24T05:14:48.407Z",
+  "what_happened": "not_started_yet",
+  "why_started": "not_stated"
+}

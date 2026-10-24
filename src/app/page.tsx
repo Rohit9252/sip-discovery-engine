@@ -1,27 +1,26 @@
 import { Suspense } from "react";
-import answersFile from "@/data/answers.json";
-import overview from "@/data/overview.json";
-import type { AnswersFile } from "@/lib/answers";
-import { Chat } from "./chat";
-import { Hero, HowItWorks, Journey } from "./story";
+import { OpenFromLink } from "./chat-provider";
+import { Findings, Hero, HowItWorks, Journey } from "./story";
+import { Opportunities } from "./opportunities";
+import { Accuracy } from "./accuracy";
 
-const { answers } = answersFile as AnswersFile;
-const firstTime = overview.funnel[4].n.toLocaleString("en-US");
-
-// Reads ?q= from the link (like /?q=q3#chat) so the deck can open one answer directly.
+// Reads ?q= from the link (like /?q=q3) so the deck can open one answer in the chat directly.
 // It sits inside <Suspense>, so the rest of the page is still built ahead of time.
 async function LinkedChat({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const { q } = await searchParams;
-  return <Chat answers={answers} firstTime={firstTime} linked={q} />;
+  return <OpenFromLink id={q} />;
 }
 
 export default function Home({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   return (
     <>
       <Hero />
+      <Findings />
       <HowItWorks />
       <Journey />
-      <Suspense fallback={<Chat answers={answers} firstTime={firstTime} />}>
+      <Opportunities />
+      <Accuracy />
+      <Suspense fallback={null}>
         <LinkedChat searchParams={searchParams} />
       </Suspense>
     </>

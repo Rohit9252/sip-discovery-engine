@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-10-23T04:43:26.563Z",
+  "exportedAt": "2026-10-24T06:57:53.956Z",
   "dates": {
     "oldest": "2024-01-01",
     "newest": "2026-10-20"
@@ -27,8 +27,8 @@
     },
     {
       "step": "From a first-time investor",
-      "n": 1262,
-      "note": "Their first SIP, on any app. Headline numbers come from these"
+      "n": 1108,
+      "note": "Their first SIP, on any app. AI pass 1 flagged 1,262; 154 were dropped because the post shows more than a year of investing and never calls it their first SIP. Headline numbers come from these"
     }
   ],
   "sources": [

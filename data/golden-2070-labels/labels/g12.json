@@ -1,0 +1,16 @@
+{
+  "confusion": "kyc_or_account",
+  "experience": "first_time",
+  "id": "reddit:1mnpwaf",
+  "labelledBy": "claude-blind-draft",
+  "n": 12,
+  "note": "New investor wants to move an ELSS holding from PhonePe Share.Market to Zerodha: T12. Account type confusion.",
+  "outside_app": "reddit_or_forums",
+  "own_sip": "yes",
+  "stage": "not_stated",
+  "theme": "T12",
+  "trigger": "not_stated",
+  "updatedAt": "2026-10-24T05:14:48.383Z",
+  "what_happened": "not_stated",
+  "why_started": "not_stated"
+}

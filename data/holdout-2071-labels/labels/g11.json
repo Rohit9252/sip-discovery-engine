@@ -1,0 +1,17 @@
+{
+  "data": {
+    "n": 11,
+    "id": "reddit:1rsgod9",
+    "own_sip": "yes",
+    "experience": "first_time",
+    "stage": "not_stated",
+    "what_happened": "continuing",
+    "trigger": "not_stated",
+    "theme": "T10",
+    "why_started": "grow_savings",
+    "confusion": "none_stated",
+    "outside_app": "reddit_or_forums",
+    "note": "Beginner with SIPs running, asks if the allocation is good.",
+    "labelledBy": "claude-blind"
+  }
+}

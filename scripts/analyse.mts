@@ -1,7 +1,10 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { openDb } from "../src/pipeline/db";
 import { PASS2_VERSION } from "../src/pipeline/ai/pass2";
+// First-time posts carry v11 (re-run after the golden set, 24 Oct); the other posts keep v10.
+const PREVIOUS = "pass2-v10";
 import { THEMES } from "../src/pipeline/themes";
+import { firstTimeHolds } from "../src/pipeline/first-time";
 import { CONTINUED, DROPPED, label } from "../src/lib/labels";
 import { MIN_FOR_PERCENT, type Answer, type BarsChart, type Quote, type Tone } from "../src/lib/answers";
 
@@ -18,10 +21,10 @@ type Row = Record<string, unknown> & { id: string; source: string; postApp: stri
 const rows: Row[] = (db.prepare(`
   SELECT p.id, p.source, p.app AS postApp, p.record_type AS recordType, p.url, p.created_at AS createdAt, p.title, p.text, l.value
   FROM labels l JOIN posts p ON p.id = l.post_id
-  WHERE l.task = 'pass2' AND json_extract(l.value, '$.version') = ?
-`).all(PASS2_VERSION) as { id: string; source: string; postApp: string | null; recordType: string; url: string; createdAt: string; title: string; text: string; value: string }[])
+  WHERE l.task = 'pass2' AND json_extract(l.value, '$.version') IN (?, ?)
+`).all(PASS2_VERSION, PREVIOUS) as { id: string; source: string; postApp: string | null; recordType: string; url: string; createdAt: string; title: string; text: string; value: string }[])
   .filter((row) => sample.ids.includes(row.id))
-  .map(({ value, ...post }) => ({ ...post, ...JSON.parse(value), first: firstIds.has(post.id) }));
+  .map(({ value, ...post }) => { const tags = JSON.parse(value); return { ...post, ...tags, first: firstIds.has(post.id) && firstTimeHolds(`${post.title} ${post.text}`, tags.stage) }; });
 const FIRST = rows.filter((row) => row.first);
 
 const EMPTY = new Set(["not_stated", "none_stated"]);
@@ -133,7 +136,8 @@ const answers: Answer[] = [];
   });
   const happened = bars(`What they did with their SIP (${after.who})`, after.rows, "what_happened", { tone: toneOf, top: 8 });
   const totalDropped = after.rows.filter(dropped).length;
-  const shares = rates.map((rate) => pct(rate.n, rate.N));
+  // The range uses only stages with enough posts for a percentage.
+  const shares = rates.filter((rate) => rate.N >= MIN_FOR_PERCENT).map((rate) => pct(rate.n, rate.N));
   answers.push({
     id: "q2",
     short: "What changes after starting",
@@ -156,6 +160,8 @@ const answers: Answer[] = [];
   const trig = base("trigger", dropped);
   const chart = bars(`What happened just before they dropped off (${trig.who})`, trig.rows, "trigger", { tone: () => "dropped" });
   const top = chart.top[0];
+  const tops = chart.top.filter((item) => item.n === top.n);
+  const joinNames = (names: string[]) => (names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)!.toLowerCase()}` : names[0]);
   const fall = trig.rows.filter(has("trigger", "market_fall_or_loss")).length;
   const allTrig = rows.filter(dropped).filter(states("trigger"));
   const allApp = allTrig.filter(has("trigger", "app_or_payment_problem")).length;
@@ -163,11 +169,12 @@ const answers: Answer[] = [];
     id: "q3",
     short: "What makes them stop",
     question: "What leads investors to pause, reduce or stop a SIP?",
-    headline: `${label("trigger", top.code)} is the top trigger for dropping off, ahead of market falls: ${of(top.n, trig.rows.length)} against ${of(fall, trig.rows.length)}`,
-    base: `From ${trig.rows.length} ${trig.who} who reduced, paused, stopped, bounced, moved or thought of stopping, and said what set it off.`,
+    // Ties at the top are named together, so the headline never picks one of two equal counts.
+    headline: `${trig.first ? "" : "Across all investors, "}${(() => { const names = joinNames(tops.map((item) => label("trigger", item.code))); return trig.first ? names : names.charAt(0).toLowerCase() + names.slice(1); })()} ${tops.length > 1 ? `tie as the top triggers (${ofIn(top.n, trig.rows.length)} each)` : `is the top trigger (${ofIn(top.n, trig.rows.length)})`}, ahead of market falls (${ofIn(fall, trig.rows.length)})`,
+    base: `From ${trig.rows.length} ${trig.who} who reduced, paused, stopped, bounced, moved or thought of stopping, and said what set it off.${trig.rows.length < 60 ? " A small base: treat the order as a lead to check." : ""}`,
     points: [
-      `Across all investors it is even stronger: ${of(allApp, allTrig.length)} drop-offs with a stated trigger began with an app or payment problem.`,
-      `Market falls are the trigger we expected to lead, but they come after app and payment trouble.`,
+      `Across all investors, ${of(allApp, allTrig.length)} drop-offs with a stated trigger began with an app or payment problem.`,
+      `Market falls are the trigger we expected to lead, but fewer drop-offs name them.`,
     ],
     charts: [strip(chart), strip(bars(`How they dropped off (${trig.who})`, FIRST.filter(dropped), "what_happened", { tone: () => "dropped" }))],
     quotes: quotes(trig.rows.filter(has("trigger", top.code))),
@@ -192,7 +199,8 @@ const answers: Answer[] = [];
       `"How often" will come from the survey, not from posts.`,
     ],
     charts: [strip(chart)],
-    quotes: quotes(what.rows),
+    // Quotes only from posts that check the thing the headline names.
+    quotes: quotes(what.rows.filter(has("checks_what", top.code))),
     explore: { label: "See posts about what people check", href: posts({ group: "first", field: "checks_what" }) },
   });
 }
@@ -260,6 +268,7 @@ const answers: Answer[] = [];
   const signalRows = SIGNALS.map((signal) => ({ label: signal.label, n: [keep.filter(signal.test).length, drop.filter(signal.test).length] as [number, number] }))
     .sort((a, b) => Math.abs(b.n[1] / drop.length - b.n[0] / keep.length) - Math.abs(a.n[1] / drop.length - a.n[0] / keep.length));
   const top = signalRows[0];
+  const topTest = SIGNALS.find((signal) => signal.label === top.label)!.test;
   function redditGap(signal: string) {
     const test = SIGNALS.find((item) => item.label === signal)!.test;
     const [k, d] = [keep, drop].map((list) => list.filter((row) => row.source === "reddit"));
@@ -282,7 +291,8 @@ const answers: Answer[] = [];
       groups: [{ label: "Kept going", N: keep.length, tone: "continued" }, { label: "Dropped off", N: drop.length, tone: "dropped" }],
       rows: signalRows,
     }],
-    quotes: quotes(drop).slice(0, 2).concat(quotes(keep).slice(0, 1)),
+    // Quotes only from posts that show the signal the headline names.
+    quotes: quotes(drop.filter(topTest)).slice(0, 2).concat(quotes(keep.filter(topTest)).slice(0, 1)),
     explore: { label: "Compare the posts yourself", href: posts({ group: "first", outcome: "dropped" }) },
   });
 }
@@ -345,9 +355,31 @@ const answers: Answer[] = [];
     ],
     charts: [strip(chart), strip(bars(`Needs of first-timers who dropped off (${dropNeeds.length} posts)`, dropNeeds, "theme", { name, top: 6, tone: () => "dropped" }))],
     quotes: quotes(inRules.filter((row) => row.theme === top[0])),
-    explore: { label: "See every need on the Opportunities page", href: "/opportunities" },
+    explore: { label: "Compare every need by stage", href: "/#opportunities" },
   });
 }
+
+// Opportunity areas: one theme at one journey stage (GLOSSARY). For each, from first-time posts:
+// reach (posts), how it ends (dropping off among those with a stated outcome), the top trigger,
+// where the posts come from, and an example quote. "Within the rules" is the team's call (themes.ts).
+const STAGE_ORDER = ["before_starting", "setting_up", "months_1_3", "months_4_6", "months_7_12", "after_12_months"];
+const cells = THEMES.flatMap((theme) => STAGE_ORDER.map((stage) => {
+  const list = FIRST.filter((row) => row.theme === theme.id && has("stage", stage)(row));
+  const outcome = list.filter((row) => continued(row) || dropped(row));
+  const [trigger, triggerN] = count(list.filter(dropped), "trigger")[0] ?? ["", 0];
+  const sources = [...list.reduce((map, row) => map.set(sourceName(row).split(" · ")[0], (map.get(sourceName(row).split(" · ")[0]) ?? 0) + 1), new Map<string, number>())].sort((a, b) => b[1] - a[1]);
+  return {
+    theme: theme.id, themeName: theme.name, need: theme.need, stage: label("stage", stage), stageCode: stage,
+    withinRules: theme.withinRules ?? null, rulesReason: theme.rulesReason ?? "",
+    posts: list.length, dropped: outcome.filter(dropped).length, withOutcome: outcome.length,
+    trigger: trigger ? { name: label("trigger", trigger), n: triggerN } : null,
+    sources: sources.slice(0, 3).map(([name, n]) => ({ name, n })),
+    quote: quotes(list, 1)[0] ?? null,
+  };
+}));
+const noStage = THEMES.map((theme) => ({ theme: theme.id, posts: FIRST.filter((row) => row.theme === theme.id && !states("stage")(row)).length }));
+writeFileSync("src/data/opportunities.json", JSON.stringify({ firstTimePosts: FIRST.length, stages: STAGE_ORDER.map((stage) => label("stage", stage)), cells, noStage }, null, 2) + "\n", "utf8");
+console.log("Top opportunity areas:", cells.filter((c) => c.theme !== "T10").sort((a, b) => b.posts - a.posts).slice(0, 6).map((c) => `${c.theme} @ ${c.stage}: ${c.posts}`).join("; "));
 
 // The investor journey: for each stage, how many first-time posts sit there, how many of those
 // with a stated outcome were dropping off, and the top need Groww can act on (T10 left out).
@@ -386,5 +418,5 @@ mkdirSync("src/data", { recursive: true });
 writeFileSync("src/data/journey.json", JSON.stringify({ firstTimePosts: FIRST.length, stated: FIRST.filter(states("stage")).length, stages: journey }, null, 2) + "\n", "utf8");
 console.log(journey.map((j) => `${j.stage}: ${j.posts} posts, ${j.dropped}/${j.withOutcome} dropping, need ${j.need?.name} (${j.need?.n})`).join("\n"));
 writeFileSync("src/data/posts.json", JSON.stringify(exportPosts) + "\n", "utf8");
-writeFileSync("src/data/answers.json", JSON.stringify({ exportedAt: new Date().toISOString(), version: PASS2_VERSION, firstTimePosts: FIRST.length, answers }, null, 2) + "\n", "utf8");
+writeFileSync("src/data/answers.json", JSON.stringify({ exportedAt: new Date().toISOString(), version: `${PASS2_VERSION} (first-time posts), ${PREVIOUS} (others)`, firstTimePosts: FIRST.length, answers }, null, 2) + "\n", "utf8");
 for (const answer of answers) console.log(`\n${answer.id} ${answer.headline}\n   ${answer.base}\n   - ${answer.points.join("\n   - ")}`);

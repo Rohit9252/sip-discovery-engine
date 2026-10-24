@@ -1,0 +1,16 @@
+{
+  "confusion": "payment_or_status",
+  "experience": "first_time",
+  "id": "play_store:7e7e0c62-2ca2-45cd-a4e7-74dc853811ae",
+  "labelledBy": "user (own SIP, first-time) + claude-blind-draft (rest)",
+  "n": 2,
+  "note": "Own SIP and first-time are YOUR answers (kept). Claude's draft said own SIP = Yes: the writer started their own SIP and the money was debited but it never started. Please confirm. Rest drafted by Claude: not knowing what happened to the money is T3.",
+  "outside_app": "none_stated",
+  "own_sip": "no",
+  "stage": "setting_up",
+  "theme": "T3",
+  "trigger": "app_or_payment_problem",
+  "updatedAt": "2026-10-24T05:11:23.270Z",
+  "what_happened": "not_started_yet",
+  "why_started": "not_stated"
+}

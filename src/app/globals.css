@@ -1,25 +1,29 @@
 @import "tailwindcss";
 
-/* Blue is the accent and means "continued"; orange means "dropped off". Both are from a
-   colour-blind safe pair, and every coloured mark also carries a text label. */
+/* Cobalt means "kept going". Tangerine means "dropped off". Every coloured mark also carries
+   a text label, so colour is never the only signal. Text uses the strong shades (4.5:1 or better). */
 :root {
   color-scheme: light;
-  --surface: #fbfaf7;
+  --surface: #f4f5f2;
   --surface-raised: #ffffff;
-  --surface-sunken: #f2f0eb;
-  --tint-blue: #eef4fc;
-  --tint-warm: #fdf3ea;
-  --line: #e6e3dc;
-  --ink: #17171a;
-  --ink-2: #4f4e4a;
-  --ink-3: #7a7873;
-  --accent: #2a78d6;
-  --accent-strong: #1c5cab;
-  --accent-soft: #dbe9fa;
-  --warm: #eb6834;
-  --warm-strong: #b8461a;
-  --warm-soft: #fbe0d2;
-  --muted-mark: #c9c6be;
+  --surface-sunken: #f1f2ee;
+  --tint-blue: #e8eefd;
+  --tint-warm: #fff4ec;
+  --line: #dcddd6;
+  --line-strong: #c9cbc3;
+  --ink: #121417;
+  --ink-2: #3e4249;
+  --ink-3: #5a5f68;
+  --accent: #2f5bea;
+  --accent-strong: #2448c8;
+  --accent-soft: #e8eefd;
+  --warm: #f0701f;
+  --warm-strong: #b4430e;
+  --warm-soft: #fce6d7;
+  --dark: #121417;
+  --dark-2: #2a2e35;
+  --muted-mark: #c9cbc3;
+  --chat-width: 460px;
 }
 
 @theme inline {
@@ -29,6 +33,7 @@
   --color-tint-blue: var(--tint-blue);
   --color-tint-warm: var(--tint-warm);
   --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
   --color-ink-3: var(--ink-3);
@@ -38,19 +43,43 @@
   --color-warm: var(--warm);
   --color-warm-strong: var(--warm-strong);
   --color-warm-soft: var(--warm-soft);
+  --color-dark: var(--dark);
+  --color-dark-2: var(--dark-2);
   --color-muted-mark: var(--muted-mark);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--nf-body), system-ui, sans-serif;
+  --font-display: var(--nf-display), system-ui, sans-serif;
+  --font-mono: var(--nf-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--surface);
 }
 
 body {
   background: var(--surface);
   color: var(--ink);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--nf-body), system-ui, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
 }
 
 .num {
+  font-family: var(--nf-mono), ui-monospace, monospace;
   font-variant-numeric: tabular-nums;
+}
+
+.kicker {
+  font-family: var(--nf-mono), ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 @keyframes rise {
@@ -68,6 +97,43 @@ body {
   transform-origin: left;
   animation: grow 0.6s ease-out both;
 }
+@keyframes greet-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+.greet {
+  animation: greet-in 0.5s 0.8s ease-out both;
+}
+@keyframes ring {
+  0% { box-shadow: 0 14px 30px -10px rgba(47, 91, 234, 0.65), 0 0 0 0 rgba(47, 91, 234, 0.5); }
+  70% { box-shadow: 0 14px 30px -10px rgba(47, 91, 234, 0.65), 0 0 0 18px rgba(47, 91, 234, 0); }
+  100% { box-shadow: 0 14px 30px -10px rgba(47, 91, 234, 0.65), 0 0 0 0 rgba(47, 91, 234, 0); }
+}
+.launch {
+  box-shadow: 0 14px 30px -10px rgba(47, 91, 234, 0.65);
+  animation: ring 2s 1.4s ease-out 3;
+}
+@keyframes sheet-in {
+  from { transform: translateX(32px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+.sheet {
+  animation: sheet-in 0.3s ease-out both;
+}
 @media (prefers-reduced-motion: reduce) {
-  .rise, .grow { animation: none; }
+  html { scroll-behavior: auto; }
+  .rise, .grow, .greet, .launch, .sheet { animation: none; }
+}
+
+/* While the chat is open: on phones it is full screen, so the page behind must not scroll.
+   On wide screens the page makes room for the docked panel. */
+@media (max-width: 1023.98px) {
+  html[data-chat="open"] { overflow: hidden; }
+}
+@media (min-width: 1280px) {
+  html[data-chat="open"] body { padding-right: var(--chat-width); }
+}
+body { transition: padding-right 0.25s ease; }
+@media (prefers-reduced-motion: reduce) {
+  body { transition: none; }
 }

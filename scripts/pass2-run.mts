@@ -10,7 +10,8 @@ import { saveLabels, startAiRun, finishAiRun } from "../src/pipeline/labels";
 // fixed random draw of other relevant posts spread across sources, about 3,000 in all.
 // First-time posts go first, so the most important ones are done earliest. Resumable:
 // posts that already have an answer from this instruction version are skipped.
-// Usage: npx tsx scripts/pass2-run.mts [--budget 450000] [--parallel 4] [--others 1740] [--seed 2050]
+// Usage: npx tsx scripts/pass2-run.mts [--budget 450000] [--parallel 4] [--others 1740] [--seed 2050] [--first-only]
+// --first-only: only the first-time posts (used for v11, after the golden set showed their tags needed fixing).
 function arg(name: string, fallback: string) {
   const index = process.argv.indexOf(`--${name}`);
   return index > -1 ? process.argv[index + 1] : fallback;
@@ -19,6 +20,7 @@ const BUDGET = Number(arg("budget", "450000"));
 const PARALLEL = Number(arg("parallel", "4"));
 const OTHERS = Number(arg("others", "1740"));
 const SEED = Number(arg("seed", "2050"));
+const FIRST_ONLY = process.argv.includes("--first-only");
 
 function random(seed: number) {
   return () => {
@@ -62,7 +64,7 @@ writeFileSync(`data/pass2-sample-${SEED}.json`, JSON.stringify({ seed: SEED, fir
 const done = new Set((db.prepare("SELECT post_id FROM labels WHERE task = 'pass2' AND rater = ? AND json_extract(value, '$.version') = ?")
   .all(PASS2_MODEL, PASS2_VERSION) as { post_id: string }[]).map((row) => row.post_id));
 const fetchPost = db.prepare("SELECT id, source, context, title, text, created_at AS createdAt, record_type AS recordType FROM posts WHERE id = ?");
-const todo = wanted.filter((id) => !done.has(id)).map((id) => fetchPost.get(id) as unknown as Pass2Input);
+const todo = (FIRST_ONLY ? firstTime : wanted).filter((id) => !done.has(id)).map((id) => fetchPost.get(id) as unknown as Pass2Input);
 console.log(`Sample: ${firstTime.length} first-time + ${chosen.length} others = ${wanted.length}. ${todo.length} still need ${PASS2_VERSION}. Budget ${BUDGET.toLocaleString()} tokens.`);
 
 const chunks: Pass2Input[][] = [];

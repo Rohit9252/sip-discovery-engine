@@ -3,7 +3,7 @@
 import { THEMES } from "../themes";
 
 export const PASS2_MODEL = "gpt-4.1-mini";
-export const PASS2_VERSION = "pass2-v10";
+export const PASS2_VERSION = "pass2-v11";
 export const PASS2_POSTS_PER_REQUEST = 8;
 const MAX_CHARS = 2000;
 
@@ -44,12 +44,12 @@ Each post comes with the date it was written. Use it to work out the stage: a po
 Decide the theme first, before any other field (it is the first field in your answer).
 
 Fields:
-- stage: where the writer is in the life of their first SIP. before_starting, setting_up, months_1_3, months_4_6, months_7_12, after_12_months. Use the time they give and the post's date ("started 4 months ago" is months_4_6; "almost 1.5 years" is after_12_months). No time given: not_stated.
+- stage: where the writer is in the life of their first SIP. before_starting, setting_up, months_1_3, months_4_6, months_7_12, after_12_months. Use the time they give and the post's date ("started 4 months ago" is months_4_6; "almost 1.5 years" is after_12_months). Count the months from the start date to the post's date carefully: a post from February 2026 that says "started investing December 2023" is after_12_months. Planning or wanting to start ("planning to invest", "want to start a SIP", "new to MFs, this is what I'm thinking") is before_starting. Trying to set one up, or the first instalment still pending or failing, is setting_up. "Just started" or "started today" is months_1_3. No time and none of these: not_stated.
 - why_started (one or more): why they started a SIP.
 - influencer: who or what got them to start. own_decision only if they say they decided on their own.
 - expectation: what they expected from it.
-- what_happened: the main thing that happened to their SIP. continuing, increased, reduced, paused, stopped, bounce (an instalment failed without them choosing it), switched_app (moved it to another app), thinking_of_stopping, not_started_yet.
-- trigger: the event just before what_happened changed. Record the event, not the reason behind it.
+- what_happened: the main thing that happened to their SIP. continuing, increased, reduced, paused, stopped, bounce (an instalment failed without them choosing it), switched_app (moved it to another app), thinking_of_stopping, not_started_yet. Someone who describes their SIP as running ("I invest 10k a month", "investing for 3 years", "just started my SIP") is continuing; planning to start is not_started_yet; planning to increase is still continuing. Money debited but the SIP never started is not a bounce: it is not_started_yet.
+- trigger: the event just before what_happened changed. Record the event, not the reason behind it. When an app complaint led them to stop, switch or think of stopping, the complaint is the trigger (app_or_payment_problem); a loss that led them to stop is market_fall_or_loss. If nothing about their SIP changed, the trigger is not_stated.
 - checks_what (one or more) and checks_how_often: what they look at in the app, and how often only if they say how often.
 - confusion (one or more): what confused or worried them in the app, or none_stated.
 - outside_app (one or more): where they went for answers or advice outside the app, or none_stated. Asking in this Reddit thread or under this video counts as reddit_or_forums or youtube.
@@ -65,6 +65,7 @@ Fields:
     - setting up a SIP, mandate, bank or KYC to start: T5
     - deciding how much to invest, whether to increase, or fitting SIPs around income, savings and life: T6
   - FIRST CHECK: if the writer asks for a portfolio review, feedback on their funds, which fund to add or drop, how to split or rebalance money, or where to park money, the theme is T10. Never answer "none" for such a post.
+  - BUT a beginner who asks where or how to start, how SIPs work, what NAV or units mean, or which app or platform to use is T5, not T10, even if they say "advice" or "suggest". T10 needs a question about which funds to pick, add or drop, or how to split money between funds.
   - "My SIP is -6% after 4 months, should I stop?" is T1, not T10.
   - Not understanding a payment's status is T3; needing a refund, cancellation, redemption or wrong debit actually fixed is T4.
   - Moving or transferring a SIP or funds from one app, broker or fund house to another is T12.
@@ -207,9 +208,69 @@ export function applyAdviceRule(post: Pass2Input & { recordType?: string }, resu
   }
 }
 
+// Correction by rule (no tokens, v11): the AI often gets date maths wrong ("started Dec 2023"
+// in a post from Feb 2026 came back as months 7 to 12). When the post gives a start month or
+// year, or says how many months it has been, the stage is worked out in code from the post's date.
+const MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+// Years may be written "2024" or "'24"; "journey in Apr '24" counts as a start.
+const START_DATE = /(?:start(?:ed|ing)?|since|from|began|investing (?:from|since)|end of)\W+(?:(?:investing|my|investment|mutual fund|mf|sip|journey)\W+)*(?:in\W+)?(?:(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\W+)?(20[12]\d|'[12]\d)(?:\W+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*)?/i;
+// "started investing last year April" or "since April last year".
+const LAST_YEAR = /(?:start\w*|since|from)\W+(?:investing\W+)?(?:(?:last year\W+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec))|(?:(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\W+(?:of\W+)?last year))/i;
+const MONTHS_IN = /(?:for|past|last|since|taken|took|over|within)\W+(?:the\W+)?(?:last\W+|past\W+)?(\d{1,2})\W+months?|(\d{1,2})\W+months?\W+(?:ago|back|now|in)/i;
+const stageFor = (months: number) => (months > 12 ? "after_12_months" : months > 6 ? "months_7_12" : months > 3 ? "months_4_6" : months >= 0 ? "months_1_3" : "");
+export function monthsSinceStart(post: Pass2Input) {
+  const body = bodyOf(post);
+  const posted = new Date(post.createdAt ?? "");
+  if (Number.isNaN(posted.getTime())) return null;
+  const date = body.match(START_DATE);
+  if (date) {
+    const monthWord = (date[1] ?? date[3])?.toLowerCase().slice(0, 3);
+    // With only a year, assume December of it, so the count is never too high.
+    const month = monthWord ? MONTHS.indexOf(monthWord) : 11;
+    const year = date[2].startsWith("'") ? 2000 + Number(date[2].slice(1)) : Number(date[2]);
+    return (posted.getFullYear() - year) * 12 + (posted.getMonth() - month);
+  }
+  const last = body.match(LAST_YEAR);
+  if (last) return 12 + (posted.getMonth() - MONTHS.indexOf((last[1] ?? last[2]).toLowerCase().slice(0, 3)));
+  const span = body.match(MONTHS_IN);
+  return span ? Number(span[1] ?? span[2]) : null;
+}
+export function applyDateRule(post: Pass2Input, result: Record<string, unknown>) {
+  const months = monthsSinceStart(post);
+  const stage = months === null ? "" : stageFor(months);
+  if (!stage || result.stage === stage || result.stage === "before_starting" || result.stage === "setting_up") return;
+  result.stage = stage;
+  result.stage_by_rule = `${months} months from the post's own date`;
+}
+
+// Correction by rule (no tokens, v11): planning posts kept coming back with no stage. Only fills
+// fields the AI left empty, so it never overrides a stage or outcome the post states.
+const PLANNING = /\b(plan(ning)? to (start|invest|begin)|want(ed)? to (start|invest|begin)|wanna (start|invest)|looking (out )?(for|to start) (a )?sips?|thinking (of|about) starting|about to start|yet to start|haven'?t started|didn'?t start|never started|going to start)\b|karna chahta|karna chahti|shuru karna|शुरू करना|करना चाहता|करना चाहती/i;
+export function applyPlanningRule(post: Pass2Input, result: Record<string, unknown>) {
+  if (result.stage !== NS || !PLANNING.test(bodyOf(post))) return;
+  result.stage = "before_starting";
+  if (result.what_happened === NS) result.what_happened = "not_started_yet";
+  result.stage_by_rule = "planning to start";
+}
+
+const BEGINNER = /where (to|do i|should i) start|how (to|do i) start|new to (investing|mf|mutual|sip)|newbie|beginner|just started|first (sip|time|investment)|which (app|platform)|what is nav|\bnav\b.{0,40}(units?|higher|lower)|kaise (shuru|kare|karein)|shuru kaise/i;
+
+// Correction by rule (no tokens, v11): our own definition says asking in this Reddit thread or
+// under this video counts as going outside the app, but the AI rarely recorded it. A post that
+// voices a need and asks something is recorded as asking there.
+const ASKS = /\?|help|please|pls|suggest|advice|advise|guide|kya|kaise|kyun|batao|bataiye|सलाह|बताएं|क्या|कैसे/i;
+export function applyOutsideRule(post: Pass2Input, result: Record<string, unknown>) {
+  const where = post.source === "reddit" || post.source === "tradingqna" ? "reddit_or_forums" : post.source === "youtube" ? "youtube" : "";
+  const list = result.outside_app as string[];
+  if (!where || result.theme === "none" || !ASKS.test(bodyOf(post)) || list.includes(where)) return;
+  result.outside_app = list.length === 1 && list[0] === "none_stated" ? [where] : [...list, where];
+  result.outside_by_rule = true;
+}
+
 export function applyT10Rule(post: Pass2Input, result: Record<string, unknown>) {
   // Store reviews are about the app, so "I'd suggest a kill switch" there is not a fund request.
-  if (result.theme === "none" && post.source !== "play_store" && post.source !== "app_store" && T10_REQUEST.test(bodyOf(post))) {
+  // v11: a beginner asking where or how to start is T5, so the rule leaves those posts alone.
+  if (result.theme === "none" && post.source !== "play_store" && post.source !== "app_store" && T10_REQUEST.test(bodyOf(post)) && !BEGINNER.test(bodyOf(post))) {
     result.theme = "T10";
     result.need = "I want someone to tell me which funds to pick or how to split my money.";
     result.theme_by_rule = true;
@@ -221,7 +282,8 @@ const EMPTY = new Set([NS, "none_stated"]);
 // The evidence for these answers must also contain a word that actually supports them,
 // so "started step up sip 8k" cannot pass as evidence for an influencer or an expectation.
 const CUES: Partial<Record<(typeof EVIDENCE_FIELDS)[number], RegExp>> = {
-  stage: /month|year|yr|week|day|since|ago|started|back|last|mahine|mahina|saal|din|महीने|साल|20[12]\d|\bjan|\bfeb|\bmar|\bapr|\bmay|\bjun|\bjul|\baug|\bsep|\boct|\bnov|\bdec/i,
+  // Time words, plus the words of planning, setting up and just starting (v11: those stages were being wiped).
+  stage: /month|year|yr|week|day|since|ago|start|back|last|plan|want|thinking|new to|newbie|beginner|just|today|recent|trying|setting up|set up|first|kyc|mandate|mahine|mahina|saal|din|aaj|shuru|chahta|chahti|karna|महीने|साल|आज|शुरू|चाहता|20[12]\d|\bjan|\bfeb|\bmar|\bapr|\bmay|\bjun|\bjul|\baug|\bsep|\boct|\bnov|\bdec/i,
   why_started: /goal|tax|save|saving|habit|house|home|retire|wedding|marriage|education|child|wealth|future|emergency|bachat|ghar|shaadi|savings|grow|corpus|80c/i,
   influencer: /friend|family|father|mother|dad|mom|papa|mummy|bhai|brother|sister|wife|husband|colleague|office|employer|youtube|video|channel|instagram|reel|influencer|advisor|adviser|agent|bank|ad\b|advert|myself|my own|own research|decided|khud|dost|सलाह|दोस्त|वीडियो/i,
   expectation: /return|%|percent|fd\b|fixed deposit|expect|long.?term|crore|lakh|double|profit|grow|wealth|fayda|munafa|उम्मीद|रिटर्न/i,
@@ -245,6 +307,7 @@ export function readPass2(posts: Pass2Input[], content: string) {
     for (const field of ["why_started", "checks_what", "confusion", "outside_app"]) result[field] = tidyList(result[field]);
     applyT10Rule(post, result);
     applyAdviceRule(post, result);
+    applyOutsideRule(post, result);
     // Throw away any fact whose evidence is not in the post.
     const evidence = (result.evidence ?? {}) as Record<string, string>;
     const unsupported: string[] = [];
@@ -261,6 +324,9 @@ export function readPass2(posts: Pass2Input[], content: string) {
         result[field] = Array.isArray(value) ? [NS] : NS;
       }
     }
+    // After the evidence check: the date comes from the post's own words, so it may fill an empty stage.
+    applyDateRule(post, result);
+    applyPlanningRule(post, result);
     answers.push({ ...result, postId: post.id, quoteOk: quoteMatches(post, result.quote), unsupported });
   });
   return { answers, missing };

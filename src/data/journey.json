@@ -1,103 +1,103 @@
 {
-  "firstTimePosts": 1262,
-  "stated": 694,
+  "firstTimePosts": 1108,
+  "stated": 825,
   "stages": [
     {
       "stage": "Before starting",
-      "posts": 38,
-      "dropped": 0,
-      "withOutcome": 0,
+      "posts": 234,
+      "dropped": 1,
+      "withOutcome": 7,
       "need": {
         "name": "Help me start properly",
-        "n": 18
+        "n": 132
       },
       "quote": {
-        "text": "Thank u so Mach Indian Aaj Maine pahli bar SIP ke bare mein jana aur pahli bar SIP ke bare mein Samjha Tumhari is video se main is mahine SIP start kar dunga thank you so much sir ji",
-        "english": "Thank you so much Indian, today I learned about SIP for the first time and will start SIP this month after watching your video, thank you sir ji",
+        "text": "Ma 17 saal ka hu soch raha hu 18 ka hota hi suru kar du kam amount sa kasa rayga sir",
+        "english": "I am 17 years old thinking to start at 18 with a small amount, how will it be sir",
         "source": "YouTube comment",
         "stage": "Before starting",
-        "url": "https://www.youtube.com/watch?v=xV5vRrYyRSg&lc=UgzndOyWiU-jJ5PnJsR4AaABAg"
+        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgzDpLjSgmlwQrjd3Yl4AaABAg"
       }
     },
     {
       "stage": "Setting up",
-      "posts": 83,
-      "dropped": 5,
-      "withOutcome": 25,
+      "posts": 40,
+      "dropped": 4,
+      "withOutcome": 15,
       "need": {
         "name": "Help me start properly",
-        "n": 12
+        "n": 11
       },
       "quote": {
-        "text": "Just started from SEP 26. I am 52 now. Please guide me.",
-        "source": "YouTube comment",
+        "text": "I want to global ETS an SiP investing knowledge so thanks for this app very useful",
+        "english": "I want to global ETFs and SIP investing knowledge so thanks for this app very useful",
+        "source": "Play Store review · INDmoney",
         "stage": "Setting up",
-        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgzFxO9Wj7XL_HMQ-kd4AaABAg"
+        "url": "https://play.google.com/store/apps/details?id=in.indwealth&reviewId=009a419f-21ec-420b-91e5-58661713c0c7"
       }
     },
     {
       "stage": "Months 1 to 3",
-      "posts": 255,
-      "dropped": 24,
-      "withOutcome": 160,
+      "posts": 370,
+      "dropped": 16,
+      "withOutcome": 267,
       "need": {
-        "name": "Make my SIP fit my life",
-        "n": 14
+        "name": "Help me start properly",
+        "n": 29
       },
       "quote": {
-        "text": "Should I continue investing in these? I am also planning to increase the SIPs by 40K? How should I split?",
-        "source": "Reddit post",
+        "text": "Just started from SEP 26. I am 52 now. Please guide me.",
+        "source": "YouTube comment",
         "stage": "Months 1 to 3",
-        "url": "https://www.reddit.com/r/mutualfunds/comments/1nevqo1/review_need_review_for_long_term_investment/"
+        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgzFxO9Wj7XL_HMQ-kd4AaABAg"
       }
     },
     {
       "stage": "Months 4 to 6",
-      "posts": 80,
-      "dropped": 10,
-      "withOutcome": 51,
+      "posts": 82,
+      "dropped": 7,
+      "withOutcome": 56,
       "need": {
         "name": "Make my SIP fit my life",
-        "n": 11
+        "n": 13
       },
       "quote": {
-        "text": "Hi, 24 working 30k per month, started investing around 4 to 5 months. Is this ok? Planning to add a small cap fund, then increase overall SIP to 10k in 2 months.",
-        "source": "Reddit post",
+        "text": "One problem is I can't increase Sip money instantly. It has to be wait for 6 months to 1 year.",
+        "source": "Play Store review · Groww",
         "stage": "Months 4 to 6",
-        "url": "https://www.reddit.com/r/mutualfunds/comments/1mxxa57/24_started_45_months_ago/"
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=f1ca2f35-cdbb-4955-9bd8-8ca9f0241def"
       }
     },
     {
       "stage": "Months 7 to 12",
-      "posts": 119,
-      "dropped": 13,
-      "withOutcome": 82,
+      "posts": 84,
+      "dropped": 6,
+      "withOutcome": 68,
       "need": {
         "name": "Make my SIP fit my life",
         "n": 9
       },
       "quote": {
-        "text": "Im 25 years old i ,i started sip ,2025 ,5k monthly sip ,now i step up 30k monthly",
-        "source": "YouTube comment",
+        "text": "I have saved around 3.5 lakhs (+1.27% growth in SIP till now).",
+        "source": "Reddit post",
         "stage": "Months 7 to 12",
-        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgyK7-lSfWclQBw0iTt4AaABAg"
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1oa6740/withdraw_mutual_funds_to_finish_off_the_loan/"
       }
     },
     {
       "stage": "After 12 months",
-      "posts": 119,
-      "dropped": 19,
-      "withOutcome": 82,
+      "posts": 15,
+      "dropped": 0,
+      "withOutcome": 10,
       "need": {
-        "name": "Is this fall normal?",
-        "n": 12
+        "name": "Help me start properly",
+        "n": 1
       },
       "quote": {
-        "text": "Mai pichhle saal se mutual fund me investment kr rha hoo socha tha 12-15% badega yaha to 12% negative me chale Gaye hai 😂😂😂😂😂",
-        "english": "I have been investing in mutual funds since last year, expected 12-15% growth but now it is -12%",
-        "source": "YouTube comment",
+        "text": "I am 21 started investing in mutual funds for the past 1 year",
+        "source": "Reddit post",
         "stage": "After 12 months",
-        "url": "https://www.youtube.com/watch?v=1VvTDIx4h8U&lc=UgyKX5PUJEuON6GG1Ld4AaABAg"
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1oz7h6r/best_way_to_park_emergency_fund/"
       }
     }
   ]

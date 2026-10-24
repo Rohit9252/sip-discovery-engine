@@ -1,0 +1,17 @@
+{
+  "data": {
+    "n": 15,
+    "id": "reddit:1r0krt7",
+    "own_sip": "yes",
+    "experience": "not_stated",
+    "stage": "setting_up",
+    "what_happened": "not_stated",
+    "trigger": "not_stated",
+    "theme": "T3",
+    "why_started": "not_stated",
+    "confusion": "payment_or_status",
+    "outside_app": "reddit_or_forums",
+    "note": "First SIP instalment debited, folio pending; worried it gets rejected: T3.",
+    "labelledBy": "claude-blind"
+  }
+}

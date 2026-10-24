@@ -1,0 +1,16 @@
+{
+  "confusion": "charges_or_lock_in",
+  "experience": "first_time",
+  "id": "play_store:92f72fda-ba3f-4f1c-8055-15fec25e5799",
+  "labelledBy": "claude-blind-draft",
+  "n": 13,
+  "note": "Two days in, closing the account over hidden charges: T9. Support was slow.",
+  "outside_app": "app_support",
+  "own_sip": "yes",
+  "stage": "setting_up",
+  "theme": "T9",
+  "trigger": "app_or_payment_problem",
+  "updatedAt": "2026-10-24T05:14:48.385Z",
+  "what_happened": "stopped",
+  "why_started": "not_stated"
+}

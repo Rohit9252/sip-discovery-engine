@@ -1,0 +1,17 @@
+{
+  "data": {
+    "n": 5,
+    "id": "reddit:comment_ogszbi2",
+    "own_sip": "yes",
+    "experience": "first_time",
+    "stage": "before_starting",
+    "what_happened": "not_started_yet",
+    "trigger": "not_stated",
+    "theme": "T10",
+    "why_started": "not_stated",
+    "confusion": "none_stated",
+    "outside_app": "reddit_or_forums",
+    "note": "Beginner planning a similar portfolio, asks the poster for details.",
+    "labelledBy": "claude-blind"
+  }
+}

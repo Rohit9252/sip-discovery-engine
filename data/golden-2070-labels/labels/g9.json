@@ -1,0 +1,16 @@
+{
+  "confusion": "none_stated",
+  "experience": "first_time",
+  "id": "youtube:UgyRWoLD09KDyEz0kgZ4AaABAg",
+  "labelledBy": "claude-blind-draft",
+  "n": 9,
+  "note": "Hinglish: lost 10k in 2 months and stopped. The need (is this fall normal?) is implied, not asked. Hard call between T1 and no need.",
+  "outside_app": "none_stated",
+  "own_sip": "yes",
+  "stage": "months_1_3",
+  "theme": "T1",
+  "trigger": "market_fall_or_loss",
+  "updatedAt": "2026-10-24T05:14:48.379Z",
+  "what_happened": "stopped",
+  "why_started": "not_stated"
+}

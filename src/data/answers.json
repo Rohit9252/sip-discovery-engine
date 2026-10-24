@@ -1,46 +1,41 @@
 {
-  "exportedAt": "2026-10-23T05:37:29.075Z",
-  "version": "pass2-v10",
-  "firstTimePosts": 1262,
+  "exportedAt": "2026-10-24T06:57:52.126Z",
+  "version": "pass2-v11 (first-time posts), pass2-v10 (others)",
+  "firstTimePosts": 1108,
   "answers": [
     {
       "id": "q1",
       "short": "Why they start",
       "question": "Why do people start a SIP, and what do they expect to happen?",
-      "headline": "A goal (house, child, retirement) is the top reason to start: 143 of 227 (63%) first-timers who say why",
-      "base": "From 1,262 first-time investor posts. Most posts don't say why they started, so each chart counts only the posts that do.",
+      "headline": "A goal (house, child, retirement) is the top reason to start: 125 of 196 (64%) first-timers who say why",
+      "base": "From 1,108 first-time investor posts. Most posts don't say why they started, so each chart counts only the posts that do.",
       "points": [
-        "240 of 247 (97%) who say what they expected want long-term growth. Only 1 expected quick, high returns.",
-        "Few say who got them started (95 posts). Of those, 33 of 95 (35%) say it was their own decision."
+        "214 of 218 (98%) who say what they expected want long-term growth. Only 1 expected quick, high returns.",
+        "Few say who got them started (92 posts). Of those, 29 of 92 (32%) say it was their own decision."
       ],
       "charts": [
         {
           "kind": "bars",
           "title": "Why they started (first-time investors)",
-          "N": 227,
+          "N": 196,
           "bars": [
             {
               "label": "A goal (house, child, retirement)",
-              "n": 143,
+              "n": 125,
               "tone": "neutral"
             },
             {
               "label": "Grow my savings",
-              "n": 82,
+              "n": 81,
               "tone": "neutral"
             },
             {
               "label": "Build a saving habit",
-              "n": 12,
+              "n": 13,
               "tone": "neutral"
             },
             {
               "label": "Save tax",
-              "n": 4,
-              "tone": "neutral"
-            },
-            {
-              "label": "Others were doing it",
               "n": 1,
               "tone": "neutral"
             }
@@ -49,31 +44,31 @@
         {
           "kind": "bars",
           "title": "Who got them started (first-time investors)",
-          "N": 95,
+          "N": 92,
           "bars": [
             {
               "label": "Own decision",
-              "n": 33,
+              "n": 29,
               "tone": "neutral"
             },
             {
               "label": "YouTube or finfluencer",
-              "n": 23,
+              "n": 28,
               "tone": "neutral"
             },
             {
               "label": "Friend or colleague",
-              "n": 18,
+              "n": 16,
               "tone": "neutral"
             },
             {
               "label": "Family",
-              "n": 18,
+              "n": 15,
               "tone": "neutral"
             },
             {
               "label": "Advisor or agent",
-              "n": 3,
+              "n": 4,
               "tone": "neutral"
             }
           ]
@@ -81,12 +76,7 @@
       ],
       "quotes": [
         {
-          "text": "yes, its only good for longterm!! I have started an SIP for my Child. He is 1 year old. I hope to build a corpus of 1 Cr when he reaches 25 yrs .",
-          "source": "YouTube comment",
-          "url": "https://www.youtube.com/watch?v=1VvTDIx4h8U&lc=UgzfhmPPc-guxJ6909N4AaABAg"
-        },
-        {
-          "text": "short term goal which is sis marriage which is almost within a year so parked 4 lakhs in liquid there it is not 3 yrs .",
+          "text": "short term goal which is sis marriage which is almost within a year so parked 4 lakhs in liquid",
           "source": "Reddit comment",
           "url": "https://www.reddit.com/comments/1u4ia2b/_/ordxdgd/"
         },
@@ -95,10 +85,16 @@
           "source": "Play Store review · Groww",
           "stage": "Months 4 to 6",
           "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=95d3da96-6057-49ea-ae26-bd5cdc017763"
+        },
+        {
+          "text": "37 year old.. just started sip with 20k. And 65k lumpsum.",
+          "source": "YouTube comment",
+          "stage": "Months 1 to 3",
+          "url": "https://www.youtube.com/watch?v=ZXLATRO3Ifw&lc=Ugy8lvlIQ5eA0uZVcwB4AaABAg"
         }
       ],
       "explore": {
-        "label": "See all 227 posts that say why they started",
+        "label": "See all 196 posts that say why they started",
         "href": "/posts?group=first&field=why_started"
       }
     },
@@ -106,57 +102,57 @@
       "id": "q2",
       "short": "What changes after starting",
       "question": "What changes in their behaviour in the months after starting?",
-      "headline": "About 1 in 6 first-timers who say what happened were dropping off, and it never settles: 15% to 23% at every stage",
-      "base": "From first-time posts that say what happened to their SIP after starting (490). Posts by people who quietly stopped are rare, so the real drop-off is higher than this.",
+      "headline": "About 1 in 12 first-timers who say what happened were dropping off, and it never settles: 6% to 13% at every stage",
+      "base": "From first-time posts that say what happened to their SIP after starting (506). Posts by people who quietly stopped are rare, so the real drop-off is higher than this.",
       "points": [
-        "88 of 490 (18%) reduced, paused, stopped, bounced, moved or were thinking of stopping.",
-        "Months 1 to 3: 24 of 160 (15%); Months 4 to 6: 10 of 51 (20%); Months 7 to 12: 13 of 82 (16%); After 12 months: 19 of 82 (23%).",
+        "44 of 506 (9%) reduced, paused, stopped, bounced, moved or were thinking of stopping.",
+        "Months 1 to 3: 16 of 267 (6%); Months 4 to 6: 7 of 56 (13%); Months 7 to 12: 6 of 68 (9%); After 12 months: 0 of 10.",
         "There is no safe month: the risk at months 1 to 3 is still there after a year."
       ],
       "charts": [
         {
           "kind": "bars",
           "title": "What they did with their SIP (first-time investors)",
-          "N": 490,
+          "N": 506,
           "bars": [
             {
               "label": "Continuing",
-              "n": 379,
+              "n": 452,
               "tone": "continued"
             },
             {
               "label": "Thinking of stopping",
-              "n": 27,
+              "n": 14,
               "tone": "dropped"
-            },
-            {
-              "label": "Increased it",
-              "n": 23,
-              "tone": "continued"
             },
             {
               "label": "Paused it",
-              "n": 17,
-              "tone": "dropped"
-            },
-            {
-              "label": "Instalment bounced",
-              "n": 15,
+              "n": 13,
               "tone": "dropped"
             },
             {
               "label": "Stopped it",
-              "n": 12,
+              "n": 11,
               "tone": "dropped"
             },
             {
+              "label": "Increased it",
+              "n": 10,
+              "tone": "continued"
+            },
+            {
               "label": "Moved to another app",
-              "n": 9,
+              "n": 3,
               "tone": "dropped"
             },
             {
               "label": "Reduced it",
-              "n": 8,
+              "n": 2,
+              "tone": "dropped"
+            },
+            {
+              "label": "Instalment bounced",
+              "n": 1,
               "tone": "dropped"
             }
           ]
@@ -168,23 +164,23 @@
           "rows": [
             {
               "label": "Months 1 to 3",
-              "n": 24,
-              "N": 160
+              "n": 16,
+              "N": 267
             },
             {
               "label": "Months 4 to 6",
-              "n": 10,
-              "N": 51
+              "n": 7,
+              "N": 56
             },
             {
               "label": "Months 7 to 12",
-              "n": 13,
-              "N": 82
+              "n": 6,
+              "N": 68
             },
             {
               "label": "After 12 months",
-              "n": 19,
-              "N": 82
+              "n": 0,
+              "N": 10
             }
           ]
         }
@@ -192,21 +188,22 @@
       "quotes": [
         {
           "text": "My SIP amount is Stolen. From last 6 months I was doing SIP, when I redim it, they redim and I did not get in my Acount yet still.",
+          "english": "My SIP amount is Stolen. From last 6 months I was doing SIP, when I redeemed it, they redeemed and I did not get in my Account yet still.",
           "source": "Play Store review · Groww",
           "stage": "Months 4 to 6",
           "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=4673dcf7-7ece-482a-b6b6-08d851d65028"
         },
         {
-          "text": "I have been continuously following up with Paytm regarding my invested amount",
-          "source": "App Store review · Paytm Money",
-          "stage": "After 12 months",
-          "url": "https://apps.apple.com/in/app/id1344431352?see-all=reviews"
+          "text": "Have stopped further sip's in small cap but added another spare 5k in gold.",
+          "source": "Reddit comment",
+          "stage": "Months 1 to 3",
+          "url": "https://www.reddit.com/comments/1s1jgoj/_/oc5habd/"
         },
         {
-          "text": "Later, I stopped those SIPs and switched to Groww to invest in different AMCs.",
-          "source": "Reddit post",
-          "stage": "After 12 months",
-          "url": "https://www.reddit.com/r/mutualfunds/comments/1o4i7i1/need_portfolio_review_and_suggestions/"
+          "text": "But Now I need to stop this SIP. In My SIP tab I will be able delete it but will I get my initial investment amount back if I delete the fund from SIP tab?",
+          "source": "TradingQ&A",
+          "stage": "Setting up",
+          "url": "https://tradingqna.com/t/will-i-get-refund-if-i-stop-the-sip-after-paying-the-initial-investment/177595/1"
         }
       ],
       "explore": {
@@ -218,88 +215,88 @@
       "id": "q3",
       "short": "What makes them stop",
       "question": "What leads investors to pause, reduce or stop a SIP?",
-      "headline": "App or payment problem is the top trigger for dropping off, ahead of market falls: 25 of 68 (37%) against 10 of 68 (15%)",
-      "base": "From 68 first-time investors who reduced, paused, stopped, bounced, moved or thought of stopping, and said what set it off.",
+      "headline": "Across all investors, app or payment problem is the top trigger (127 of 245, 52%), ahead of market falls (16 of 245, 7%)",
+      "base": "From 245 investors (all posts, as too few first-time posts say this) who reduced, paused, stopped, bounced, moved or thought of stopping, and said what set it off.",
       "points": [
-        "Across all investors it is even stronger: 138 of 271 (51%) drop-offs with a stated trigger began with an app or payment problem.",
-        "Market falls are the trigger we expected to lead, but they come after app and payment trouble."
+        "Across all investors, 127 of 245 (52%) drop-offs with a stated trigger began with an app or payment problem.",
+        "Market falls are the trigger we expected to lead, but fewer drop-offs name them."
       ],
       "charts": [
         {
           "kind": "bars",
-          "title": "What happened just before they dropped off (first-time investors)",
-          "N": 68,
+          "title": "What happened just before they dropped off (investors (all posts, as too few first-time posts say this))",
+          "N": 245,
           "bars": [
             {
               "label": "App or payment problem",
-              "n": 25,
-              "tone": "dropped"
-            },
-            {
-              "label": "Someone advised it",
-              "n": 11,
-              "tone": "dropped"
-            },
-            {
-              "label": "Market fall or loss",
-              "n": 10,
-              "tone": "dropped"
-            },
-            {
-              "label": "Needed the money",
-              "n": 9,
+              "n": 127,
               "tone": "dropped"
             },
             {
               "label": "Something else",
-              "n": 8,
+              "n": 52,
               "tone": "dropped"
             },
             {
-              "label": "Life event",
-              "n": 2,
+              "label": "Someone advised it",
+              "n": 22,
+              "tone": "dropped"
+            },
+            {
+              "label": "Needed the money",
+              "n": 17,
+              "tone": "dropped"
+            },
+            {
+              "label": "Market fall or loss",
+              "n": 16,
               "tone": "dropped"
             },
             {
               "label": "Forgot or lost interest",
-              "n": 2,
+              "n": 6,
+              "tone": "dropped"
+            },
+            {
+              "label": "Life event",
+              "n": 4,
               "tone": "dropped"
             }
           ]
         },
         {
           "kind": "bars",
-          "title": "How they dropped off (first-time investors)",
-          "N": 88,
+          "title": "How they dropped off (investors (all posts, as too few first-time posts say this))",
+          "N": 44,
           "bars": [
             {
               "label": "Thinking of stopping",
-              "n": 27,
+              "n": 14,
               "tone": "dropped"
             },
             {
               "label": "Paused it",
-              "n": 17,
-              "tone": "dropped"
-            },
-            {
-              "label": "Instalment bounced",
-              "n": 15,
+              "n": 13,
               "tone": "dropped"
             },
             {
               "label": "Stopped it",
-              "n": 12,
+              "n": 11,
               "tone": "dropped"
             },
             {
               "label": "Moved to another app",
-              "n": 9,
+              "n": 3,
               "tone": "dropped"
             },
             {
               "label": "Reduced it",
-              "n": 8,
+              "n": 2,
+              "tone": "dropped"
+            },
+            {
+              "label": "Instalment bounced",
+              "n": 1,
               "tone": "dropped"
             }
           ]
@@ -307,22 +304,20 @@
       ],
       "quotes": [
         {
-          "text": "transaction failed twice ,finally on third attempt it worked ,but they are showing transaction failed , deducted my money",
+          "text": "Whenever I try to pay mutual fund installment through gpay it's always saying the receiver's bank account is busy.I have already missed 2 installments",
           "source": "Play Store review · Groww",
-          "stage": "Setting up",
-          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=d82fe490-c672-440f-a4e0-284277abe935"
+          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=2db206a8-948c-4837-ab01-f81634195217"
         },
         {
-          "text": "I have been continuously following up with Paytm regarding my invested amount",
+          "text": "my hard earned money is stuck with Paytm money and no one is resolving the issue..",
           "source": "App Store review · Paytm Money",
           "stage": "After 12 months",
           "url": "https://apps.apple.com/in/app/id1344431352?see-all=reviews"
         },
         {
-          "text": "When I tried to step -up the amount ,this message is displayed (image) Will I lose the compounding if I do this ?",
-          "source": "Reddit post",
-          "stage": "After 12 months",
-          "url": "https://www.reddit.com/r/mutualfunds/comments/1o6xwcn/how_to_stepup/"
+          "text": "Why is this delay happening every month?",
+          "source": "TradingQ&A",
+          "url": "https://tradingqna.com/t/delay-in-reporting-of-mutual-fund-mandate-debit/160104/1"
         }
       ],
       "explore": {
@@ -334,8 +329,8 @@
       "id": "q4",
       "short": "What they check",
       "question": "What do investors check, and how often, once they have started?",
-      "headline": "XIRR or % return is what first-timers check most: 37 of 62 (60%) who say what they look at",
-      "base": "From 62 first-time investors who mention what they look at in the app. Only 8 of all 3,003 posts say how often they check, so public posts cannot answer \"how often\". Our survey asks it directly.",
+      "headline": "XIRR or % return is what first-timers check most: 22 of 48 (46%) who say what they look at",
+      "base": "From 48 first-time investors who mention what they look at in the app. Only 7 of all 3,003 posts say how often they check, so public posts cannot answer \"how often\". Our survey asks it directly.",
       "points": [
         "People mention a number (XIRR, returns, value) far more often than a goal: 2 talk about progress to a goal.",
         "\"How often\" will come from the survey, not from posts."
@@ -344,26 +339,26 @@
         {
           "kind": "bars",
           "title": "What they look at (first-time investors)",
-          "N": 62,
+          "N": 48,
           "bars": [
             {
               "label": "XIRR or % return",
-              "n": 37,
+              "n": 22,
               "tone": "neutral"
             },
             {
               "label": "Instalment status",
-              "n": 15,
+              "n": 18,
               "tone": "neutral"
             },
             {
               "label": "Current value",
-              "n": 9,
+              "n": 6,
               "tone": "neutral"
             },
             {
               "label": "Total return",
-              "n": 7,
+              "n": 6,
               "tone": "neutral"
             },
             {
@@ -376,23 +371,21 @@
       ],
       "quotes": [
         {
-          "text": "transaction failed twice ,finally on third attempt it worked ,but they are showing transaction failed , deducted my money",
-          "source": "Play Store review · Groww",
-          "stage": "Setting up",
-          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=d82fe490-c672-440f-a4e0-284277abe935"
+          "text": "Completely normal if you increased your SIPs heavily over the last couple of years while markets were volatile.",
+          "source": "Reddit comment",
+          "url": "https://www.reddit.com/comments/1x1om35/_/pezpyqt/"
         },
         {
-          "text": "Mai pichhle saal se mutual fund me investment kr rha hoo socha tha 12-15% badega yaha to 12% negative me chale Gaye hai 😂😂😂😂😂",
-          "english": "I have been investing in mutual funds since last year, expected 12-15% growth but now it is -12%",
-          "source": "YouTube comment",
-          "stage": "After 12 months",
-          "url": "https://www.youtube.com/watch?v=1VvTDIx4h8U&lc=UgyKX5PUJEuON6GG1Ld4AaABAg"
+          "text": "I've been investing for 5 months, my current XIRR is -52%.",
+          "source": "Play Store review · ET Money",
+          "stage": "Months 4 to 6",
+          "url": "https://play.google.com/store/apps/details?id=com.smartspends&reviewId=7c378a90-9b0e-4232-ab3f-b0732b7673e8"
         },
         {
-          "text": "I just started SIP in Aditya Birla fund after UPI transaction I mistakenly delete the SIP in SIP section in coin app",
-          "source": "TradingQ&A",
-          "stage": "Setting up",
-          "url": "https://tradingqna.com/t/deleted-sip-by-mistake/13924/3"
+          "text": "My last lumpsum investment was visible other day but disappear on next day.",
+          "source": "App Store review · Zerodha Coin",
+          "stage": "Months 1 to 3",
+          "url": "https://apps.apple.com/in/app/id1392892554?see-all=reviews"
         }
       ],
       "explore": {
@@ -404,50 +397,50 @@
       "id": "q5",
       "short": "What confuses them",
       "question": "What confuses or worries them inside the app?",
-      "headline": "\"Whether to continue\" is the top worry (65 of 148, 44%), then payment or order status (55 of 148, 37%)",
-      "base": "From 148 first-time investors who describe something confusing or worrying.",
+      "headline": "\"Payment or order status\" is the top worry (53 of 112, 47%), then whether to continue (38 of 112, 34%)",
+      "base": "From 112 first-time investors who describe something confusing or worrying.",
       "points": [
-        "\"Whether to continue\" counts people unsure whether to keep their SIP going. 40 of 65 (62%) of them were facing a fall or loss, yet market falls triggered only 10 of 68 (15%) actual drop-offs with a stated trigger: falls cause the worry, payment problems cause the stopping.",
+        "\"Whether to continue\" counts people unsure whether to keep their SIP going. 23 of 38 (61%) of them were facing a fall or loss, yet market falls triggered only 5 of 29 actual drop-offs with a stated trigger: falls cause the worry, payment problems cause the stopping.",
         "Payment or order status covers money debited without units, or an order with no clear state."
       ],
       "charts": [
         {
           "kind": "bars",
           "title": "What confused or worried them (first-time investors)",
-          "N": 148,
+          "N": 112,
           "bars": [
             {
-              "label": "Whether to continue",
-              "n": 65,
+              "label": "Payment or order status",
+              "n": 53,
               "tone": "neutral"
             },
             {
-              "label": "Payment or order status",
-              "n": 55,
+              "label": "Whether to continue",
+              "n": 38,
               "tone": "neutral"
             },
             {
               "label": "How returns are worked out",
-              "n": 10,
-              "tone": "neutral"
-            },
-            {
-              "label": "App screens",
-              "n": 10,
+              "n": 11,
               "tone": "neutral"
             },
             {
               "label": "KYC or account",
-              "n": 8,
+              "n": 6,
               "tone": "neutral"
             },
             {
-              "label": "Charges or lock-ins",
-              "n": 2,
+              "label": "App screens",
+              "n": 3,
               "tone": "neutral"
             },
             {
               "label": "NAV or units",
+              "n": 1,
+              "tone": "neutral"
+            },
+            {
+              "label": "Charges or lock-ins",
               "n": 1,
               "tone": "neutral"
             }
@@ -456,26 +449,25 @@
       ],
       "quotes": [
         {
-          "text": "My SIP amount is Stolen. From last 6 months I was doing SIP, when I redim it, they redim and I did not get in my Acount yet still.",
+          "text": "transaction failed twice ,finally on third attempt it worked ,but they are showing transaction failed , deducted my money",
           "source": "Play Store review · Groww",
-          "stage": "Months 4 to 6",
-          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=4673dcf7-7ece-482a-b6b6-08d851d65028"
+          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=d82fe490-c672-440f-a4e0-284277abe935"
         },
         {
-          "text": "Bhai muje ak sal huaa hai kabi plus kabi loss kya kru band kar du kya yrrr ak sal me koi matlab nhi nekela hai 1500 plus huaa ab Waps 400 loss hai kya kru sip band Kar du",
-          "english": "Brother, I have done SIP for 1 year, sometimes plus sometimes loss, what should I do, should I stop SIP?",
+          "text": "9k loss for 1.5 lakh invested through sip. Started in August 2025",
+          "source": "Reddit comment",
+          "stage": "Months 7 to 12",
+          "url": "https://www.reddit.com/comments/1rpox7n/_/oa64dqt/"
+        },
+        {
+          "text": "Bhai muje ak sal huaa hai kabi plus kabi loss kya kru band kar du kya yrrr ak sal me koi matlab nhi nekela hai",
+          "english": "Brother, I have been investing for 1 year, sometimes plus sometimes loss, what should I do, should I stop?",
           "source": "YouTube comment",
           "url": "https://www.youtube.com/watch?v=4zQKHOJagtI&lc=UgznFPz_h8ymfSTIbgh4AaABAg"
-        },
-        {
-          "text": "I have been continuously following up with Paytm regarding my invested amount",
-          "source": "App Store review · Paytm Money",
-          "stage": "After 12 months",
-          "url": "https://apps.apple.com/in/app/id1344431352?see-all=reviews"
         }
       ],
       "explore": {
-        "label": "See all 148 posts about confusion",
+        "label": "See all 112 posts about confusion",
         "href": "/posts?group=first&field=confusion"
       }
     },
@@ -483,46 +475,51 @@
       "id": "q6",
       "short": "Where they go when unsure",
       "question": "What do they do outside the app when they feel unsure?",
-      "headline": "They ask strangers online: 125 of 161 (78%) went to Reddit or a forum, and 34 of 161 (21%) to YouTube",
-      "base": "From 161 first-time investors who say where they looked. Many posts come from Reddit, so Reddit is over-counted here; outside Reddit, 24 posts say where they went.",
+      "headline": "They ask strangers online: 584 of 690 (85%) went to Reddit or a forum, and 109 of 690 (16%) to YouTube",
+      "base": "From 690 first-time investors who say where they looked. Many posts come from Reddit, so Reddit is over-counted here; outside Reddit, 108 posts say where they went.",
       "points": [
-        "Almost nobody mentions the app's own support (3) or an advisor (0).",
-        "AI tools are starting to appear (4 posts)."
+        "Almost nobody mentions the app's own support (7) or an advisor (1).",
+        "AI tools are starting to appear (6 posts)."
       ],
       "charts": [
         {
           "kind": "bars",
           "title": "Where they went for answers (first-time investors)",
-          "N": 161,
+          "N": 690,
           "bars": [
             {
               "label": "Reddit or forums",
-              "n": 125,
+              "n": 584,
               "tone": "neutral"
             },
             {
               "label": "YouTube",
-              "n": 34,
-              "tone": "neutral"
-            },
-            {
-              "label": "Friends or family",
-              "n": 5,
-              "tone": "neutral"
-            },
-            {
-              "label": "Google or articles",
-              "n": 4,
-              "tone": "neutral"
-            },
-            {
-              "label": "AI tools",
-              "n": 4,
+              "n": 109,
               "tone": "neutral"
             },
             {
               "label": "App support",
+              "n": 7,
+              "tone": "neutral"
+            },
+            {
+              "label": "AI tools",
+              "n": 6,
+              "tone": "neutral"
+            },
+            {
+              "label": "Google or articles",
               "n": 3,
+              "tone": "neutral"
+            },
+            {
+              "label": "Friends or family",
+              "n": 2,
+              "tone": "neutral"
+            },
+            {
+              "label": "An advisor",
+              "n": 1,
               "tone": "neutral"
             }
           ]
@@ -530,20 +527,22 @@
       ],
       "quotes": [
         {
+          "text": "If i did something wrong , please correct me i am a beginner at this",
+          "source": "Reddit comment",
+          "url": "https://www.reddit.com/comments/1q5eg75/_/ny0qius/"
+        },
+        {
           "text": "Maine bhi aapki video dekhne k baad sip start kiya hu 7000 per month",
           "english": "I also started SIP of 7000 per month after watching your video",
           "source": "YouTube comment",
+          "stage": "Months 1 to 3",
           "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgyBBFZephJ8TKSCzPN4AaABAg"
         },
         {
-          "text": "Was a bit nervous about investing first time but Groww made it kinda easy.",
+          "text": "LOST MY 100 RS. I started sip of 100 but the transaction failed and my money was debited.",
           "source": "Play Store review · Groww",
-          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=45e33d98-3364-47ff-89c6-7c2f53b842c8"
-        },
-        {
-          "text": "Now easy wins, EMI tenure? Whatever it is don't stop deducting 15k into a piggy bank account schedule a 7.5k X 2 txn to both of your secondary accounts.",
-          "source": "Reddit comment",
-          "url": "https://www.reddit.com/comments/1x7d679/_/ph4x5wc/"
+          "stage": "Months 1 to 3",
+          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=fb10d8e3-fb6e-4962-b97e-05d433af25b3"
         }
       ],
       "explore": {
@@ -555,12 +554,12 @@
       "id": "q7",
       "short": "Continuers vs drop-offs",
       "question": "What separates investors who continue from those who quietly drop off?",
-      "headline": "\"Had an app or payment problem\" separates them most: 34% of drop-offs against 1% of continuers",
-      "base": "402 first-time investors who kept going or increased, against 88 who reduced, paused, stopped, bounced, moved or thought of stopping. Same fields, side by side.",
+      "headline": "\"Asks which funds to pick\" separates them most: 25% of drop-offs against 50% of continuers",
+      "base": "462 first-time investors who kept going or increased, against 44 who reduced, paused, stopped, bounced, moved or thought of stopping. Same fields, side by side.",
       "points": [
-        "Asks which funds to pick: 36% of drop-offs, 66% of continuers.",
-        "Names a goal: 5% of drop-offs, 19% of continuers.",
-        "It is not just where people post: on Reddit alone, 7 of 59 drop-offs against 1 of 330 continuers."
+        "Had an app or payment problem: 23% of drop-offs, 3% of continuers.",
+        "Saw a market fall or loss: 11% of drop-offs, 1% of continuers.",
+        "It is not just where people post: on Reddit alone, 11 of 29 drop-offs against 227 of 331 continuers."
       ],
       "charts": [
         {
@@ -569,63 +568,63 @@
           "groups": [
             {
               "label": "Kept going",
-              "N": 402,
+              "N": 462,
               "tone": "continued"
             },
             {
               "label": "Dropped off",
-              "N": 88,
+              "N": 44,
               "tone": "dropped"
             }
           ],
           "rows": [
             {
-              "label": "Had an app or payment problem",
-              "n": [
-                3,
-                30
-              ]
-            },
-            {
               "label": "Asks which funds to pick",
               "n": [
-                264,
-                32
-              ]
-            },
-            {
-              "label": "Names a goal",
-              "n": [
-                75,
-                4
-              ]
-            },
-            {
-              "label": "Someone advised them",
-              "n": [
-                5,
+                230,
                 11
               ]
             },
             {
-              "label": "Unsure whether to continue",
-              "n": [
-                25,
-                15
-              ]
-            },
-            {
-              "label": "Saw a market fall or loss",
+              "label": "Had an app or payment problem",
               "n": [
                 14,
                 10
               ]
             },
             {
+              "label": "Saw a market fall or loss",
+              "n": [
+                5,
+                5
+              ]
+            },
+            {
+              "label": "Unsure whether to continue",
+              "n": [
+                18,
+                6
+              ]
+            },
+            {
+              "label": "Someone advised them",
+              "n": [
+                0,
+                2
+              ]
+            },
+            {
+              "label": "Names a goal",
+              "n": [
+                60,
+                4
+              ]
+            },
+            {
               "label": "Needs help to start properly",
               "n": [
-                3,
-                1
+                25,
+                3
               ]
             }
           ]
@@ -633,21 +632,22 @@
       ],
       "quotes": [
         {
-          "text": "My SIP amount is Stolen. From last 6 months I was doing SIP, when I redim it, they redim and I did not get in my Acount yet still.",
-          "source": "Play Store review · Groww",
+          "text": "I am planning to consolidate my portfolio and here is the approach I am thinking of",
+          "source": "Reddit post",
+          "stage": "Months 7 to 12",
+          "url": "https://www.reddit.com/r/mutualfunds/comments/1ngu2ck/kindly_review_my_portfolio/"
+        },
+        {
+          "text": "Hello. I started investing in MF from July this year. Could you please let me know which Small cap portfolio I can invest in?",
+          "source": "Reddit post",
           "stage": "Months 4 to 6",
-          "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=4673dcf7-7ece-482a-b6b6-08d851d65028"
+          "url": "https://www.reddit.com/r/mutualfunds/comments/1ooz2po/which_small_cap_can_i_add_to_my_existing_portfolio/"
         },
         {
-          "text": "Bhai muje ak sal huaa hai kabi plus kabi loss kya kru band kar du kya yrrr ak sal me koi matlab nhi nekela hai 1500 plus huaa ab Waps 400 loss hai kya kru sip band Kar du",
-          "english": "Brother, I have done SIP for 1 year, sometimes plus sometimes loss, what should I do, should I stop SIP?",
-          "source": "YouTube comment",
-          "url": "https://www.youtube.com/watch?v=4zQKHOJagtI&lc=UgznFPz_h8ymfSTIbgh4AaABAg"
-        },
-        {
-          "text": "yes, its only good for longterm!! I have started an SIP for my Child. He is 1 year old. I hope to build a corpus of 1 Cr when he reaches 25 yrs .",
-          "source": "YouTube comment",
-          "url": "https://www.youtube.com/watch?v=1VvTDIx4h8U&lc=UgzfhmPPc-guxJ6909N4AaABAg"
+          "text": "Should I stop investing in Nifty 50 if my horizon is 10-15 years?",
+          "source": "Reddit comment",
+          "stage": "Months 1 to 3",
+          "url": "https://www.reddit.com/comments/1smw1o1/_/ogh8l5n/"
         }
       ],
       "explore": {
@@ -659,10 +659,10 @@
       "id": "q8",
       "short": "Differences by segment",
       "question": "How do these patterns differ across user segments (income stability, age, source of money, who influenced them)?",
-      "headline": "Where public posts allow a comparison, segments look alike: under 25 7%, 25 to 34 10%, fixed income 9% dropping off",
-      "base": "490 first-time posts say whether they kept going; 257 of them also say their age, income, source of money or who got them started. Groups under 30 show counts only.",
+      "headline": "Where public posts allow a comparison, segments look alike: under 25 4%, 25 to 34 7%, fixed income 4% dropping off",
+      "base": "506 first-time posts say whether they kept going; 253 of them also say their age, income, source of money or who got them started. Groups under 30 show counts only.",
       "points": [
-        "These are all below the 18% average because of who states their age: 205 of 217 are Reddit posts and 174 are portfolio-review requests from people still investing.",
+        "These are all below the 9% average because of who states their age: 190 of 209 are Reddit posts and 124 are portfolio-review requests from people still investing.",
         "Public posts rarely state income or who influenced them, so this is where our survey carries the answer.",
         "Treat any difference here as a lead to check, not a finding."
       ],
@@ -674,18 +674,18 @@
           "rows": [
             {
               "label": "Under 25",
-              "n": 8,
+              "n": 5,
               "N": 123
             },
             {
               "label": "25 to 34",
-              "n": 7,
-              "N": 71
+              "n": 5,
+              "N": 67
             },
             {
               "label": "35 and over",
-              "n": 2,
-              "N": 23
+              "n": 1,
+              "N": 19
             }
           ]
         },
@@ -696,18 +696,18 @@
           "rows": [
             {
               "label": "Fixed income",
-              "n": 6,
-              "N": 64
+              "n": 3,
+              "N": 71
             },
             {
               "label": "Student or no income",
-              "n": 1,
-              "N": 15
+              "n": 0,
+              "N": 21
             },
             {
               "label": "Variable income",
-              "n": 1,
-              "N": 14
+              "n": 2,
+              "N": 16
             }
           ]
         },
@@ -718,48 +718,36 @@
           "rows": [
             {
               "label": "Own earnings",
-              "n": 7,
-              "N": 47
+              "n": 4,
+              "N": 46
             },
             {
               "label": "Family money",
-              "n": 1,
-              "N": 11
-            },
-            {
-              "label": "Own decision",
               "n": 2,
-              "N": 17
-            },
-            {
-              "label": "Family",
-              "n": 2,
-              "N": 9
+              "N": 10
             },
             {
               "label": "YouTube or finfluencer",
               "n": 1,
-              "N": 9
+              "N": 17
             },
             {
-              "label": "Friend or colleague",
-              "n": 1,
-              "N": 8
+              "label": "Own decision",
+              "n": 3,
+              "N": 14
+            },
+            {
+              "label": "Family",
+              "n": 3,
+              "N": 7
             }
           ]
         }
       ],
       "quotes": [
         {
-          "text": "Later, I stopped those SIPs and switched to Groww to invest in different AMCs.",
+          "text": "I would like to stop my SIP once i reach the 10k.I dont care about dips really",
           "source": "Reddit post",
-          "stage": "After 12 months",
-          "url": "https://www.reddit.com/r/mutualfunds/comments/1o4i7i1/need_portfolio_review_and_suggestions/"
-        },
-        {
-          "text": "I would like to stop my SIP once i reach the 10k.I dont care about dips really and ofc i shouldn't get mad if i dont buy in dips.",
-          "source": "Reddit post",
-          "stage": "After 12 months",
           "url": "https://www.reddit.com/r/mutualfunds/comments/1o4yt15/invest_early_in_life_enjoy_your_days_invest_later/"
         },
         {
@@ -767,6 +755,12 @@
           "source": "Reddit post",
           "stage": "Months 7 to 12",
           "url": "https://www.reddit.com/r/mutualfunds/comments/1ngu2ck/kindly_review_my_portfolio/"
+        },
+        {
+          "text": "Will increase proportionately with salary increment.",
+          "source": "Reddit post",
+          "stage": "Months 1 to 3",
+          "url": "https://www.reddit.com/r/mutualfunds/comments/1oysohe/please_provide_your_opinionsadvicesuggestions/"
         }
       ],
       "explore": {
@@ -778,113 +772,113 @@
       "id": "q9",
       "short": "Unmet needs",
       "question": "What unmet needs emerge consistently across conversations?",
-      "headline": "\"Help me start properly\" is the top need Groww can act on: 167 of 387 (43%). \"Which fund should I pick\" is bigger (581 of 968, 60% of all needs) but is advice an app can't give",
-      "base": "From 968 first-time posts with an unmet need. \"Help me choose funds\" is counted but sits outside what an app may do (it would be investment advice).",
+      "headline": "\"Help me start properly\" is the top need Groww can act on: 237 of 439 (54%). \"Which fund should I pick\" is bigger (413 of 852, 48% of all needs) but is advice an app can't give",
+      "base": "From 852 first-time posts with an unmet need. \"Help me choose funds\" is counted but sits outside what an app may do (it would be investment advice).",
       "points": [
-        "Among first-timers who dropped off, the top needs are \"What is happening with my money?\" (14) and \"Get my stuck money sorted\" (12).",
+        "Among first-timers who dropped off, the top needs are \"Get my stuck money sorted\" (9) and \"Make my SIP fit my life\" (9).",
         "Each need is a theme at a journey stage; the Opportunities page compares them."
       ],
       "charts": [
         {
           "kind": "bars",
           "title": "Unmet needs of first-time investors",
-          "N": 968,
+          "N": 852,
           "bars": [
             {
               "label": "Help me choose funds (outside the rules)",
-              "n": 581,
+              "n": 413,
               "tone": "neutral"
             },
             {
               "label": "Help me start properly",
-              "n": 167,
+              "n": 237,
               "tone": "neutral"
             },
             {
               "label": "Make my SIP fit my life",
-              "n": 67,
-              "tone": "neutral"
-            },
-            {
-              "label": "Is this fall normal?",
-              "n": 50,
+              "n": 62,
               "tone": "neutral"
             },
             {
               "label": "What is happening with my money?",
-              "n": 31,
+              "n": 35,
+              "tone": "neutral"
+            },
+            {
+              "label": "Is this fall normal?",
+              "n": 34,
               "tone": "neutral"
             },
             {
               "label": "Get my stuck money sorted",
-              "n": 19,
+              "n": 20,
               "tone": "neutral"
             },
             {
               "label": "Am I on track?",
-              "n": 15,
+              "n": 19,
               "tone": "neutral"
             },
             {
               "label": "Remind me why I started",
-              "n": 14,
-              "tone": "neutral"
-            },
-            {
-              "label": "Move without losing my SIP",
-              "n": 10,
-              "tone": "neutral"
-            },
-            {
-              "label": "See everything in one place",
-              "n": 6,
+              "n": 18,
               "tone": "neutral"
             },
             {
               "label": "Is my money safe?",
-              "n": 6,
+              "n": 7,
+              "tone": "neutral"
+            },
+            {
+              "label": "Move without losing my SIP",
+              "n": 5,
+              "tone": "neutral"
+            },
+            {
+              "label": "See everything in one place",
+              "n": 1,
               "tone": "neutral"
             },
             {
               "label": "Understand charges and lock-ins",
-              "n": 2,
+              "n": 1,
               "tone": "neutral"
             }
           ]
         },
         {
           "kind": "bars",
-          "title": "Needs of first-timers who dropped off (83 posts)",
-          "N": 83,
+          "title": "Needs of first-timers who dropped off (38 posts)",
+          "N": 38,
           "bars": [
             {
               "label": "Help me choose funds (outside the rules)",
-              "n": 32,
-              "tone": "dropped"
-            },
-            {
-              "label": "What is happening with my money?",
-              "n": 14,
-              "tone": "dropped"
-            },
-            {
-              "label": "Get my stuck money sorted",
-              "n": 12,
-              "tone": "dropped"
-            },
-            {
-              "label": "Make my SIP fit my life",
               "n": 11,
               "tone": "dropped"
             },
             {
-              "label": "Is this fall normal?",
-              "n": 7,
+              "label": "Get my stuck money sorted",
+              "n": 9,
               "tone": "dropped"
             },
             {
-              "label": "Move without losing my SIP",
-              "n": 5,
+              "label": "Make my SIP fit my life",
+              "n": 9,
+              "tone": "dropped"
+            },
+            {
+              "label": "Help me start properly",
+              "n": 3,
+              "tone": "dropped"
+            },
+            {
+              "label": "What is happening with my money?",
+              "n": 2,
+              "tone": "dropped"
+            },
+            {
+              "label": "Is this fall normal?",
+              "n": 2,
               "tone": "dropped"
             }
           ]
@@ -895,6 +889,7 @@
           "text": "Ma 17 saal ka hu soch raha hu 18 ka hota hi suru kar du kam amount sa kasa rayga sir",
           "english": "I am 17 years old thinking to start at 18 with a small amount, how will it be sir",
           "source": "YouTube comment",
+          "stage": "Before starting",
           "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgzDpLjSgmlwQrjd3Yl4AaABAg"
         },
         {
@@ -904,15 +899,14 @@
           "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=a9d4243f-65fc-4e77-bdfe-0d518b9a53b3"
         },
         {
-          "text": "If I know what are the terms and conditions, which policy benefits me that'll be helpful.",
-          "english": "If I know what are the terms and conditions, which policy benefits me that'll be helpful.",
+          "text": "0 investments till now. If I know what are the terms and conditions, which policy benefits me that'll be helpful.",
           "source": "Reddit comment",
           "url": "https://www.reddit.com/comments/1u5j1yw/_/ormc4ey/"
         }
       ],
       "explore": {
-        "label": "See every need on the Opportunities page",
-        "href": "/opportunities"
+        "label": "Compare every need by stage",
+        "href": "/#opportunities"
       }
     }
   ]

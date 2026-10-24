@@ -1,0 +1,17 @@
+{
+  "data": {
+    "n": 14,
+    "id": "reddit:1q04srn",
+    "own_sip": "yes",
+    "experience": "first_time",
+    "stage": "setting_up",
+    "what_happened": "not_stated",
+    "trigger": "not_stated",
+    "theme": "T9",
+    "why_started": "not_stated",
+    "confusion": "charges_or_lock_in",
+    "outside_app": "reddit_or_forums",
+    "note": "Recently bought a regular plan by mistake, still processing; wants to switch to direct without charges: T9.",
+    "labelledBy": "claude-blind"
+  }
+}

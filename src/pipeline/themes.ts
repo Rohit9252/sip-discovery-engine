@@ -7,20 +7,21 @@ export interface Theme {
   name: string;
   need: string;
   origin: "ai" | "ai, merged" | "team";
-  withinRules?: "yes" | "partly" | "no"; // decided by the team in DE-19
+  withinRules?: "yes" | "partly" | "no"; // decided by the team in DE-19 (24 Oct)
+  rulesReason?: string;
 }
 
 export const THEMES: Theme[] = [
-  { id: "T1", name: "Is this fall normal?", need: "I need to know whether a fall or loss this early is normal, so I don't panic and stop.", origin: "ai" },
-  { id: "T2", name: "Am I on track?", need: "I need to see whether my SIP is on track for my goal, compared with something I understand.", origin: "ai, merged" },
-  { id: "T3", name: "What is happening with my money?", need: "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.", origin: "ai, merged" },
-  { id: "T4", name: "Get my stuck money sorted", need: "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.", origin: "ai, merged" },
-  { id: "T5", name: "Help me start properly", need: "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.", origin: "ai" },
-  { id: "T6", name: "Make my SIP fit my life", need: "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.", origin: "ai, merged" },
-  { id: "T7", name: "Is my money safe?", need: "I need to trust that my money is safe and that I can get it back.", origin: "ai" },
-  { id: "T8", name: "See everything in one place", need: "I need to see all my investments, including ones outside this app, in one place.", origin: "ai" },
-  { id: "T9", name: "Understand charges and lock-ins", need: "I need to understand charges, exit loads, lock-ins and tax before they surprise me.", origin: "ai" },
-  { id: "T10", name: "Help me choose funds", need: "I want someone to tell me which funds to pick or how to split my money.", origin: "ai", withinRules: "no" },
-  { id: "T11", name: "Remind me why I started", need: "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.", origin: "team" },
-  { id: "T12", name: "Move without losing my SIP", need: "I need to move my SIP to another app without it lapsing.", origin: "team" },
+  { id: "T1", name: "Is this fall normal?", need: "I need to know whether a fall or loss this early is normal, so I don't panic and stop.", origin: "ai", withinRules: "partly", rulesReason: "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges." },
+  { id: "T2", name: "Am I on track?", need: "I need to see whether my SIP is on track for my goal, compared with something I understand.", origin: "ai, merged", withinRules: "yes", rulesReason: "Showing progress against their own goal is information, not advice." },
+  { id: "T3", name: "What is happening with my money?", need: "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.", origin: "ai, merged", withinRules: "yes", rulesReason: "Payment and order status is Groww's own job." },
+  { id: "T4", name: "Get my stuck money sorted", need: "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.", origin: "ai, merged", withinRules: "yes", rulesReason: "Support and resolution." },
+  { id: "T5", name: "Help me start properly", need: "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.", origin: "ai", withinRules: "yes", rulesReason: "Setup, mandates and how a SIP works; never which fund." },
+  { id: "T6", name: "Make my SIP fit my life", need: "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.", origin: "ai, merged", withinRules: "yes", rulesReason: "Skip, pause, change date or amount are product tools, not advice." },
+  { id: "T7", name: "Is my money safe?", need: "I need to trust that my money is safe and that I can get it back.", origin: "ai", withinRules: "yes", rulesReason: "Explaining custody and regulation." },
+  { id: "T8", name: "See everything in one place", need: "I need to see all my investments, including ones outside this app, in one place.", origin: "ai", withinRules: "yes", rulesReason: "Tracking outside holdings." },
+  { id: "T9", name: "Understand charges and lock-ins", need: "I need to understand charges, exit loads, lock-ins and tax before they surprise me.", origin: "ai", withinRules: "yes", rulesReason: "Clear disclosure of charges, lock-ins and tax." },
+  { id: "T10", name: "Help me choose funds", need: "I want someone to tell me which funds to pick or how to split my money.", origin: "ai", withinRules: "no", rulesReason: "Recommending funds is investment advice, which the brief rules out." },
+  { id: "T11", name: "Remind me why I started", need: "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.", origin: "team", withinRules: "partly", rulesReason: "Goal reminders are fine; they must never become urgency or FOMO nudges." },
+  { id: "T12", name: "Move without losing my SIP", need: "I need to move my SIP to another app without it lapsing.", origin: "team", withinRules: "partly", rulesReason: "Groww can make importing easier; the transfer itself depends on other platforms and fund houses." },
 ];

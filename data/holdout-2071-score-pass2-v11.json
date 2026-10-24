@@ -1,0 +1,239 @@
+{
+  "seed": "2070",
+  "engine": {
+    "pass1": "pass1-v5",
+    "pass2": "pass2-v11"
+  },
+  "bar": 0.8,
+  "results": [
+    {
+      "field": "own_sip",
+      "key": false,
+      "agree": 20,
+      "of": 20,
+      "share": 1,
+      "misses": []
+    },
+    {
+      "field": "experience",
+      "key": false,
+      "agree": 16,
+      "of": 20,
+      "share": 0.8,
+      "misses": [
+        {
+          "n": 3,
+          "gold": "not_stated",
+          "engine": "first_time"
+        },
+        {
+          "n": 9,
+          "gold": "experienced",
+          "engine": "first_time"
+        },
+        {
+          "n": 13,
+          "gold": "not_stated",
+          "engine": "first_time"
+        },
+        {
+          "n": 15,
+          "gold": "not_stated",
+          "engine": "first_time"
+        }
+      ]
+    },
+    {
+      "field": "stage",
+      "key": true,
+      "agree": 15,
+      "of": 20,
+      "share": 0.75,
+      "misses": [
+        {
+          "n": 3,
+          "gold": "not_stated",
+          "engine": "Months 1 to 3"
+        },
+        {
+          "n": 9,
+          "gold": "After 12 months",
+          "engine": "Months 1 to 3"
+        },
+        {
+          "n": 14,
+          "gold": "Setting up",
+          "engine": "not_stated"
+        },
+        {
+          "n": 15,
+          "gold": "Setting up",
+          "engine": "Months 1 to 3"
+        },
+        {
+          "n": 20,
+          "gold": "Before starting",
+          "engine": "Months 1 to 3"
+        }
+      ]
+    },
+    {
+      "field": "what_happened",
+      "key": true,
+      "agree": 11,
+      "of": 20,
+      "share": 0.55,
+      "misses": [
+        {
+          "n": 2,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        },
+        {
+          "n": 3,
+          "gold": "Thinking of stopping",
+          "engine": "Continuing"
+        },
+        {
+          "n": 6,
+          "gold": "Stopped it",
+          "engine": "Thinking of stopping"
+        },
+        {
+          "n": 7,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        },
+        {
+          "n": 12,
+          "gold": "not_stated",
+          "engine": "Not started yet"
+        },
+        {
+          "n": 13,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        },
+        {
+          "n": 14,
+          "gold": "not_stated",
+          "engine": "Not started yet"
+        },
+        {
+          "n": 16,
+          "gold": "Continuing",
+          "engine": "not_stated"
+        },
+        {
+          "n": 20,
+          "gold": "Not started yet",
+          "engine": "Continuing"
+        }
+      ]
+    },
+    {
+      "field": "trigger",
+      "key": true,
+      "agree": 20,
+      "of": 20,
+      "share": 1,
+      "misses": []
+    },
+    {
+      "field": "theme",
+      "key": true,
+      "agree": 14,
+      "of": 20,
+      "share": 0.7,
+      "misses": [
+        {
+          "n": 5,
+          "gold": "T10 Help me choose funds",
+          "engine": "No unmet need"
+        },
+        {
+          "n": 7,
+          "gold": "No unmet need",
+          "engine": "T6 Make my SIP fit my life"
+        },
+        {
+          "n": 8,
+          "gold": "No unmet need",
+          "engine": "T10 Help me choose funds"
+        },
+        {
+          "n": 14,
+          "gold": "T9 Understand charges and lock-ins",
+          "engine": "T4 Get my stuck money sorted"
+        },
+        {
+          "n": 16,
+          "gold": "No unmet need",
+          "engine": "T11 Remind me why I started"
+        },
+        {
+          "n": 19,
+          "gold": "T10 Help me choose funds",
+          "engine": "T5 Help me start properly"
+        }
+      ]
+    },
+    {
+      "field": "why_started",
+      "key": false,
+      "agree": 19,
+      "of": 20,
+      "share": 0.95,
+      "misses": [
+        {
+          "n": 11,
+          "gold": "Grow my savings",
+          "engine": "not_stated"
+        }
+      ]
+    },
+    {
+      "field": "confusion",
+      "key": false,
+      "agree": 18,
+      "of": 20,
+      "share": 0.9,
+      "misses": [
+        {
+          "n": 6,
+          "gold": "Whether to continue",
+          "engine": "none_stated"
+        },
+        {
+          "n": 14,
+          "gold": "Charges or lock-ins",
+          "engine": "none_stated"
+        }
+      ]
+    },
+    {
+      "field": "outside_app",
+      "key": false,
+      "agree": 17,
+      "of": 20,
+      "share": 0.85,
+      "misses": [
+        {
+          "n": 4,
+          "gold": "Reddit or forums",
+          "engine": "none_stated"
+        },
+        {
+          "n": 5,
+          "gold": "Reddit or forums",
+          "engine": "none_stated"
+        },
+        {
+          "n": 8,
+          "gold": "none_stated",
+          "engine": "Reddit or forums"
+        }
+      ]
+    }
+  ]
+}

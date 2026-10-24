@@ -14,7 +14,8 @@
     "collect:tradingqna": "tsx scripts/collect-tradingqna.mts",
     "pass1:run": "tsx scripts/pass1-run.mts",
     "pass1:reddit": "tsx scripts/pass1-run.mts --sample reddit:post:4000,reddit:comment:5000 --seed 2031 --budget 1450000",
-    "pass2:run": "tsx scripts/pass2-run.mts --budget 2100000"
+    "pass2:run": "tsx scripts/pass2-run.mts --budget 2100000",
+    "pass2:first": "tsx scripts/pass2-run.mts --first-only --budget 950000"
   },
   "dependencies": {
     "dotenv": "^18.0.8",

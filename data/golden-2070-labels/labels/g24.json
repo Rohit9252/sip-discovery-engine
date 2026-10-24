@@ -1,0 +1,16 @@
+{
+  "confusion": "none_stated",
+  "experience": "first_time",
+  "id": "tradingqna:536405",
+  "labelledBy": "claude-blind-draft",
+  "n": 24,
+  "note": "24, just starting, asks which platform (says not which fund): T5.",
+  "outside_app": "reddit_or_forums",
+  "own_sip": "yes",
+  "stage": "before_starting",
+  "theme": "T5",
+  "trigger": "not_stated",
+  "updatedAt": "2026-10-24T05:14:48.405Z",
+  "what_happened": "not_started_yet",
+  "why_started": "not_stated"
+}

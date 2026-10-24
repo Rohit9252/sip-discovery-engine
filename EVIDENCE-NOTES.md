@@ -87,6 +87,29 @@ Model gpt-4.1-mini, instructions in `src/pipeline/ai/pass2.ts`. Ten versions; ea
 
 **Correction 7: our own fact sheet was wrong about "whether to continue".** We wrote that these people "could not tell from the app if their SIP was doing fine". Counting showed 40 of the 65 were facing a fall or loss. The line now gives that count, and it led to a finding: falls cause the worry (40 of 65), payment problems cause the stopping (25 of 68 drop-offs, against 10 of 68 for falls).
 
+## Golden set and holdout (24 Oct)
+
+**Golden set:** 30 posts picked at random within each source (seed 2070, `data/golden-2070.json`; 3 swapped in for drop-off coverage using the AI's labels). The answer key was drafted blind by Claude (Opus 5.5) from the post text only, before seeing the engine's answers, then reviewed by the team (2 labels set by the team, 2 triggers corrected). Labelling page: a private artifact; labels saved in `data/golden-2070-labels/`. Scores: `scripts/golden-score.mts`.
+
+**Holdout:** the v11 fixes were made after looking at the golden set, so 20 more first-time posts the fixes never saw were labelled the same way (seed 2071, `data/holdout-2071.json`). This is the unbiased score.
+
+| Key field (bar 80%) | v10 on golden | v11 on golden | v11 on holdout |
+|---|---|---|---|
+| Trigger | 83% | 93% | 100% |
+| Stage | 50% | 80% | 75% |
+| Theme | 73% | 73% | 70% |
+| What happened | 47% | 77% | 55% |
+
+The team chose to ship with these reported honestly rather than run another round (24 Oct).
+
+**Correction 8: first-time was over-counted.** 4 of the 20 golden posts pass 1 called first-time had started 2 or more years earlier. A code rule now counts a post as experienced when its stage is past 12 months and it never says it was their first SIP or first investing (`src/pipeline/first-time.ts`; "first salary" does not count). First-time posts: 1,262 flagged by pass 1, 1,108 after the check.
+
+**Correction 9: dates and planning (pass2-v11).** The AI got date maths wrong ("started Dec 2023" in a Feb 2026 post came back as months 7 to 12) and left planning posts without a stage. Code now works the stage out from a start date or "N months" in the post (12 of 12 test cases, `scripts/date-rule-test.mts`) and marks planning posts as before starting. Instructions v11 also fixed the T5 versus T10 boundary and "describing a running SIP is continuing". Re-run on the 1,262 first-time posts: 887k tokens.
+
+**Correction 10: definition clarified after scoring.** Someone planning their first SIP with no sign of earlier investing now counts as a first-time post (GLOSSARY). Made after seeing the scores, so it is reported here.
+
+**What changed in the findings:** drop-off share by stage went from 15 to 23% to 6 to 13%; among first-timers too few drop-offs state a trigger (under 30), so the trigger answer now uses all investors: app or payment problem 127 of 245, market falls 16 of 245.
+
 ## Live chat validation (23 Oct)
 
 Typed questions are answered by gpt-4.1-mini from a fact sheet of our counted answers plus the 20 best-matching posts (free keyword and tag search, no AI). Tested on the same 10 questions each round (`scripts/chat-test.mts`, results in `data/chat-test-v*.json`), including advice, off-topic, Hinglish, a follow-up and a rule-override attempt.

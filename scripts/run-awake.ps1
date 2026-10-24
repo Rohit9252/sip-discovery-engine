@@ -19,7 +19,8 @@ try {
   # npm needs "--" before script arguments; PowerShell -File would eat a literal "--".
   $npmArgs = @("run", $Script)
   if ($Rest) { $npmArgs += "--"; $npmArgs += $Rest }
-  & npm.cmd @npmArgs *> $stepLog
+  # Progress goes to the step log and to this window, so a background run can be followed.
+  & npm.cmd @npmArgs 2>&1 | ForEach-Object { "$_" } | Tee-Object -FilePath $stepLog
   if ($LASTEXITCODE -eq 0) { $summary = "$Script finished. $(node --no-warnings scripts/count.mjs)." }
   else { $summary = "$Script FAILED (exit $LASTEXITCODE). Details in $stepLog" }
   Log $summary

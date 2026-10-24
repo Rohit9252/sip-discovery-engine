@@ -1,0 +1,1741 @@
+{
+  "firstTimePosts": 1108,
+  "stages": [
+    "Before starting",
+    "Setting up",
+    "Months 1 to 3",
+    "Months 4 to 6",
+    "Months 7 to 12",
+    "After 12 months"
+  ],
+  "cells": [
+    {
+      "theme": "T1",
+      "themeName": "Is this fall normal?",
+      "need": "I need to know whether a fall or loss this early is normal, so I don't panic and stop.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "partly",
+      "rulesReason": "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "should I invest in hdfc flexi cap? question i am new / don't know anything about sip or mf",
+        "source": "Reddit post",
+        "stage": "Before starting",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1ruxgs1/should_i_invest_in_hdfc_flexi_cap_question_i_am/"
+      }
+    },
+    {
+      "theme": "T1",
+      "themeName": "Is this fall normal?",
+      "need": "I need to know whether a fall or loss this early is normal, so I don't panic and stop.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "partly",
+      "rulesReason": "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T1",
+      "themeName": "Is this fall normal?",
+      "need": "I need to know whether a fall or loss this early is normal, so I don't panic and stop.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "partly",
+      "rulesReason": "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges.",
+      "posts": 13,
+      "dropped": 1,
+      "withOutcome": 8,
+      "trigger": {
+        "name": "Market fall or loss",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 9
+        },
+        {
+          "name": "YouTube comment",
+          "n": 3
+        },
+        {
+          "name": "Reddit comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Just two months of SIP and its still negative. Should I keep investing?",
+        "source": "Reddit post",
+        "stage": "Months 1 to 3",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1mkj9hm/should_i_keep_investing/"
+      }
+    },
+    {
+      "theme": "T1",
+      "themeName": "Is this fall normal?",
+      "need": "I need to know whether a fall or loss this early is normal, so I don't panic and stop.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "partly",
+      "rulesReason": "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges.",
+      "posts": 12,
+      "dropped": 0,
+      "withOutcome": 7,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "YouTube comment",
+          "n": 6
+        },
+        {
+          "name": "Reddit post",
+          "n": 4
+        },
+        {
+          "name": "Play Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Abhi 6 month huya hain start kiya hain,5-10 years ke liye SIP Achha ha ki nehi plz bata do na sir😊",
+        "english": "I have started 6 months ago, please tell if SIP for 5-10 years is good or not sir😊",
+        "source": "YouTube comment",
+        "stage": "Months 4 to 6",
+        "url": "https://www.youtube.com/watch?v=OQYIc6aDTTo&lc=UgzmExTFAkx1R3bWjZt4AaABAg"
+      }
+    },
+    {
+      "theme": "T1",
+      "themeName": "Is this fall normal?",
+      "need": "I need to know whether a fall or loss this early is normal, so I don't panic and stop.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "partly",
+      "rulesReason": "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges.",
+      "posts": 3,
+      "dropped": 0,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 3
+        }
+      ],
+      "quote": {
+        "text": "My plan is simple: increase the SIP amount by ₹1,000 every 6 months (step-up SIP).",
+        "source": "Reddit post",
+        "stage": "Months 7 to 12",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1qi1dep/started_mf_sip_with_1000_in_june_2024_small_gains/"
+      }
+    },
+    {
+      "theme": "T1",
+      "themeName": "Is this fall normal?",
+      "need": "I need to know whether a fall or loss this early is normal, so I don't panic and stop.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "partly",
+      "rulesReason": "Can show facts about past falls; can't tell anyone to keep going, and no fear nudges.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T2",
+      "themeName": "Am I on track?",
+      "need": "I need to see whether my SIP is on track for my goal, compared with something I understand.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Showing progress against their own goal is information, not advice.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T2",
+      "themeName": "Am I on track?",
+      "need": "I need to see whether my SIP is on track for my goal, compared with something I understand.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Showing progress against their own goal is information, not advice.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T2",
+      "themeName": "Am I on track?",
+      "need": "I need to see whether my SIP is on track for my goal, compared with something I understand.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Showing progress against their own goal is information, not advice.",
+      "posts": 8,
+      "dropped": 1,
+      "withOutcome": 6,
+      "trigger": {
+        "name": "Needed the money",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "YouTube comment",
+          "n": 3
+        },
+        {
+          "name": "Play Store review",
+          "n": 2
+        },
+        {
+          "name": "Reddit post",
+          "n": 2
+        }
+      ],
+      "quote": {
+        "text": "Sir, I started a SIP this year. I’m 22 years old and currently a student, so I wanted to know if I’m on the right track and how I should plan my investments for the future.❤❤",
+        "source": "YouTube comment",
+        "stage": "Months 1 to 3",
+        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgwoRxU3Pn4SD7p9Yyd4AaABAg"
+      }
+    },
+    {
+      "theme": "T2",
+      "themeName": "Am I on track?",
+      "need": "I need to see whether my SIP is on track for my goal, compared with something I understand.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Showing progress against their own goal is information, not advice.",
+      "posts": 2,
+      "dropped": 0,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 1
+        },
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Sir hum apne sip amounts kaha dekh skte hain application pe",
+        "english": "Sir where can we see our SIP amounts in the application",
+        "source": "YouTube comment",
+        "stage": "Months 4 to 6",
+        "url": "https://www.youtube.com/watch?v=MExMf8_g4CE&lc=Ugwa23lYy3BkfNK3Uq14AaABAg"
+      }
+    },
+    {
+      "theme": "T2",
+      "themeName": "Am I on track?",
+      "need": "I need to see whether my SIP is on track for my goal, compared with something I understand.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Showing progress against their own goal is information, not advice.",
+      "posts": 4,
+      "dropped": 0,
+      "withOutcome": 4,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 4
+        }
+      ],
+      "quote": {
+        "text": "How is my portfolio doing and am i on the right track",
+        "source": "Reddit post",
+        "stage": "Months 7 to 12",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1ml0sv3/my_mf_portfolio/"
+      }
+    },
+    {
+      "theme": "T2",
+      "themeName": "Am I on track?",
+      "need": "I need to see whether my SIP is on track for my goal, compared with something I understand.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Showing progress against their own goal is information, not advice.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T3",
+      "themeName": "What is happening with my money?",
+      "need": "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Payment and order status is Groww's own job.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "शिप करने के बाद मोबाइल में क्या देखना ज्यादा जरूरीहोता है मुझे एंजेल वन ऐप अप के बारे में सिर्फ थोड़ा बहुत पता है",
+        "english": "After doing SIP what is more important to see in mobile, I know little about Angel One app",
+        "source": "YouTube comment",
+        "stage": "Before starting",
+        "url": "https://www.youtube.com/watch?v=rVavcF0Otpg&lc=Ugyo7dTLlqmDi80zpcJ4AaABAg"
+      }
+    },
+    {
+      "theme": "T3",
+      "themeName": "What is happening with my money?",
+      "need": "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Payment and order status is Groww's own job.",
+      "posts": 6,
+      "dropped": 1,
+      "withOutcome": 2,
+      "trigger": {
+        "name": "App or payment problem",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 2
+        },
+        {
+          "name": "Reddit post",
+          "n": 2
+        },
+        {
+          "name": "App Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Acha sir too main jis month pe maine sip start kiya next month ka date select kiya .then next month se kya paise Bank se direct katega, yaa phir groww account pe pehele daalke then paise katenga.",
+        "english": "Okay sir, I started SIP this month and selected next month's date. Then from next month, will money be debited directly from bank or first deposited in Groww account then debited?",
+        "source": "YouTube comment",
+        "stage": "Setting up",
+        "url": "https://www.youtube.com/watch?v=MExMf8_g4CE&lc=UgzXiq5lD8I1PZ9gXPB4AaABAg"
+      }
+    },
+    {
+      "theme": "T3",
+      "themeName": "What is happening with my money?",
+      "need": "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Payment and order status is Groww's own job.",
+      "posts": 22,
+      "dropped": 1,
+      "withOutcome": 8,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 8
+        },
+        {
+          "name": "Play Store review",
+          "n": 6
+        },
+        {
+          "name": "YouTube comment",
+          "n": 4
+        }
+      ],
+      "quote": {
+        "text": "सर मैंने sip शुरू कर दिया है लेकिन जब भी मंथली कटती है तो हर बार एक नया folio number दिया जाता है",
+        "english": "Sir I have started SIP but whenever monthly amount is deducted a new folio number is given every time",
+        "source": "YouTube comment",
+        "stage": "Months 1 to 3",
+        "url": "https://www.youtube.com/watch?v=Hk-_40wiLqY&lc=UgylJF4c2DN5HvdZlKl4AaABAg"
+      }
+    },
+    {
+      "theme": "T3",
+      "themeName": "What is happening with my money?",
+      "need": "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Payment and order status is Groww's own job.",
+      "posts": 2,
+      "dropped": 0,
+      "withOutcome": 2,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 2
+        }
+      ],
+      "quote": {
+        "text": "This time market crashed and SIP was not deducted on same day.",
+        "source": "Play Store review · Groww",
+        "stage": "Months 4 to 6",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=9658836b-4630-4dfc-b22b-7d3eacf21128"
+      }
+    },
+    {
+      "theme": "T3",
+      "themeName": "What is happening with my money?",
+      "need": "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Payment and order status is Groww's own job.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T3",
+      "themeName": "What is happening with my money?",
+      "need": "I need to know what is happening to my payment: debited, processing, allotted or failed, and why.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Payment and order status is Groww's own job.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T4",
+      "themeName": "Get my stuck money sorted",
+      "need": "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Support and resolution.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T4",
+      "themeName": "Get my stuck money sorted",
+      "need": "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Support and resolution.",
+      "posts": 1,
+      "dropped": 1,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "TradingQ&A",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "But Now I need to stop this SIP. In My SIP tab I will be able delete it but will I get my initial investment amount back if I delete the fund from SIP tab?",
+        "source": "TradingQ&A",
+        "stage": "Setting up",
+        "url": "https://tradingqna.com/t/will-i-get-refund-if-i-stop-the-sip-after-paying-the-initial-investment/177595/1"
+      }
+    },
+    {
+      "theme": "T4",
+      "themeName": "Get my stuck money sorted",
+      "need": "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Support and resolution.",
+      "posts": 8,
+      "dropped": 4,
+      "withOutcome": 6,
+      "trigger": {
+        "name": "App or payment problem",
+        "n": 4
+      },
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 4
+        },
+        {
+          "name": "App Store review",
+          "n": 1
+        },
+        {
+          "name": "Reddit post",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "LOST MY 100 RS. I started sip of 100 but the transaction failed and my money was debited.",
+        "source": "Play Store review · Groww",
+        "stage": "Months 1 to 3",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=fb10d8e3-fb6e-4962-b97e-05d433af25b3"
+      }
+    },
+    {
+      "theme": "T4",
+      "themeName": "Get my stuck money sorted",
+      "need": "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Support and resolution.",
+      "posts": 4,
+      "dropped": 2,
+      "withOutcome": 3,
+      "trigger": {
+        "name": "App or payment problem",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 3
+        },
+        {
+          "name": "App Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "My SIP amount is Stolen. From last 6 months I was doing SIP, when I redim it, they redim and I did not get in my Acount yet still.",
+        "english": "My SIP amount is Stolen. From last 6 months I was doing SIP, when I redeemed it, they redeemed and I did not get in my Account yet still.",
+        "source": "Play Store review · Groww",
+        "stage": "Months 4 to 6",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=4673dcf7-7ece-482a-b6b6-08d851d65028"
+      }
+    },
+    {
+      "theme": "T4",
+      "themeName": "Get my stuck money sorted",
+      "need": "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Support and resolution.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T4",
+      "themeName": "Get my stuck money sorted",
+      "need": "When my money is stuck (refund, redemption, cancellation, wrong debit), I need someone to actually fix it quickly.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Support and resolution.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T5",
+      "themeName": "Help me start properly",
+      "need": "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Setup, mandates and how a SIP works; never which fund.",
+      "posts": 132,
+      "dropped": 0,
+      "withOutcome": 2,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 74
+        },
+        {
+          "name": "YouTube comment",
+          "n": 50
+        },
+        {
+          "name": "Play Store review",
+          "n": 5
+        }
+      ],
+      "quote": {
+        "text": "Ma 17 saal ka hu soch raha hu 18 ka hota hi suru kar du kam amount sa kasa rayga sir",
+        "english": "I am 17 years old thinking to start at 18 with a small amount, how will it be sir",
+        "source": "YouTube comment",
+        "stage": "Before starting",
+        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgzDpLjSgmlwQrjd3Yl4AaABAg"
+      }
+    },
+    {
+      "theme": "T5",
+      "themeName": "Help me start properly",
+      "need": "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Setup, mandates and how a SIP works; never which fund.",
+      "posts": 11,
+      "dropped": 0,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 8
+        },
+        {
+          "name": "Reddit post",
+          "n": 2
+        },
+        {
+          "name": "App Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "I want to global ETS an SiP investing knowledge so thanks for this app very useful",
+        "english": "I want to global ETFs and SIP investing knowledge so thanks for this app very useful",
+        "source": "Play Store review · INDmoney",
+        "stage": "Setting up",
+        "url": "https://play.google.com/store/apps/details?id=in.indwealth&reviewId=009a419f-21ec-420b-91e5-58661713c0c7"
+      }
+    },
+    {
+      "theme": "T5",
+      "themeName": "Help me start properly",
+      "need": "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Setup, mandates and how a SIP works; never which fund.",
+      "posts": 29,
+      "dropped": 2,
+      "withOutcome": 22,
+      "trigger": {
+        "name": "Something else",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 22
+        },
+        {
+          "name": "YouTube comment",
+          "n": 5
+        },
+        {
+          "name": "Play Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Just started from SEP 26. I am 52 now. Please guide me.",
+        "source": "YouTube comment",
+        "stage": "Months 1 to 3",
+        "url": "https://www.youtube.com/watch?v=KNHTzLh5IeI&lc=UgzFxO9Wj7XL_HMQ-kd4AaABAg"
+      }
+    },
+    {
+      "theme": "T5",
+      "themeName": "Help me start properly",
+      "need": "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Setup, mandates and how a SIP works; never which fund.",
+      "posts": 1,
+      "dropped": 1,
+      "withOutcome": 1,
+      "trigger": {
+        "name": "App or payment problem",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "But today it is first time I tried to buy stocks and it is showing that your account is deactivated..",
+        "source": "Play Store review · Groww",
+        "stage": "Months 4 to 6",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=a9d4243f-65fc-4e77-bdfe-0d518b9a53b3"
+      }
+    },
+    {
+      "theme": "T5",
+      "themeName": "Help me start properly",
+      "need": "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Setup, mandates and how a SIP works; never which fund.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T5",
+      "themeName": "Help me start properly",
+      "need": "I need simple guidance to set up my first SIP correctly: amount, date, mandate, how it works.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Setup, mandates and how a SIP works; never which fund.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "I am 21 started investing in mutual funds for the past 1 year",
+        "source": "Reddit post",
+        "stage": "After 12 months",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1oz7h6r/best_way_to_park_emergency_fund/"
+      }
+    },
+    {
+      "theme": "T6",
+      "themeName": "Make my SIP fit my life",
+      "need": "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Skip, pause, change date or amount are product tools, not advice.",
+      "posts": 9,
+      "dropped": 0,
+      "withOutcome": 4,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 8
+        },
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "I want to use this as a proper financial reset.",
+        "source": "Reddit post",
+        "stage": "Before starting",
+        "url": "https://www.reddit.com/r/personalfinanceindia/comments/1s9euf6/need_advice_to_fix_my_finances/"
+      }
+    },
+    {
+      "theme": "T6",
+      "themeName": "Make my SIP fit my life",
+      "need": "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Skip, pause, change date or amount are product tools, not advice.",
+      "posts": 2,
+      "dropped": 0,
+      "withOutcome": 2,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 1
+        },
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "kya hm hr bar alag alag amount invest kr sakte hai sip mai",
+        "english": "Can we invest different amounts each time in SIP?",
+        "source": "YouTube comment",
+        "stage": "Setting up",
+        "url": "https://www.youtube.com/watch?v=MExMf8_g4CE&lc=UgygSXLakAvCWodms8J4AaABAg"
+      }
+    },
+    {
+      "theme": "T6",
+      "themeName": "Make my SIP fit my life",
+      "need": "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Skip, pause, change date or amount are product tools, not advice.",
+      "posts": 19,
+      "dropped": 3,
+      "withOutcome": 16,
+      "trigger": {
+        "name": "Needed the money",
+        "n": 2
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 16
+        },
+        {
+          "name": "YouTube comment",
+          "n": 2
+        },
+        {
+          "name": "Reddit comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Have stopped further sip's in small cap but added another spare 5k in gold.",
+        "source": "Reddit comment",
+        "stage": "Months 1 to 3",
+        "url": "https://www.reddit.com/comments/1s1jgoj/_/oc5habd/"
+      }
+    },
+    {
+      "theme": "T6",
+      "themeName": "Make my SIP fit my life",
+      "need": "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Skip, pause, change date or amount are product tools, not advice.",
+      "posts": 13,
+      "dropped": 1,
+      "withOutcome": 11,
+      "trigger": {
+        "name": "Needed the money",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 11
+        },
+        {
+          "name": "Play Store review",
+          "n": 1
+        },
+        {
+          "name": "Reddit comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "One problem is I can't increase Sip money instantly. It has to be wait for 6 months to 1 year.",
+        "source": "Play Store review · Groww",
+        "stage": "Months 4 to 6",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=f1ca2f35-cdbb-4955-9bd8-8ca9f0241def"
+      }
+    },
+    {
+      "theme": "T6",
+      "themeName": "Make my SIP fit my life",
+      "need": "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Skip, pause, change date or amount are product tools, not advice.",
+      "posts": 9,
+      "dropped": 2,
+      "withOutcome": 7,
+      "trigger": {
+        "name": "Needed the money",
+        "n": 2
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 8
+        },
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "I have saved around 3.5 lakhs (+1.27% growth in SIP till now).",
+        "source": "Reddit post",
+        "stage": "Months 7 to 12",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1oa6740/withdraw_mutual_funds_to_finish_off_the_loan/"
+      }
+    },
+    {
+      "theme": "T6",
+      "themeName": "Make my SIP fit my life",
+      "need": "I need my SIP to fit my income and life: change the amount, skip a month, step up, or handle an emergency without quitting.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Skip, pause, change date or amount are product tools, not advice.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T7",
+      "themeName": "Is my money safe?",
+      "need": "I need to trust that my money is safe and that I can get it back.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Explaining custody and regulation.",
+      "posts": 2,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 1
+        },
+        {
+          "name": "Reddit comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "I've recently turned 18 and I'm new to this investing stuff, but I was told that investing in sip will benefit you in future",
+        "source": "Reddit post",
+        "stage": "Before starting",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1u1xk1o/is_investing_in_mutual_fund_sip_worth_it/"
+      }
+    },
+    {
+      "theme": "T7",
+      "themeName": "Is my money safe?",
+      "need": "I need to trust that my money is safe and that I can get it back.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Explaining custody and regulation.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "But my sign is not same as pan or bank... Will this cause any issues during investments, returns and while withdraw the amounts?",
+        "english": "But my sign is not same as pan or bank... Will this cause any issues during investments, returns and while withdraw the amounts?",
+        "source": "YouTube comment",
+        "stage": "Setting up",
+        "url": "https://www.youtube.com/watch?v=C2p7Bf1vNeA&lc=Ugw05QGHIWPfHqLuLAl4AaABAg"
+      }
+    },
+    {
+      "theme": "T7",
+      "themeName": "Is my money safe?",
+      "need": "I need to trust that my money is safe and that I can get it back.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Explaining custody and regulation.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T7",
+      "themeName": "Is my money safe?",
+      "need": "I need to trust that my money is safe and that I can get it back.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Explaining custody and regulation.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T7",
+      "themeName": "Is my money safe?",
+      "need": "I need to trust that my money is safe and that I can get it back.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Explaining custody and regulation.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T7",
+      "themeName": "Is my money safe?",
+      "need": "I need to trust that my money is safe and that I can get it back.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Explaining custody and regulation.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T8",
+      "themeName": "See everything in one place",
+      "need": "I need to see all my investments, including ones outside this app, in one place.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Tracking outside holdings.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T8",
+      "themeName": "See everything in one place",
+      "need": "I need to see all my investments, including ones outside this app, in one place.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Tracking outside holdings.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T8",
+      "themeName": "See everything in one place",
+      "need": "I need to see all my investments, including ones outside this app, in one place.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Tracking outside holdings.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "my portfolio not updated all external mutual fund account",
+        "source": "Play Store review · Paytm Money",
+        "stage": "Months 1 to 3",
+        "url": "https://play.google.com/store/apps/details?id=com.paytmmoney&reviewId=3f46b326-cb3e-4563-a130-a045d55a7865"
+      }
+    },
+    {
+      "theme": "T8",
+      "themeName": "See everything in one place",
+      "need": "I need to see all my investments, including ones outside this app, in one place.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Tracking outside holdings.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T8",
+      "themeName": "See everything in one place",
+      "need": "I need to see all my investments, including ones outside this app, in one place.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Tracking outside holdings.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T8",
+      "themeName": "See everything in one place",
+      "need": "I need to see all my investments, including ones outside this app, in one place.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Tracking outside holdings.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T9",
+      "themeName": "Understand charges and lock-ins",
+      "need": "I need to understand charges, exit loads, lock-ins and tax before they surprise me.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "yes",
+      "rulesReason": "Clear disclosure of charges, lock-ins and tax.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "TradingQ&A",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "From what I have read online, currently Coin has 0 charges for direct MFs.",
+        "source": "TradingQ&A",
+        "stage": "Before starting",
+        "url": "https://tradingqna.com/t/zerodha-coin-charges-in-future/162623/1"
+      }
+    },
+    {
+      "theme": "T9",
+      "themeName": "Understand charges and lock-ins",
+      "need": "I need to understand charges, exit loads, lock-ins and tax before they surprise me.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "yes",
+      "rulesReason": "Clear disclosure of charges, lock-ins and tax.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T9",
+      "themeName": "Understand charges and lock-ins",
+      "need": "I need to understand charges, exit loads, lock-ins and tax before they surprise me.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "yes",
+      "rulesReason": "Clear disclosure of charges, lock-ins and tax.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T9",
+      "themeName": "Understand charges and lock-ins",
+      "need": "I need to understand charges, exit loads, lock-ins and tax before they surprise me.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "yes",
+      "rulesReason": "Clear disclosure of charges, lock-ins and tax.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T9",
+      "themeName": "Understand charges and lock-ins",
+      "need": "I need to understand charges, exit loads, lock-ins and tax before they surprise me.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "yes",
+      "rulesReason": "Clear disclosure of charges, lock-ins and tax.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T9",
+      "themeName": "Understand charges and lock-ins",
+      "need": "I need to understand charges, exit loads, lock-ins and tax before they surprise me.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "yes",
+      "rulesReason": "Clear disclosure of charges, lock-ins and tax.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T10",
+      "themeName": "Help me choose funds",
+      "need": "I want someone to tell me which funds to pick or how to split my money.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "no",
+      "rulesReason": "Recommending funds is investment advice, which the brief rules out.",
+      "posts": 69,
+      "dropped": 1,
+      "withOutcome": 1,
+      "trigger": {
+        "name": "Life event",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 61
+        },
+        {
+          "name": "YouTube comment",
+          "n": 5
+        },
+        {
+          "name": "Reddit comment",
+          "n": 2
+        }
+      ],
+      "quote": {
+        "text": "Sir mai bhi sip shuru karne vala hun per month 3 thousand se shuru karunga konse fund me karun👏👏",
+        "english": "Sir I am also going to start SIP, will start with 3 thousand per month, which fund should I choose? 👏👏",
+        "source": "YouTube comment",
+        "stage": "Before starting",
+        "url": "https://www.youtube.com/watch?v=OQYIc6aDTTo&lc=UgxtkodU7lt8Mf3yE8h4AaABAg"
+      }
+    },
+    {
+      "theme": "T10",
+      "themeName": "Help me choose funds",
+      "need": "I want someone to tell me which funds to pick or how to split my money.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "no",
+      "rulesReason": "Recommending funds is investment advice, which the brief rules out.",
+      "posts": 10,
+      "dropped": 1,
+      "withOutcome": 4,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 10
+        }
+      ],
+      "quote": {
+        "text": "I’m starting my investment journey in mutual funds and have put together a plan.",
+        "source": "Reddit post",
+        "stage": "Setting up",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1obfx9j/newbie_portfolio_review/"
+      }
+    },
+    {
+      "theme": "T10",
+      "themeName": "Help me choose funds",
+      "need": "I want someone to tell me which funds to pick or how to split my money.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "no",
+      "rulesReason": "Recommending funds is investment advice, which the brief rules out.",
+      "posts": 177,
+      "dropped": 2,
+      "withOutcome": 134,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 174
+        },
+        {
+          "name": "YouTube comment",
+          "n": 2
+        },
+        {
+          "name": "Reddit comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Should I stop investing in Nifty 50 if my horizon is 10-15 years?",
+        "source": "Reddit comment",
+        "stage": "Months 1 to 3",
+        "url": "https://www.reddit.com/comments/1smw1o1/_/ogh8l5n/"
+      }
+    },
+    {
+      "theme": "T10",
+      "themeName": "Help me choose funds",
+      "need": "I want someone to tell me which funds to pick or how to split my money.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "no",
+      "rulesReason": "Recommending funds is investment advice, which the brief rules out.",
+      "posts": 33,
+      "dropped": 2,
+      "withOutcome": 24,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 33
+        }
+      ],
+      "quote": {
+        "text": "I know there are two flexicap funds .. actually my father first recommended me to start with kotak flexicap fund and i continued investing in it for 4-5 months",
+        "english": "I know there are two flexicap funds .. actually my father first recommended me to start with kotak flexicap fund and i continued investing in it for 4-5 months",
+        "source": "Reddit post",
+        "stage": "Months 4 to 6",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1mpvzzf/new_to_investing/"
+      }
+    },
+    {
+      "theme": "T10",
+      "themeName": "Help me choose funds",
+      "need": "I want someone to tell me which funds to pick or how to split my money.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "no",
+      "rulesReason": "Recommending funds is investment advice, which the brief rules out.",
+      "posts": 44,
+      "dropped": 3,
+      "withOutcome": 40,
+      "trigger": {
+        "name": "Someone advised it",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 44
+        }
+      ],
+      "quote": {
+        "text": "I have started investing back in Sept 2024 and wanted to get some feedback on my portfolio.",
+        "source": "Reddit post",
+        "stage": "Months 7 to 12",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1n7i9do/portfolio_review/"
+      }
+    },
+    {
+      "theme": "T10",
+      "themeName": "Help me choose funds",
+      "need": "I want someone to tell me which funds to pick or how to split my money.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "no",
+      "rulesReason": "Recommending funds is investment advice, which the brief rules out.",
+      "posts": 7,
+      "dropped": 0,
+      "withOutcome": 5,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 7
+        }
+      ],
+      "quote": {
+        "text": "I’ve been saving and investing from my pocket money for over a year now, increasing my SIPs by about 10% every year.",
+        "source": "Reddit post",
+        "stage": "After 12 months",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1ocmu75/please_guide/"
+      }
+    },
+    {
+      "theme": "T11",
+      "themeName": "Remind me why I started",
+      "need": "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "partly",
+      "rulesReason": "Goal reminders are fine; they must never become urgency or FOMO nudges.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T11",
+      "themeName": "Remind me why I started",
+      "need": "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "partly",
+      "rulesReason": "Goal reminders are fine; they must never become urgency or FOMO nudges.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T11",
+      "themeName": "Remind me why I started",
+      "need": "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "partly",
+      "rulesReason": "Goal reminders are fine; they must never become urgency or FOMO nudges.",
+      "posts": 6,
+      "dropped": 0,
+      "withOutcome": 5,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "YouTube comment",
+          "n": 4
+        },
+        {
+          "name": "Play Store review",
+          "n": 1
+        },
+        {
+          "name": "Reddit post",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "Today's date 14/05/2026 I'm starting 3 SIP with 5500 Jab 1cr hoga mai ake firse comment karunga idhar Bless me 🙏🏻",
+        "english": "Today's date 14/05/2026 I'm starting 3 SIP with 5500 When 1 crore happens I will comment again here Bless me 🙏🏻",
+        "source": "YouTube comment",
+        "stage": "Months 1 to 3",
+        "url": "https://www.youtube.com/watch?v=ZXLATRO3Ifw&lc=UgzC9nWxTCabZOhZLMB4AaABAg"
+      }
+    },
+    {
+      "theme": "T11",
+      "themeName": "Remind me why I started",
+      "need": "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "partly",
+      "rulesReason": "Goal reminders are fine; they must never become urgency or FOMO nudges.",
+      "posts": 2,
+      "dropped": 0,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 2
+        }
+      ],
+      "quote": {
+        "text": "27, started investing in April this year after years of procrastination. Didn’t get any returns in the mutual fund portfolio but that’s okay",
+        "source": "Reddit post",
+        "stage": "Months 4 to 6",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1q06c14/year_end_portfolio_reveal/"
+      }
+    },
+    {
+      "theme": "T11",
+      "themeName": "Remind me why I started",
+      "need": "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "partly",
+      "rulesReason": "Goal reminders are fine; they must never become urgency or FOMO nudges.",
+      "posts": 2,
+      "dropped": 0,
+      "withOutcome": 1,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 1
+        },
+        {
+          "name": "YouTube comment",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "unga video pathu than last six month sip continue pannikitu iruken, unga video than enaku motivation, thanks bro❤",
+        "english": "I have been continuing SIP for last six months after watching your video, your video is my motivation, thanks bro",
+        "source": "YouTube comment",
+        "stage": "Months 7 to 12",
+        "url": "https://www.youtube.com/watch?v=C2p7Bf1vNeA&lc=UgwXg11SdCV1Ih8swoh4AaABAg"
+      }
+    },
+    {
+      "theme": "T11",
+      "themeName": "Remind me why I started",
+      "need": "I need to stay connected to why I started, so my SIP doesn't quietly fade from my mind.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "partly",
+      "rulesReason": "Goal reminders are fine; they must never become urgency or FOMO nudges.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Reddit post",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "My goal has always been to stay consistent and let the investments compound rather than trying to chase quick returns.",
+        "source": "Reddit post",
+        "stage": "After 12 months",
+        "url": "https://www.reddit.com/r/mutualfunds/comments/1wpfymc/finally_hit_my_first_1l_in_mutual_funds/"
+      }
+    },
+    {
+      "theme": "T12",
+      "themeName": "Move without losing my SIP",
+      "need": "I need to move my SIP to another app without it lapsing.",
+      "stage": "Before starting",
+      "stageCode": "before_starting",
+      "withinRules": "partly",
+      "rulesReason": "Groww can make importing easier; the transfer itself depends on other platforms and fund houses.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T12",
+      "themeName": "Move without losing my SIP",
+      "need": "I need to move my SIP to another app without it lapsing.",
+      "stage": "Setting up",
+      "stageCode": "setting_up",
+      "withinRules": "partly",
+      "rulesReason": "Groww can make importing easier; the transfer itself depends on other platforms and fund houses.",
+      "posts": 1,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "They put my mutual fund in demat account without inform me.",
+        "source": "Play Store review · Groww",
+        "stage": "Setting up",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=211b7cd1-6851-4e16-b4c8-a26437cb4904"
+      }
+    },
+    {
+      "theme": "T12",
+      "themeName": "Move without losing my SIP",
+      "need": "I need to move my SIP to another app without it lapsing.",
+      "stage": "Months 1 to 3",
+      "stageCode": "months_1_3",
+      "withinRules": "partly",
+      "rulesReason": "Groww can make importing easier; the transfer itself depends on other platforms and fund houses.",
+      "posts": 2,
+      "dropped": 1,
+      "withOutcome": 2,
+      "trigger": {
+        "name": "App or payment problem",
+        "n": 1
+      },
+      "sources": [
+        {
+          "name": "Play Store review",
+          "n": 1
+        },
+        {
+          "name": "Reddit post",
+          "n": 1
+        }
+      ],
+      "quote": {
+        "text": "i inducted 1 month back.auto pay is not yet activated.the support team is a shame.still issue not resolved.i am done with groww. switching to zerodha",
+        "english": "i inducted 1 month back.auto pay is not yet activated.the support team is a shame.still issue not resolved.i am done with groww. switching to zerodha",
+        "source": "Play Store review · Groww",
+        "stage": "Months 1 to 3",
+        "url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=13a3e797-6ded-4005-a74a-d4c5ad1e8619"
+      }
+    },
+    {
+      "theme": "T12",
+      "themeName": "Move without losing my SIP",
+      "need": "I need to move my SIP to another app without it lapsing.",
+      "stage": "Months 4 to 6",
+      "stageCode": "months_4_6",
+      "withinRules": "partly",
+      "rulesReason": "Groww can make importing easier; the transfer itself depends on other platforms and fund houses.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T12",
+      "themeName": "Move without losing my SIP",
+      "need": "I need to move my SIP to another app without it lapsing.",
+      "stage": "Months 7 to 12",
+      "stageCode": "months_7_12",
+      "withinRules": "partly",
+      "rulesReason": "Groww can make importing easier; the transfer itself depends on other platforms and fund houses.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    },
+    {
+      "theme": "T12",
+      "themeName": "Move without losing my SIP",
+      "need": "I need to move my SIP to another app without it lapsing.",
+      "stage": "After 12 months",
+      "stageCode": "after_12_months",
+      "withinRules": "partly",
+      "rulesReason": "Groww can make importing easier; the transfer itself depends on other platforms and fund houses.",
+      "posts": 0,
+      "dropped": 0,
+      "withOutcome": 0,
+      "trigger": null,
+      "sources": [],
+      "quote": null
+    }
+  ],
+  "noStage": [
+    {
+      "theme": "T1",
+      "posts": 5
+    },
+    {
+      "theme": "T2",
+      "posts": 5
+    },
+    {
+      "theme": "T3",
+      "posts": 4
+    },
+    {
+      "theme": "T4",
+      "posts": 7
+    },
+    {
+      "theme": "T5",
+      "posts": 63
+    },
+    {
+      "theme": "T6",
+      "posts": 10
+    },
+    {
+      "theme": "T7",
+      "posts": 4
+    },
+    {
+      "theme": "T8",
+      "posts": 0
+    },
+    {
+      "theme": "T9",
+      "posts": 0
+    },
+    {
+      "theme": "T10",
+      "posts": 73
+    },
+    {
+      "theme": "T11",
+      "posts": 7
+    },
+    {
+      "theme": "T12",
+      "posts": 2
+    }
+  ]
+}
