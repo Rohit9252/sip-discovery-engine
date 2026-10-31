@@ -8,7 +8,7 @@ import { firstTimeHolds } from "../src/pipeline/first-time";
 import { CONTINUED, DROPPED, label } from "../src/lib/labels";
 import { MIN_FOR_PERCENT, type Answer, type BarsChart, type Quote, type Tone } from "../src/lib/answers";
 
-// Answers the brief's nine questions from the pass 2 fields and writes src/data/answers.json.
+// Answers our lead question (q0) and the brief's nine from the pass 2 fields and writes src/data/answers.json.
 // Base rule (decided 23 Oct): first-time posts whenever 30 or more of them state the field,
 // otherwise every tagged post, labelled as "all investors".
 // Usage: npx tsx scripts/analyse.mts [--seed 2050]
@@ -99,6 +99,38 @@ function quotes(list: Row[], howMany = 3): Quote[] {
 const posts = (params: Record<string, string>) => `/posts?${new URLSearchParams(params)}`;
 const toneOf = (code: string): Tone => (CONTINUED.includes(code) ? "continued" : DROPPED.includes(code) ? "dropped" : "neutral");
 const answers: Answer[] = [];
+
+// Q0. Our lead question, shown first: why do first-timers stop their SIP in their first year?
+// It sits on top of the brief's nine because it is the heart of the brief's business metric.
+{
+  const YEAR = ["months_1_3", "months_4_6", "months_7_12"];
+  const inYear = FIRST.filter(dropped).filter(has("stage", ...YEAR));
+  const withTrigger = inYear.filter(states("trigger"));
+  const trigChart = bars("What set it off (first-time investors who dropped off in year 1 and said why)", withTrigger, "trigger", { tone: () => "dropped" });
+  const top = trigChart.top[0];
+  const tops = trigChart.top.filter((item) => item.n === top.n);
+  const names = tops.map((item) => label("trigger", item.code));
+  const joined = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)!.toLowerCase()}` : names[0];
+  const fall = withTrigger.filter(has("trigger", "market_fall_or_loss")).length;
+  const thinking = inYear.filter(has("what_happened", "thinking_of_stopping")).length;
+  const byStage = YEAR.map((stage) => `${label("stage", stage)}: ${inYear.filter(has("stage", stage)).length}`);
+  answers.push({
+    id: "q0",
+    short: "Why first-year SIPs stop",
+    question: "Why do people stop their SIP in their first year?",
+    headline: `${joined} ${tops.length > 1 ? `tie as the top reasons first-timers give for dropping off in year 1 (${ofIn(top.n, withTrigger.length)} each)` : `is the top reason first-timers give for dropping off in year 1 (${ofIn(top.n, withTrigger.length)})`}, ahead of market falls (${ofIn(fall, withTrigger.length)})`,
+    base: `From ${inYear.length} first-time investors who reduced, paused, stopped, bounced, moved or thought of stopping in their first 12 months; ${withTrigger.length} of them said what set it off.${withTrigger.length < 60 ? " A small base: treat the order as a lead to check." : ""}`,
+    points: [
+      `It happens all through the year, not in one month. ${byStage.join("; ")}.`,
+      `${of(thinking, inYear.length)} were still only thinking of stopping: the moment before the break.`,
+      `Market falls are what people expect to hear, but fewer first-year drop-offs name them than other reasons.`,
+    ],
+    charts: [strip(trigChart), strip(bars("What they did (first-time investors who dropped off in year 1)", inYear, "what_happened", { tone: () => "dropped" }))],
+    // Quotes come from the top reason, so they back the headline.
+    quotes: quotes(withTrigger.filter(has("trigger", top.code))),
+    explore: { label: "See every post where a first-timer dropped off", href: posts({ group: "first", outcome: "dropped" }) },
+  });
+}
 
 // Q1. Why do people start a SIP, and what do they expect to happen?
 {

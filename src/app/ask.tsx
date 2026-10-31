@@ -10,7 +10,7 @@ export function ChatIcon({ size = 16 }: { size?: number }) {
   );
 }
 
-// Any button on the page that opens the chat, optionally straight onto one of the nine answers.
+// Any button on the page that opens the chat, optionally straight onto one of the counted answers.
 export function AskButton({ answerId, className, children }: { answerId?: string; className?: string; children: React.ReactNode }) {
   const { openChat } = useChat();
   return (
@@ -19,3 +19,4 @@ export function AskButton({ answerId, className, children }: { answerId?: string
     </button>
   );
 }
+

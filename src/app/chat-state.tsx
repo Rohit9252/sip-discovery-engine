@@ -22,20 +22,16 @@ export type ChatApi = {
   answers: Answer[];
   ownSip: string;
   firstTime: string;
-  open: boolean;
   messages: Message[];
   typing: boolean;
   busy: boolean;
   showGreeting: boolean;
-  /** Opens the chat. With an answer id, it also asks that question. */
+  /** Goes to the chat page. With an answer id, it also asks that question. */
   openChat: (answerId?: string, options?: { instant?: boolean }) => void;
-  closeChat: () => void;
   restart: () => void;
   dismissGreeting: () => void;
-  /** Ask a question. Pass an answer for the nine counted answers; leave it out for the live AI. */
+  /** Ask a question. Pass an answer for the counted answers; leave it out for the live AI. */
   ask: (question: string, answer?: Answer) => void;
-  /** The launcher button, so focus can go back to it when the chat closes. */
-  launcherRef: React.RefObject<HTMLButtonElement | null>;
 };
 
 export const ChatContext = createContext<ChatApi | null>(null);

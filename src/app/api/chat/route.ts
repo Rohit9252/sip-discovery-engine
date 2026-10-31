@@ -38,7 +38,7 @@ export async function POST(request: Request) {
   // Advice questions are refused before any AI call: no tokens, and no chance of a fund name.
   if (asksForAdvice(question)) return Response.json(adviceReply());
   const visitor = request.headers.get("x-forwarded-for")?.split(",")[0].trim() || "local";
-  if (!allow(visitor)) return Response.json({ error: "That's the question limit for today. The nine suggested questions still work." }, { status: 429 });
+  if (!allow(visitor)) return Response.json({ error: "That's the question limit for today. The suggested questions still work." }, { status: 429 });
 
   // Follow-ups like "and for students?" need the earlier question to find the right posts.
   const history = (body?.history ?? []).filter((turn) => turn.content).slice(-4).map((turn) => ({ role: turn.role, content: turn.content.slice(0, 1200) }));

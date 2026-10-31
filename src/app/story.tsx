@@ -17,7 +17,7 @@ const worstStage = () => journey.stages.filter(enough).reduce((a, b) => (rate(b)
 
 // The hero starter chips and the three finding cards open the chat on these answers.
 // Chips show the brief's own question in full, not a shortened label.
-const STARTERS = ["q3", "q9", "q5"];
+const STARTERS = ["q0", "q3", "q9"];
 const FINDINGS = ["q3", "q5", "q9"];
 // The hero strip shows one dot per instalment in the first year, grouped by the stages that cover them.
 const STRIP: { stage: string; dots: number }[] = [

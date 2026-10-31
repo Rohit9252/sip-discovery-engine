@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import type { Answer } from "@/lib/answers";
 import { ChatContext, useChat, type ChatApi, type Live, type Message } from "./chat-state";
 import { ChatWidget } from "./chat";
@@ -36,46 +37,20 @@ function markGreeted() {
 type DistributiveOmit<T, K extends keyof T> = T extends unknown ? Omit<T, K> : never;
 
 export function ChatProvider({ answers, ownSip, firstTime, children }: { answers: Answer[]; ownSip: string; firstTime: string; children: React.ReactNode }) {
-  const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [typing, setTyping] = useState(false);
   const [busy, setBusy] = useState(false);
   const nextId = useRef(1);
   const latest = useRef<Message[]>([]);
   const session = useRef(0); // bumps on "New chat", so late replies from the old chat are ignored
-  const opener = useRef<HTMLElement | null>(null);
-  const wasOpen = useRef(false);
-  const launcherRef = useRef<HTMLButtonElement | null>(null);
   const greeted = useSyncExternalStore(subscribe, readGreeted, () => true);
+  // There is one chat: the full-screen page at /chat. Every "Ask" button leads there.
+  const onChatPage = usePathname() === "/chat";
+  const router = useRouter();
 
   useEffect(() => {
     latest.current = messages;
   }, [messages]);
-
-  // Tell the page whether the chat is open, so the styles can make room for it.
-  useEffect(() => {
-    const root = document.documentElement;
-    if (open) root.dataset.chat = "open";
-    else delete root.dataset.chat;
-    return () => void delete root.dataset.chat;
-  }, [open]);
-
-  // Escape closes the chat. When it closes, focus goes back to whatever opened it.
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
-    };
-    document.addEventListener("keydown", onKey);
-    return () => document.removeEventListener("keydown", onKey);
-  }, [open]);
-  useEffect(() => {
-    if (!open && wasOpen.current) {
-      const target = opener.current?.isConnected ? opener.current : launcherRef.current;
-      target?.focus();
-    }
-    wasOpen.current = open;
-  }, [open]);
 
   const show = (message: DistributiveOmit<Message, "id">) => setMessages((all) => [...all, { ...message, id: nextId.current++ } as Message]);
 
@@ -101,7 +76,7 @@ export function ChatProvider({ answers, ownSip, firstTime, children }: { answers
     }
   }
 
-  // The nine suggested questions get their counted answer. Anything typed goes to the live AI.
+  // The suggested questions get their counted answer. Anything typed goes to the live AI.
   function ask(question: string, answer?: Answer, instant = false) {
     if (busy) return;
     show({ from: "user", text: question });
@@ -127,24 +102,26 @@ export function ChatProvider({ answers, ownSip, firstTime, children }: { answers
     answers,
     ownSip,
     firstTime,
-    open,
     messages,
     typing,
     busy,
-    showGreeting: !greeted && !open,
-    launcherRef,
+    showGreeting: !greeted && !onChatPage,
     openChat(answerId, options) {
-      const active = document.activeElement;
-      opener.current = active instanceof HTMLElement && active !== document.body ? active : null;
-      setOpen(true);
       markGreeted();
+      // From any other page, go to the chat page; it asks the question from the ?q= in the link.
+      if (!onChatPage) {
+        router.push(answerId ? `/chat?q=${answerId}` : "/chat");
+        return;
+      }
       const answer = answers.find((candidate) => candidate.id === answerId);
-      if (!answer) return;
+      if (!answer) {
+        document.getElementById("chat-box")?.focus();
+        return;
+      }
       const last = latest.current[latest.current.length - 1];
       if (last?.from === "bot" && last.answer?.id === answer.id) return;
       ask(answer.question, answer, options?.instant);
     },
-    closeChat: () => setOpen(false),
     restart() {
       session.current++;
       nextId.current = 1;

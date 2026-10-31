@@ -113,6 +113,57 @@ body {
   box-shadow: 0 14px 30px -10px rgba(47, 91, 234, 0.65);
   animation: ring 2s 1.4s ease-out 3;
 }
+/* Until the visitor has opened the chat once, the launcher keeps a gentle pulse. */
+.launch-new {
+  animation: ring 2s 1.4s ease-out infinite;
+}
+
+/* The "AI" feel of the launcher: a slowly turning glow, a robot that blinks and bobs, and a waving hand. */
+.ai-glow {
+  background: conic-gradient(from 0deg, #2f5bea, #7aa2ff, #f0701f, #2f5bea);
+  filter: blur(3px);
+  opacity: 0.45;
+  animation: ai-spin 4s linear infinite;
+}
+@keyframes ai-spin {
+  to { transform: rotate(360deg); }
+}
+.bot-float {
+  animation: bot-float 3s ease-in-out infinite;
+}
+@keyframes bot-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+.bot-blink {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bot-blink 4s infinite;
+}
+@keyframes bot-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+.bot-wave {
+  display: inline-block;
+  transform-origin: 70% 80%;
+  animation: bot-wave 2.6s ease-in-out infinite;
+}
+@keyframes bot-wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10% { transform: rotate(16deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(16deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+}
+.bubble-in {
+  animation: bubble-in 0.45s 1s ease-out both, bot-float 3.5s 1.5s ease-in-out infinite;
+}
+@keyframes bubble-in {
+  from { opacity: 0; transform: translateY(8px) scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
 @keyframes sheet-in {
   from { transform: translateX(32px); opacity: 0; }
   to { transform: none; opacity: 1; }
@@ -122,18 +173,5 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .rise, .grow, .greet, .launch, .sheet { animation: none; }
-}
-
-/* While the chat is open: on phones it is full screen, so the page behind must not scroll.
-   On wide screens the page makes room for the docked panel. */
-@media (max-width: 1023.98px) {
-  html[data-chat="open"] { overflow: hidden; }
-}
-@media (min-width: 1280px) {
-  html[data-chat="open"] body { padding-right: var(--chat-width); }
-}
-body { transition: padding-right 0.25s ease; }
-@media (prefers-reduced-motion: reduce) {
-  body { transition: none; }
+  .rise, .grow, .greet, .launch, .launch-new, .sheet, .ai-glow, .bot-float, .bot-blink, .bot-wave, .bubble-in { animation: none; }
 }

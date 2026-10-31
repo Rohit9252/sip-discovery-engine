@@ -1,8 +1,110 @@
 {
-  "exportedAt": "2026-10-24T06:57:52.126Z",
+  "exportedAt": "2026-10-31T11:46:47.479Z",
   "version": "pass2-v11 (first-time posts), pass2-v10 (others)",
   "firstTimePosts": 1108,
   "answers": [
+    {
+      "id": "q0",
+      "short": "Why first-year SIPs stop",
+      "question": "Why do people stop their SIP in their first year?",
+      "headline": "Needed the money is the top reason first-timers give for dropping off in year 1 (8 of 20), ahead of market falls (2 of 20)",
+      "base": "From 29 first-time investors who reduced, paused, stopped, bounced, moved or thought of stopping in their first 12 months; 20 of them said what set it off. A small base: treat the order as a lead to check.",
+      "points": [
+        "It happens all through the year, not in one month. Months 1 to 3: 16; Months 4 to 6: 7; Months 7 to 12: 6.",
+        "6 of 29 were still only thinking of stopping: the moment before the break.",
+        "Market falls are what people expect to hear, but fewer first-year drop-offs name them than other reasons."
+      ],
+      "charts": [
+        {
+          "kind": "bars",
+          "title": "What set it off (first-time investors who dropped off in year 1 and said why)",
+          "N": 20,
+          "bars": [
+            {
+              "label": "Needed the money",
+              "n": 8,
+              "tone": "dropped"
+            },
+            {
+              "label": "App or payment problem",
+              "n": 7,
+              "tone": "dropped"
+            },
+            {
+              "label": "Something else",
+              "n": 2,
+              "tone": "dropped"
+            },
+            {
+              "label": "Market fall or loss",
+              "n": 2,
+              "tone": "dropped"
+            },
+            {
+              "label": "Someone advised it",
+              "n": 1,
+              "tone": "dropped"
+            }
+          ]
+        },
+        {
+          "kind": "bars",
+          "title": "What they did (first-time investors who dropped off in year 1)",
+          "N": 29,
+          "bars": [
+            {
+              "label": "Paused it",
+              "n": 11,
+              "tone": "dropped"
+            },
+            {
+              "label": "Stopped it",
+              "n": 8,
+              "tone": "dropped"
+            },
+            {
+              "label": "Thinking of stopping",
+              "n": 6,
+              "tone": "dropped"
+            },
+            {
+              "label": "Moved to another app",
+              "n": 2,
+              "tone": "dropped"
+            },
+            {
+              "label": "Reduced it",
+              "n": 2,
+              "tone": "dropped"
+            }
+          ]
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I have saved around 3.5 lakhs (+1.27% growth in SIP till now).",
+          "source": "Reddit post",
+          "stage": "Months 7 to 12",
+          "url": "https://www.reddit.com/r/mutualfunds/comments/1oa6740/withdraw_mutual_funds_to_finish_off_the_loan/"
+        },
+        {
+          "text": "Gonna skip next 2 months of sip as I need money for Dubai trip. I kinda like this flexibility of mutual fund, no stress and can skip if required.",
+          "source": "Reddit post",
+          "stage": "Months 7 to 12",
+          "url": "https://www.reddit.com/r/mutualfunds/comments/1oj36qp/first_milestone_5l/"
+        },
+        {
+          "text": "Started back in oct 2022 with 20k per month on 4 funds suggested by dad",
+          "source": "Reddit post",
+          "stage": "Months 4 to 6",
+          "url": "https://www.reddit.com/r/mutualfunds/comments/1t6gkgn/5l_milestone_achieved/"
+        }
+      ],
+      "explore": {
+        "label": "See every post where a first-timer dropped off",
+        "href": "/posts?group=first&outcome=dropped"
+      }
+    },
     {
       "id": "q1",
       "short": "Why they start",
