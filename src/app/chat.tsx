@@ -27,7 +27,7 @@ function AnswerMessage({ answer }: { answer: Answer }) {
   return (
     <div className="space-y-4">
       <div>
-        <p className="kicker text-[11px] text-accent-strong">{answer.short}</p>
+        <p className="text-[13px] font-medium text-accent-strong">{answer.question}</p>
         <p className="mt-1.5 font-display text-[19px] font-semibold leading-snug">{answer.headline}</p>
         <p className="mt-1.5 text-sm text-ink-2">{answer.base}</p>
       </div>
@@ -186,7 +186,7 @@ function Panel() {
                   <li key={answer.id}>
                     <button type="button" disabled={busy} onClick={() => ask(answer.question, answer)} className="flex min-h-11 w-full items-center gap-2.5 rounded-xl border border-line bg-raised px-3 py-2 text-left text-sm font-medium hover:border-accent disabled:opacity-60">
                       <span className="num grid h-6 w-6 shrink-0 place-items-center rounded-full bg-accent-soft text-xs text-accent-strong">{index + 1}</span>
-                      {answer.short}
+                      {answer.question}
                     </button>
                   </li>
                 ))}
@@ -195,8 +195,8 @@ function Panel() {
               <ul className="-mx-4 flex gap-1.5 overflow-x-auto px-4 pb-1 lg:mx-0 lg:flex-wrap lg:overflow-visible lg:px-0 lg:pb-0">
                 {remaining.map((answer) => (
                   <li key={answer.id} className="shrink-0">
-                    <button type="button" disabled={busy} onClick={() => ask(answer.question, answer)} className="min-h-11 whitespace-nowrap rounded-full border border-line-strong bg-raised px-3.5 text-[13px] font-medium hover:border-accent disabled:opacity-60">
-                      {answer.short}
+                    <button type="button" disabled={busy} onClick={() => ask(answer.question, answer)} className="min-h-11 w-[260px] rounded-2xl border border-line-strong bg-raised px-3.5 py-2 text-left text-[13px] font-medium leading-snug hover:border-accent disabled:opacity-60 lg:w-auto">
+                      {answer.question}
                     </button>
                   </li>
                 ))}

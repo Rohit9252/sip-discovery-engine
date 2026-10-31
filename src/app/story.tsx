@@ -16,11 +16,8 @@ const rate = (stage: Stage) => stage.dropped / stage.withOutcome;
 const worstStage = () => journey.stages.filter(enough).reduce((a, b) => (rate(b) > rate(a) ? b : a));
 
 // The hero starter chips and the three finding cards open the chat on these answers.
-const STARTERS = [
-  { id: "q3", label: "Why do people stop?" },
-  { id: "q9", label: "What do first-timers need most?" },
-  { id: "q5", label: "What worries them in the app?" },
-];
+// Chips show the brief's own question in full, not a shortened label.
+const STARTERS = ["q3", "q9", "q5"];
 const FINDINGS = ["q3", "q5", "q9"];
 // The hero strip shows one dot per instalment in the first year, grouped by the stages that cover them.
 const STRIP: { stage: string; dots: number }[] = [
@@ -51,9 +48,9 @@ export function Hero() {
             <span aria-hidden="true" className="grid h-10 w-10 place-items-center rounded-[10px] bg-accent font-semibold text-white">→</span>
           </AskButton>
           <div className="flex flex-wrap gap-2">
-            {STARTERS.map((starter) => (
-              <AskButton key={starter.id} answerId={starter.id} className="min-h-11 rounded-full border border-line bg-raised px-3.5 text-sm font-medium hover:border-accent">
-                {starter.label}
+            {STARTERS.map((id) => (
+              <AskButton key={id} answerId={id} className="min-h-11 rounded-2xl border border-line bg-raised px-3.5 py-2 text-left text-sm font-medium hover:border-accent">
+                {answersFile.answers.find((answer) => answer.id === id)!.question}
               </AskButton>
             ))}
           </div>
@@ -104,7 +101,7 @@ export function Findings() {
     <section aria-label="Three findings" className={`${SECTION} grid gap-4 pb-14 sm:pb-[72px] md:grid-cols-3`}>
       {cards.map((answer, index) => (
         <article key={answer.id} className="flex flex-col gap-2.5 rounded-2xl border border-line bg-raised p-6">
-          <span className={`kicker ${index === 0 ? "text-warm-strong" : "text-accent-strong"}`}>{answer.short}</span>
+          <span className={`text-sm font-medium ${index === 0 ? "text-warm-strong" : "text-accent-strong"}`}>{answer.question}</span>
           <h2 className="font-display text-xl font-semibold leading-tight">{answer.headline}</h2>
           <AskButton answerId={answer.id} className="mt-auto min-h-11 self-start text-sm font-semibold text-accent-strong hover:underline">Ask about this →</AskButton>
         </article>
