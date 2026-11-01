@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Familjen_Grotesk, JetBrains_Mono, Public_Sans } from "next/font/google";
 import answersFile from "@/data/answers.json";
 import overview from "@/data/overview.json";
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
         </ChatProvider>
+        <Analytics />
       </body>
     </html>
   );
