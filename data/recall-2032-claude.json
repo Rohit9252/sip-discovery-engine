@@ -1,7 +1,0 @@
-{
-  "seed": 2032,
-  "rater": "claude",
-  "note": "Claude's review of the 48 dropped posts the AI flagged as relevant (numbers are the # in data/recall-2032-flagged.txt). Confirmed = genuinely relevant under the relevant-post rule; the rest are general account, login, KYC or withdrawal complaints with nothing showing they concern mutual funds, or stock trading.",
-  "confirmed": [4, 13, 27, 31, 33, 36, 38, 40],
-  "borderline_not_counted": [21, 28, 46]
-}

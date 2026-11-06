@@ -1,5 +1,5 @@
 {
-  "note": "Drafted blind by Claude (Opus 5.5) from the post text only, before seeing the engine's answers. To be reviewed by the team.",
+  "note": "Drafted blind by a second AI model from the post text only, before seeing the engine's answers. To be reviewed by the team.",
   "labels": [
     {
       "n": 1,
@@ -14,7 +14,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "Started Dec 2023, so more than a year in. Asks for allocation and fund review: T10. Goal is long-term corpus growth.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.369Z"
     },
     {
@@ -30,7 +30,7 @@
       "confusion": "payment_or_status",
       "outside_app": "none_stated",
       "note": "Hinglish: money was debited but the SIP never started. Not knowing what happened to the money is T3.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.370Z"
     },
     {
@@ -46,7 +46,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "Investing since Aug 2022. 'Planning to increase' has not happened yet, so continuing. Asks which funds: T10.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.371Z"
     },
     {
@@ -62,7 +62,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "Planning a new 2 lakh SIP plan; does not say if they invest already. Goal: building wealth.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.371Z"
     },
     {
@@ -78,7 +78,7 @@
       "confusion": "returns_calculation",
       "outside_app": "none_stated",
       "note": "Thinking to redeem and switch apps because P&L never updates. The unmet need is seeing correct returns: T2.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.373Z"
     },
     {
@@ -94,7 +94,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "Since end of 2022. Rate my portfolio: T10.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.374Z"
     },
     {
@@ -110,7 +110,7 @@
       "confusion": "none_stated",
       "outside_app": "app_support",
       "note": "Investing for 7 months (under a year, so first-time by our rule). Pure praise: no unmet need. Mentions support resolving issues.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.376Z"
     },
     {
@@ -126,7 +126,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "About loans and FDs, nothing about a SIP.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.377Z"
     },
     {
@@ -142,7 +142,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "Hinglish: lost 10k in 2 months and stopped. The need (is this fall normal?) is implied, not asked. Hard call between T1 and no need.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.379Z"
     },
     {
@@ -158,7 +158,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "22, newcomer, 'stuck on where to start': help me start properly (T5), not fund picking.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.380Z"
     },
     {
@@ -174,7 +174,7 @@
       "confusion": "none_stated",
       "outside_app": "youtube",
       "note": "Hindi: wants to start a 10k monthly SIP and asks for advice under the video. Does not say it is the first.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.381Z"
     },
     {
@@ -190,7 +190,7 @@
       "confusion": "kyc_or_account",
       "outside_app": "reddit_or_forums",
       "note": "New investor wants to move an ELSS holding from PhonePe Share.Market to Zerodha: T12. Account type confusion.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.383Z"
     },
     {
@@ -206,7 +206,7 @@
       "confusion": "charges_or_lock_in",
       "outside_app": "app_support",
       "note": "Two days in, closing the account over hidden charges: T9. Support was slow.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.385Z"
     },
     {
@@ -222,7 +222,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "Thanks for UPI autopay going live; will try it. No unmet need.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.387Z"
     },
     {
@@ -238,7 +238,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "Started 2 years ago as a beginner. Praise; the brokerage request is about stocks, not the SIP.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.388Z"
     },
     {
@@ -254,7 +254,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "10k a month since Aug 2024 (post Sep 2026). No need stated.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.390Z"
     },
     {
@@ -270,7 +270,7 @@
       "confusion": "app_screens",
       "outside_app": "app_support",
       "note": "Stopped one SIP to restart it outside ET Money after losing track of external funds and dead support. Hard call between T8 and T4.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.396Z"
     },
     {
@@ -286,7 +286,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "New to MFs, shares a planned list and asks for advice: T10.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.397Z"
     },
     {
@@ -302,7 +302,7 @@
       "confusion": "kyc_or_account",
       "outside_app": "none_stated",
       "note": "Units went to demat after opting out; feels forced into charges: T9.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.398Z"
     },
     {
@@ -318,7 +318,7 @@
       "confusion": "payment_or_status",
       "outside_app": "youtube",
       "note": "Hinglish: first 100 rs instalment still 'in progress' 3 days later; asks if manual payment will auto-debit. T3.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.399Z"
     },
     {
@@ -334,7 +334,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "Hindi: 'started a SIP today because you said so'. Influenced by YouTube, but no need.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.401Z"
     },
     {
@@ -350,7 +350,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "3 years in, asks how to rebalance: T10. Redeemed an ETF, but the SIPs continue.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.402Z"
     },
     {
@@ -366,7 +366,7 @@
       "confusion": "nav_or_units",
       "outside_app": "reddit_or_forums",
       "note": "Just started; worried the NAV is higher than the 500 rs SIP. Needs to understand how it works: T5.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.403Z"
     },
     {
@@ -382,7 +382,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "24, just starting, asks which platform (says not which fund): T5.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.405Z"
     },
     {
@@ -398,7 +398,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "Regrets never starting a SIP and advises others. Opinion and advice: no need. Borderline relevant.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.406Z"
     },
     {
@@ -414,7 +414,7 @@
       "confusion": "kyc_or_account",
       "outside_app": "none_stated",
       "note": "Can't start a SIP: errors at the Aadhaar consent step. Setup and KYC: T5.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.407Z"
     },
     {
@@ -430,7 +430,7 @@
       "confusion": "none_stated",
       "outside_app": "reddit_or_forums",
       "note": "Recently started (no time given), target retirement. Asks which aggressive fund: T10.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.408Z"
     },
     {
@@ -446,7 +446,7 @@
       "confusion": "none_stated",
       "outside_app": "youtube",
       "note": "Asks if a SIP can be paid from Jio Payments Bank, under a how-to video: setup question, T5.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.408Z"
     },
     {
@@ -462,7 +462,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "Thanks for fixing the minimum SIP limit; the need was met. Past frustration only.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.409Z"
     },
     {
@@ -478,7 +478,7 @@
       "confusion": "none_stated",
       "outside_app": "none_stated",
       "note": "'i just started sip'. Nothing else.",
-      "labelledBy": "claude-blind-draft",
+      "labelledBy": "second-ai-blind-draft",
       "updatedAt": "2026-10-24T05:14:48.410Z"
     }
   ]

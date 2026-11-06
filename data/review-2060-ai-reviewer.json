@@ -1,5 +1,5 @@
 {
- "reviewer": "claude-sonnet-5-5",
+ "reviewer": "separate-ai-reviewer",
  "verdicts": {
   "1": {
    "correct": true,

@@ -109,7 +109,7 @@ Planning to invest(SIP) for atleast 15 years. 6k per month as of now(can invest 
 **Engine:** theme **none** | stage setting_up | what happened not_started_yet | need: (none)
 
 ### #19 (reddit, under: r/mutualfunds)
-ICICI prudential technology growth fund: This was my first Fund when i started SIPs 3.3 years back so please don't troll me 🥺 (i know how people despise sectoral funds in this sub) I know timing is the key in sectoral funds and i think probably did timed it right, Before the anthropic AI crash i was sitting on steady 20% profit in this fund with peak of 33% Anyone else invested in this fund? What will be your advice average or sell?
+ICICI prudential technology growth fund: This was my first Fund when i started SIPs 3.3 years back so please don't troll me 🥺 (i know how people despise sectoral funds in this sub) I know timing is the key in sectoral funds and i think probably did timed it right, Before the [AI company] AI crash i was sitting on steady 20% profit in this fund with peak of 33% Anyone else invested in this fund? What will be your advice average or sell?
 
 **Engine:** theme **T1** | stage after_12_months | what happened not_stated | need: I need to know whether a 20% profit before a crash is normal for my sectoral fund.
 

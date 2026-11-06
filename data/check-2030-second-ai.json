@@ -1,8 +1,8 @@
 {
   "seed": 2030,
-  "rater": "claude",
+  "rater": "second-ai",
   "rules": "pass1-v5",
-  "note": "Labelled blind by Claude from data/check-2030-posts.txt before seeing the engine's answers. Numbers are the # in that file.",
+  "note": "Labelled blind by a second AI model from data/check-2030-posts.txt before seeing the engine's answers. Numbers are the # in that file.",
   "relevant": [4, 13, 15, 17, 21, 23, 25, 29, 31, 32, 36, 37, 40, 43, 44, 45, 48, 49, 51, 53, 55, 58, 66, 76, 90, 92, 95, 98, 100],
   "first_time": [76],
   "experienced": [31, 100],

@@ -65,15 +65,15 @@ const quoteRows = db.prepare(`SELECT COUNT(*) AS n, SUM(json_extract(value, '$.q
 const accuracy = {
   golden: {
     posts: after.results[0].of,
-    method: "30 posts picked at random within each source (seed 2070). Answer key drafted blind by Claude (Opus 5.5) from the post text only, before seeing the engine's answers, then reviewed by the team, who set 2 labels themselves and corrected 2.",
+    method: "30 posts picked at random within each source (seed 2070). Answer key drafted blind by a second AI model from the post text only, before seeing the engine's answers, then reviewed by the team, who set 2 labels themselves and corrected 2.",
     caveat: "The v11 fixes were made after looking at these same 30 posts, so the 'after' scores are optimistic until checked on posts the fixes have not seen.",
     bar: 0.8,
     fields: after.results.map((row) => ({ field: FIELD_NAMES[row.field], key: row.key, before: before.results.find((b) => b.field === row.field)!.agree, after: row.agree, of: row.of })),
   },
   checks: [
-    { name: "Keyword filter recall", value: "about 85%", detail: "1,000 posts the filter dropped were read: 8 were relevant (data/recall-2032-claude.json)" },
+    { name: "Keyword filter recall", value: "about 85%", detail: "1,000 posts the filter dropped were read: 8 were relevant (data/recall-2032-second-ai.json)" },
     { name: "Pass 1 agreement", value: "270 of 300 (90%)", detail: "Own SIP or not, first time or not, against a second AI reading the same posts blind (data/check-2028 to 2030)" },
-    { name: "Theme check by an AI judge", value: "90 of 100", detail: "Claude Sonnet judged the themes on 100 posts it had not seen (data/review-2061-sonnet.json, on v9)" },
+    { name: "Theme check by an AI judge", value: "90 of 100", detail: "A separate AI reviewer judged the themes on 100 posts it had not seen (data/review-2061-ai-reviewer.json, on v9)" },
     { name: "Quotes found word for word", value: `${quoteRows.ok.toLocaleString("en-US")} of ${quoteRows.n.toLocaleString("en-US")}`, detail: "Every quote is checked in code against its post; the rest are hidden" },
     { name: "Chat refuses advice", value: "26 of 26", detail: "Advice questions refused in code before any AI call; 0 of 15 research questions wrongly refused (scripts/advice-test.mts)" },
   ],

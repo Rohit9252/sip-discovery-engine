@@ -1,7 +1,7 @@
 {
   "golden": {
     "posts": 30,
-    "method": "30 posts picked at random within each source (seed 2070). Answer key drafted blind by Claude (Opus 5.5) from the post text only, before seeing the engine's answers, then reviewed by the team, who set 2 labels themselves and corrected 2.",
+    "method": "30 posts picked at random within each source (seed 2070). Answer key drafted blind by a second AI model from the post text only, before seeing the engine's answers, then reviewed by the team, who set 2 labels themselves and corrected 2.",
     "caveat": "The v11 fixes were made after looking at these same 30 posts, so the 'after' scores are optimistic until checked on posts the fixes have not seen.",
     "bar": 0.8,
     "fields": [
@@ -74,7 +74,7 @@
     {
       "name": "Keyword filter recall",
       "value": "about 85%",
-      "detail": "1,000 posts the filter dropped were read: 8 were relevant (data/recall-2032-claude.json)"
+      "detail": "1,000 posts the filter dropped were read: 8 were relevant (data/recall-2032-second-ai.json)"
     },
     {
       "name": "Pass 1 agreement",
@@ -84,7 +84,7 @@
     {
       "name": "Theme check by an AI judge",
       "value": "90 of 100",
-      "detail": "Claude Sonnet judged the themes on 100 posts it had not seen (data/review-2061-sonnet.json, on v9)"
+      "detail": "A separate AI reviewer judged the themes on 100 posts it had not seen (data/review-2061-ai-reviewer.json, on v9)"
     },
     {
       "name": "Quotes found word for word",
