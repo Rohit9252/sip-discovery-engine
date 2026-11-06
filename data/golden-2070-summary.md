@@ -1,6 +1,6 @@
 # Golden set 2070: engine against the answer key
 
-30 posts (20 the engine called first-time, 10 others; every source; 6 Hindi or Hinglish). Labels drafted blind by Claude (Opus 5.5) from the post text only, before seeing the engine's answers; post 2 has two labels from the team. Awaiting the team's review.
+30 posts (20 the engine called first-time, 10 others; every source; 6 Hindi or Hinglish). Labels drafted blind by a second AI model from the post text only, before seeing the engine's answers; post 2 has two labels from the team. Awaiting the team's review.
 
 Engine: pass1-v5 (own SIP, first-time) and pass2-v10 (the rest). Pass bar: 80% on the four key fields.
 

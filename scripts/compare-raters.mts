@@ -7,7 +7,7 @@ import { saveLabels } from "../src/pipeline/labels";
 // Usage: npx tsx scripts/compare-raters.mts 2028
 const seed = process.argv[2] ?? "2028";
 const sheet = readFileSync(`data/check-${seed}-posts.txt`, "utf8");
-const second = JSON.parse(readFileSync(`data/check-${seed}-claude.json`, "utf8")) as {
+const second = JSON.parse(readFileSync(`data/check-${seed}-second-ai.json`, "utf8")) as {
   rater: string; rules: string; relevant: number[]; first_time: number[]; experienced: number[]; borderline: number[];
 };
 

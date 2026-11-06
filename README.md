@@ -41,7 +41,7 @@ The full picture is in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## How we know it is right (AI evals)
 
-AI tags can be wrong, so we checked them against answer keys the AI never saw. The golden set is 30 posts picked at random within each source. A second AI (Claude, Opus 5.5) drafted the answer key blind from the post text only, and the team reviewed it. After the fixes in v11, 20 more first-time posts the fixes had never seen were labelled the same way (the holdout). The holdout is the unbiased score.
+AI tags can be wrong, so we checked them against answer keys the AI never saw. The golden set is 30 posts picked at random within each source. A second AI model drafted the answer key blind from the post text only, and the team reviewed it. After the fixes in v11, 20 more first-time posts the fixes had never seen were labelled the same way (the holdout). The holdout is the unbiased score.
 
 The bar is 80% on each key field.
 

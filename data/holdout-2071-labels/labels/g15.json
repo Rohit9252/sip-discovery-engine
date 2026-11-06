@@ -12,6 +12,6 @@
     "confusion": "payment_or_status",
     "outside_app": "reddit_or_forums",
     "note": "First SIP instalment debited, folio pending; worried it gets rejected: T3.",
-    "labelledBy": "claude-blind"
+    "labelledBy": "second-ai-blind"
   }
 }

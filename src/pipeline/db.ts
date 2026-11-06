@@ -29,7 +29,7 @@ export function openDb(): DatabaseSync {
       first_run TEXT NOT NULL
     );
     -- One judgement about one post: which question (task), who answered (rater), what they said.
-    -- Raters: the engine's model, Claude as an independent second opinion, or the team.
+    -- Raters: the engine's model, a second AI model as an independent second opinion, or the team.
     CREATE TABLE IF NOT EXISTS labels (
       post_id TEXT NOT NULL,
       task TEXT NOT NULL,

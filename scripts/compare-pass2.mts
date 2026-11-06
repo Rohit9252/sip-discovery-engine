@@ -7,7 +7,7 @@ import { saveLabels } from "../src/pipeline/labels";
 // what_happened and stage. Usage: npx tsx scripts/compare-pass2.mts 2041
 const seed = process.argv[2] ?? "2041";
 const sheet = readFileSync(`data/check2-${seed}-posts.txt`, "utf8");
-const second = JSON.parse(readFileSync(`data/check2-${seed}-claude.json`, "utf8")) as {
+const second = JSON.parse(readFileSync(`data/check2-${seed}-second-ai.json`, "utf8")) as {
   rater: string; rules: string; labels: Record<string, [string, string, string]>; borderline: number[];
 };
 const ids = new Map<number, string>();

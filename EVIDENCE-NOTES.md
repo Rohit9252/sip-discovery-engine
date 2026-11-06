@@ -29,14 +29,14 @@ The keyword filter keeps a post if it mentions SIPs or mutual funds at all (Engl
 The 50-post hand check in the Google Sheet was replaced (user, 21 Oct) by a larger check: AI pass 1 (`pass1-v5`) on **1,000 posts the keyword filter dropped**, drawn at random with seed 2032 in proportion to the dropped pile of 252,578 posts (771 Play Store, 218 Reddit, 7 App Store, 4 TradingQ&A). Script `scripts/recall-check.mts`, sample `data/recall-2032-sample.json`, 107,239 tokens.
 
 - The AI flagged **48** as relevant (`data/recall-2032-flagged.txt`).
-- Claude reviewed all 48 and **confirmed 8** (`data/recall-2032-claude.json`). The other 40 were general account, KYC, login or withdrawal complaints with nothing tying them to mutual funds, or stock trading.
+- A second AI model reviewed all 48 and **confirmed 8** (`data/recall-2032-second-ai.json`). The other 40 were general account, KYC, login or withdrawal complaints with nothing tying them to mutual funds, or stock trading.
 - So **8 of 1,000 dropped posts (0.8%) were relevant**: 6 of 218 Reddit posts (2.8%) and 2 of 771 store reviews (0.3%).
 - Scaled up, the filter missed roughly 1,500 relevant Reddit posts and 500 store reviews. Against what it kept, that puts its **recall at roughly 85%**.
 - **Pattern in the misses:** r/mutualfunds posts whose words never say SIP or mutual fund ("Investing since 2 years. What am I doing wrong?", "My current investment/month is 22k but I want to increase it to 30k").
 
 ## AI pass 1 (relevant? first-time?), 21 Oct 2026
 
-Model gpt-4.1-mini, instructions `pass1-v5` (`src/pipeline/ai/pass1.ts`). Five versions were tried. Each was checked against blind labels from Claude (a different AI, as an independent second rater) on 100-post sets drawn with fixed seeds (2028, 2029, 2030; posts in `data/check-<seed>-posts.txt`, labels in `data/check-<seed>-claude.json`).
+Model gpt-4.1-mini, instructions `pass1-v5` (`src/pipeline/ai/pass1.ts`). Five versions were tried. Each was checked against blind labels from a second AI model (an independent second rater) on 100-post sets drawn with fixed seeds (2028, 2029, 2030; posts in `data/check-<seed>-posts.txt`, labels in `data/check-<seed>-second-ai.json`).
 
 | Version | What changed | Agreement on "relevant?" |
 |---|---|---|
@@ -45,7 +45,7 @@ Model gpt-4.1-mini, instructions `pass1-v5` (`src/pipeline/ai/pass1.ts`). Five v
 | v4 | Praise and fund-picking out; judge the post, not its thread title | 90 of 100 (new set) |
 | v5 | "What they check" requests, who influenced them and plans for their own SIP count | 270 of 300 (90%) across all three sets; 97% on experience |
 
-Engine and Claude found almost the same number of relevant posts (109 vs 105 of 300), so the errors roughly cancel.
+The engine and the second AI found almost the same number of relevant posts (109 vs 105 of 300), so the errors roughly cancel.
 
 Full run on all store reviews, YouTube comments and TradingQ&A posts: 15,822 posts read, 4,492 relevant (including the 300 test posts), 2.0M tokens. Reddit is next, as a sample.
 
@@ -75,7 +75,7 @@ Model gpt-4.1-mini, instructions in `src/pipeline/ai/pass2.ts`. Ten versions; ea
 
 **Correction 5: questions were treated as "no need".** The AI read "unmet need" as "complaint", so questions like "is this fund lineup good?" got no theme. Fixed in v9 with an instruction and two code rules (tested free on 100 posts first: 4 fixed, 0 broken).
 
-**Independent review.** A separate AI reviewer (Claude Sonnet 5.5) checked the themes on 100 posts: **87 of 100 correct with v8, 90 of 100 with v9** (`data/review-2060-sonnet.json`, `data/review-2061-sonnet.json`). Earlier blind checks by Claude on 40 posts tracked the improvement (theme agreement 48%, 58%, 68% from v6 to v8).
+**Independent review.** A separate AI reviewer checked the themes on 100 posts: **87 of 100 correct with v8, 90 of 100 with v9** (`data/review-2060-ai-reviewer.json`, `data/review-2061-ai-reviewer.json`). Earlier blind checks by the second AI on 40 posts tracked the improvement (theme agreement 48%, 58%, 68% from v6 to v8).
 
 **A finding from the "no theme" review:** most first-time posts with no theme are happy reviews about starting ("I started my first SIP, so easy"). Starting is not where it breaks.
 
@@ -89,7 +89,7 @@ Model gpt-4.1-mini, instructions in `src/pipeline/ai/pass2.ts`. Ten versions; ea
 
 ## Golden set and holdout (24 Oct)
 
-**Golden set:** 30 posts picked at random within each source (seed 2070, `data/golden-2070.json`; 3 swapped in for drop-off coverage using the AI's labels). The answer key was drafted blind by Claude (Opus 5.5) from the post text only, before seeing the engine's answers, then reviewed by the team (2 labels set by the team, 2 triggers corrected). Labelling page: a private artifact; labels saved in `data/golden-2070-labels/`. Scores: `scripts/golden-score.mts`.
+**Golden set:** 30 posts picked at random within each source (seed 2070, `data/golden-2070.json`; 3 swapped in for drop-off coverage using the AI's labels). The answer key was drafted blind by a second AI model from the post text only, before seeing the engine's answers, then reviewed by the team (2 labels set by the team, 2 triggers corrected). Labelling page: a private artifact; labels saved in `data/golden-2070-labels/`. Scores: `scripts/golden-score.mts`.
 
 **Holdout:** the v11 fixes were made after looking at the golden set, so 20 more first-time posts the fixes never saw were labelled the same way (seed 2071, `data/holdout-2071.json`). This is the unbiased score.
 
@@ -116,7 +116,7 @@ Typed questions are answered by gpt-4.1-mini from a fact sheet of our counted an
 
 | Round | Problem found | Fix |
 |---|---|---|
-| v1 | Independent reviewer (Claude Sonnet): 6 of 10 failed. Quotes spliced with "..." or edited, a tag carried over from the previous question, "which fund should I buy" not refused, a count used for the wrong thing, over length | Answer returned as fixed fields; **quotes checked in code** against the post, word for word; **every "n of N" checked in code** against the fact sheet; anything failing is dropped and the drop count shown |
+| v1 | Independent AI reviewer: 6 of 10 failed. Quotes spliced with "..." or edited, a tag carried over from the previous question, "which fund should I buy" not refused, a count used for the wrong thing, over length | Answer returned as fixed fields; **quotes checked in code** against the post, word for word; **every "n of N" checked in code** against the fact sheet; anything failing is dropped and the drop count shown |
 | v2 | User test: "Which fund is good for me?" got an answer | **Advice refused in code before any AI call** (26 of 26 advice questions refused, 0 of 15 research questions wrongly refused, `scripts/advice-test.mts`) |
 | v3 | "What could Groww do" designed features; age answer drew a conclusion the fact sheet calls "a lead to check" | Rules: report what investors ask for; keep the fact sheet's caveats |
 | v4 | "Many posts show..." with no count behind it | Code drops any point saying many, most or often without an "n of N" |
