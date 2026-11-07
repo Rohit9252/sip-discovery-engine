@@ -13,6 +13,8 @@ The brief: Groww wants more first-time mutual fund investors to still have an ac
 - **The top need Groww can act on:** "Help me start properly", 237 of 439 (54%). "Which fund should I pick" is bigger (413 of 852 needs, 48%) but it is advice, which an app cannot give.
 - **When first-timers drop off:** 44 of 506 (9%) who say what happened were reducing, pausing, stopping or thinking of stopping. It never settles: 6% to 13% at every stage, with no safe month.
 
+**How this fits the deck's slide 2.** These headlines count AI tags. The deck's exit finding goes one step further: the 60 posts tagged "first-timer stopped" were read by hand, 8 were real year-one exits, and of the 6 that gave a reason, 4 were cash and 1 was a fall. So this site leads with app or payment trouble, and slide 2 leads with cash.
+
 ## The numbers
 
 | Step | Posts |
